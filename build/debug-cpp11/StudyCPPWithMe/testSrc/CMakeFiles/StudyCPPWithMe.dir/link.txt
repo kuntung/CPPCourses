@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-9/root/usr/bin/ar cr ../../lib/libStudyCPPWithMe.a  CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o
+/opt/rh/devtoolset-9/root/usr/bin/ranlib ../../lib/libStudyCPPWithMe.a

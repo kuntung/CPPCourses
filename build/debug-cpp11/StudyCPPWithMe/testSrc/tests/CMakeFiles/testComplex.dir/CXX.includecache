@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../StudyCPPWithMe/testSrc/Complex.h
+
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testComplex.cpp
+StudyCPPWithMe/testSrc/Complex.h
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/StudyCPPWithMe/testSrc/Complex.h
+iostream
+-
+

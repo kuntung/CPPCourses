@@ -1,0 +1,7 @@
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir
+/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir
