@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testMyException.cpp
+iostream
+-
+string
+-
+

@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2275954136/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2275954136.dir/build.make CMakeFiles/cmTryCompileExec2275954136.dir/build
+gmake[1]: Entering directory `/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2275954136.dir/CheckSymbolExists.c.o
+/opt/rh/devtoolset-9/root/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2275954136.dir/CheckSymbolExists.c.o   -c /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2275954136
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2275954136.dir/link.txt --verbose=1
+/opt/rh/devtoolset-9/root/usr/bin/cc       CMakeFiles/cmTryCompileExec2275954136.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2275954136 -rdynamic 
+/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/ld: CMakeFiles/cmTryCompileExec2275954136.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2275954136] Error 1
+gmake: *** [cmTryCompileExec2275954136/fast] Error 2
+
+File /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3205038397/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3205038397.dir/build.make CMakeFiles/cmTryCompileExec3205038397.dir/build
+gmake[1]: Entering directory `/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3205038397.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-9/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3205038397.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3205038397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3205038397.dir/link.txt --verbose=1
+/opt/rh/devtoolset-9/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3205038397.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3205038397 -rdynamic -lpthreads 
+/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3205038397] Error 1
+gmake: *** [cmTryCompileExec3205038397/fast] Error 2
+
+

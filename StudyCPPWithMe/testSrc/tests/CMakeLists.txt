@@ -1,0 +1,10 @@
+add_executable(testComplex testComplex.cpp)
+target_link_libraries(testComplex StudyCPPWithMe)
+
+add_executable(testVirtualInhe testVirtualInhe.cpp)
+add_executable(testVirtualFunc testVirtualFunc.cpp)
+add_executable(objectSlicingTest objectSlicing.cpp)
+#add_executable(dynConstructTest dyncConstruct.cpp)
+#target_link_libraries(dynConstructTest StudyCPPWithMe)
+add_executable(testRTII testRTII.cpp)
+add_executable(testMyException testMyException.cpp)
