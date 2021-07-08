@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # C++基础
 
 ![image-20210704093652377](StudyCPPWithMeNOTES.assets/image-20210704093652377.png)
@@ -778,6 +782,33 @@ int main(void)
 
 **析构函数可以显式调用：但是不建议这么使用，因为如果在析构函数中有内存释放操作。那么会出现内存重复释放的问题**
 
+### 类与类之间的关系：StarUML绘制
+
+**UML**：为软件开发提供了一些标准的图例，统一开发思想，从而促进团队协作
+
+![image-20210708204741155](StudyCPPWithMeNOTES.assets/image-20210708204741155.png)
+
+- 继承：类A继承自类B
+
+- 关联：类A是类B的成员
+
+  - 单向的，表示类B知道类A，而类B不知道类A
+  - 双向的关联关系，（设计上应该避免）
+
+- 聚合：比关联更强的关联关系。一个类是另一个类的成员，并且还存在整体与局部的关系（**整体并不负责局部的生命周期**）
+
+- 组合：相比聚合而言，更强的关联关系。整体与局部的关系（**整体负责局部对象的生命周期**）
+
+- 依赖关系
+
+  ![image-20210708210353668](StudyCPPWithMeNOTES.assets/image-20210708210353668.png)
+
+![image-20210708210644909](StudyCPPWithMeNOTES.assets/image-20210708210644909.png)
+
+![image-20210708210523665](StudyCPPWithMeNOTES.assets/image-20210708210523665.png)
+
+
+
 ## 对象的使用
 
 ### static成员
@@ -984,13 +1015,928 @@ class A
 
 > 最后一条如果不满足，就应该通过函数重载实现相关功能
 
-
-
 ### 成员函数重载
 
+![image-20210706201342119](StudyCPPWithMeNOTES.assets/image-20210706201342119.png)
+
+```c++
+Complex c3 = c1 + c2;
+// 如果是成员函数重载，等价于c1.operator+(c2);
+// 如果是下面的友元函数重载，等价于operator+(c1, c2);
+```
+
+### 友元函数重载
+
+![image-20210706201738544](StudyCPPWithMeNOTES.assets/image-20210706201738544.png)
+
+**会比成员函数重载运算符的形参多一个**
+
+### 重载的规则
+
+![](StudyCPPWithMeNOTES.assets/image-20210706201812896.png)
+
+![image-20210706202252505](StudyCPPWithMeNOTES.assets/image-20210706202252505.png)
+
+![image-20210706202239738](StudyCPPWithMeNOTES.assets/image-20210706202239738.png)
+
+### ++运算符重载
+
+![image-20210706202407117](StudyCPPWithMeNOTES.assets/image-20210706202407117.png)
+
+**注意要点：后置递增的重载**
+
+```c++
+class Integer
+{
+public:
+    Integer(int i) : n_(i){}
+    void show()
+    {
+        cout << "n_ = " << n_ << endl;
+    }
+    Integer& operator++() // 前置递增
+    {
+        ++this->n_;
+        
+        return *this;
+    }
+    Integer operator++(int) // 后置递增，并通过int区分
+    {
+        Integer temp(*this);
+        ++this->n_;
+        
+        return temp; // 因为返回的是临时对象，所以不能返回引用。
+    }
+    // 以友元的方式重载后置递增
+    friend Integer operator++(Integer& i, int); 
+private:
+    int n_;
+};
+
+Integer operator++(Integer& i, int)
+{
+    Integer temp(*this);
+    ++this->n_;
+
+    return temp; // 因为返回的是临时对象，所以不能返回引用。
+}
+```
+
+### ！运算符重载
+
+1. 当字符串非空的时候返回为假
+2. 当字符串为空的时候，返回为真
+
+### 字符串类的[]运算符重载
+
+```c++
+char& String::operator[](int index)
+{
+    // 为了缩短代码量，可以让non-const版本调用const版本
+    return const_cast<char&>(static_cast<const String&>(*this)[index]);
+    //return str_[index];
+} // 返回引用的目的是为了能够作为左值存在，能够被修改
+
+String s1("hello world");
+s1[1] = 'A';
+
+// 为了避免const String被修改，应该重载operator[]
+const char& String::operator[](int index) const
+{
+    return str_[index];
+}
+```
+
+### +运算符的重载：二元运算符通过友元函数进行重载
+
+![image-20210706214446846](StudyCPPWithMeNOTES.assets/image-20210706214446846.png)
+
+> 为什么不能用成员函数重载？
+>
+> 因为成员函数的第一个隐含参数是自身， 因此无法实现`String str = "aa" + str2;`这样的操作
+
+### 流运算符重载
+
+1. 输出流运算符`<<`的重载，因为第一个参数为流对象。因此必须通过友元函数重载。并且返回一个流对象，为了能够连续输出
+
+```c++
+#include <iostream>
+
+ostream& operator<<(ostream& os, const String& str)
+{
+    os<<str.str_;
+    
+    return os;
+}
+```
+
+2. 插入运算符`>>`重载
+
+``` c++
+istream& operator>>(istream& is, String& str)
+{
+    char temp[1024];
+    cin >> temp;
+    str = temp;
+    
+    return is; // 返回引用的目的是为了能够继续作为左值连续输入
+}
+```
+
+### 类型转换运算符重载
+
+![image-20210707093536506](StudyCPPWithMeNOTES.assets/image-20210707093536506.png)
+
+```c++
+// 类型转换符的作用，将类类型转换为其他类型
+// 而转换构造函数，是通过隐式转换将其他类型转换为类类型
+class Integer
+{
+public:
+    operator int();
+private:
+    int n_;
+};
+
+Integer::operator int()
+{
+    return n_;
+}
+```
+
+### 指针访问运算符`->`重载
+
+**什么样的情况下需要重载`->`运算符？**
+
+> 当我们通过对象自动析构的原来来管理内存的时候，需要间接访问该内存的一些数据操作
+
+```c++
+#include <iostream>
+
+class DBHelper
+{
+public:
+    DBHelper(){}
+    ~DBHelper(){}
+    void open()
+    {
+        std::cout << "open db..." << std::endl;
+	}
+    void close()
+    {
+        std::cout << "close db..." << std::endl;
+    }
+};
+
+// 由于我们不知道创建的DPHelper对象应该何时析构，所以可以将其内置为class DB的数据成员，
+// 然后创建DB栈对象，利用栈对象的声明周期结束时，自动析构的特性来管理DBHelper的生命周期
+
+class DB
+{
+public:
+    DB(){
+		db_ = new DBHelper();
+    }
+    ~DB()
+    {
+        delete db_;
+    }
+    DBHelper* operator->()
+    {
+        return db_;
+    }
+private:
+    DBHelper* db_;
+};
+
+int main(void)
+{
+    DB db;
+    db->open(); // 希望通过dp间接访问DBHelper的操作，那么需要重载->
+    
+    return 0;
+}
+```
+
+**好处：**
+
+- 实现了类似智能指针的内存管理方法
+- 并且，由于DB有DBHelper的基类指针，如果后续有派生类继承自DBHelper，那么就可以产生多态
+
+### [operator new和operator delete重载](https://www.bilibili.com/video/BV127411h7t4?p=25)
+
+![image-20210707102906043](StudyCPPWithMeNOTES.assets/image-20210707102906043.png)
+
+**new关键字的三种用法**
+
+- new operator：在内部通过malloc分配内存，然后调用对象的构造函数.**不可以被重载**
+- operator new：只分配内存。**可以被重载**
+- placement new：在已经存在内存上构造对象
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+// 全局的operator new重载
+void operator new(size_t size)
+{
+    void* p = malloc(size);
+
+    return p;
+}
+
+void operator new[](size_t size)
+{
+    void* p = malloc(size);
+
+    return p;
+}
+
+void operator delete[](void* p)
+{
+    free(p);
+}
+void operator delete(void* p) // 调用优先级更高
+{
+    free(p);
+}
+void operator delete(void* p, size_t size) // operator delete的重载形式2
+{
+    free(p);
+}
+
+class Test
+{
+public:
+    Test(int n) : n_(n)
+    {
+        
+    }
+    Test(const Test& other) : n_(other.n_)
+    {
+        cout << "Test(const Test& other)" << endl;
+    }
+    ~Test()
+    {
+        cout << "~Test()" << endl;
+    }
+    void operator new(size_t size) // operator new重载
+    {
+        void* p = malloc(size);
+        
+        return p;
+    }
+    
+    void* operator new(size_t size, void* p) // placement new重载
+    {
+        return p; 
+    }
+    
+    void operator new(void* p1, void* p2) // placement delete对应的delete
+    {
+        return p; 
+    }
+    
+    void operator delete(void* p) // 调用优先级更高
+    {
+        free(p);
+    }
+    void operator delete(void* p, size_t size) // operator delete的重载形式2
+    {
+        free(p);
+    }
+private:
+    int n_;
+};
+
+int main(void)
+{
+	Test* pt1 = new Test(100); // new operator = operator new + constructor
+    
+    char chunk[10];
+    
+    Test* pt2 = new(chunk) Test(200); // placement new; 不分配内存+构造函数调用
+    
+   	pt2->~Test(); // 显示调用析构函数
+    Test* pt3 = reinterpret_cast<Test*>(chunk);
+    return 0;
+}
+```
+
+**operator new的用于跟踪的重载形式：**
+
+```c++
+void operator new(size_t size, const char* file, long line)
+{
+    cout << file << ":" << line << endl;
+    
+    void* p = malloc(size);
+    
+    return p;
+}
+
+void operator delete(void* p, const char* file, long line)
+{
+    cout << file << ":" << line << endl;
+    
+    free(p);
+}
+
+#define new new(__FILE__, __LINE__)
+Test* pt4 = new(__FILE__, __LINE__) Test(300); // 便于排查内存泄漏
+delete ptr4;
+```
+
+## 标准库类型
+
+### 标准库string类型
+
+![](StudyCPPWithMeNOTES.assets/image-20210707104723844.png)
+
+![image-20210707105440957](StudyCPPWithMeNOTES.assets/image-20210707105440957.png)
+
+### map容器使用
+
+**map容器的元素插入方式**
+
+> 插入到map容器内部的元素默认是按照key从小到大来排序
+>
+> **因此，必须要求插入的key类型支持operator<**
+>
+> 当然，也可以传入自定义的排序规则
+
+```c++
+#include <map>
+
+map<string, int> mapTest;
+
+mapTest["aaa"] = 100; // int& operator[](const string& index)重载
+mapTest.insert(map<string, int>::value_type("bbb", 200));
+mapTest.insert(pair<string, int>("ccc", 300));
+mapTest.insert(make_pair("ddd", 400));
+```
+
+## 继承
+
+> 继承是面向对象设计的一个重要特性，没有使用到继承的程序设计，即使用到了class这一抽象数据类型，也不能成为面向对象编程设计。
+
+- 派生类是基类的具体化
+- 派生类的范围小，更具体
+- 而基类的范围大，更抽象
+
+### 代码重用
+
+![image-20210707152535181](StudyCPPWithMeNOTES.assets/image-20210707152535181.png)
+
+**组合：将一个类作为另一个类的对象成员**
+
+### 继承的语法
+
+```c++
+class 派生类名 ： 继承方式 基类名
+{
+    派生类新增成员的说明;
+};
+```
+
+### 继承的级别
 
 
-# 模板
+
+![image-20210707153849224](StudyCPPWithMeNOTES.assets/image-20210707153849224.png)
+
+![image-20210707154111055](StudyCPPWithMeNOTES.assets/image-20210707154111055.png)
+
+### 接口继承和实现继承
+
+![image-20210707154338791](StudyCPPWithMeNOTES.assets/image-20210707154338791.png)
+
+### 继承与重定义
+
+1. 数据成员的重定义：**隐藏**
+2. 成员函数的重定义：
+
+<img src="StudyCPPWithMeNOTES.assets/image-20210707155047783.png" alt="image-20210707155047783" style="zoom:50%;" />
+
+### 继承于构造函数
+
+**不能够被派生类继承的成员函数**
+
+- 构造函数
+- 析构函数
+- operator=赋值
+
+![image-20210707160243196](StudyCPPWithMeNOTES.assets/image-20210707160243196.png)
+
+**代码示例：**
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Base
+{
+public:
+    // 编译器不再提供默认构造函数
+    Base(int b): b_(b)
+    {
+        cout << "Base..." << endl;
+    }
+    ~Base()
+    {
+        cout << "~Base()" <<endl;
+    }
+private:
+    int b_;
+};
+
+class Derived : public Base
+{
+public:
+    Derived(int d) : d_(d), Base(10) // 调用基类的构造函数
+    {
+        cout << "Derived()..." << endl;
+    }
+    Derived(int b, int d) : d_(d), Base(b) // 调用基类的构造函数
+    {
+        cout << "Derived(int b, int d)..." << endl;
+    }
+    ~Derived()
+    {
+		cout << "~Derived()..." << endl;
+    }
+    
+private:
+    int d_;
+};
+
+int main(void)
+{
+    Derived d(100); // 要构造一个派生类对象，先调用基类的构造函数
+    cout << d.b_ << " " << d.d_ << endl;
+    Derived bd(10, 200); // 给基类的构造函数传值
+    return 0;
+}
+```
+
+**小结：**
+
+> 如果基类没有默认构造函数，那么在派生类的构造函数中，就需要对基类构造进行显示调用。因为派生类对象的构造函数晚于基类的构造函数调用。
+>
+> 如果不这样做，就会出错。
+>
+> ```c++
+> Derived(int d) : d_(d), Base(10) // 调用基类的构造函数
+> {
+>     cout << "Derived()..." << endl;
+> }
+> Derived(int b, int d) : d_(d), Base(b) // 调用基类的构造函数
+> {
+>     cout << "Derived(int b, int d)..." << endl;
+> }
+> ```
+
+### 拷贝构造函数的实现：应该逐成员赋值
+
+![image-20210707162613185](StudyCPPWithMeNOTES.assets/image-20210707162613185.png)
+
+![image-20210707162842762](StudyCPPWithMeNOTES.assets/image-20210707162842762.png)
+
+### 静态成员与继承
+
+静态成员被所有类共享，无所谓继承。在基类和派生类中都只有一份
+
+### 转换与继承
+
+派生类对象也是基类对象，这意味着在使用到基类对象的地方，也可以使用派生类对象
+
+**当public继承时**
+
+- 派生类对象指针可以转化为基类对象指针。
+- 可以将派生类对象看成基类对象（会产生`对象切割object slicing`），但是派生类特有的成员消失
+
+- 而基类指针无法转换为派生类指针
+- **基类指针可以强制转换为派生类指针，但是不安全**
+- 基类对象无法强制转换为派生类独享
+
+ ![image-20210707164101583](StudyCPPWithMeNOTES.assets/image-20210707164101583.png)
+
+#### 将基类对象转换为派生类对象的实现（不推荐这种不安全的转型操作）
+
+**实现方法：**
+
+- 在派生类中提供对应的转换构造函数
+- 在基类中提供类型转换符
+
+```c++
+#include <iostream>
+#include <string>
+
+class Manager;
+
+class Employee
+{
+public:
+    Employee(int id, int dpatId, string name) : id(id), dpatId_(dpatId), name_(name)
+    {}
+    ~Employee(){}
+    operator Manager(); 
+    // 不能直接在这里实现，因为这时候manager只是一个前向声明
+private:
+    int id_;
+    int dpatId_;
+    string name_;
+};
+
+class Manager : public Employee
+{
+public:
+    Manager(int id, int dpatId, string name, int level): Employee(id, dpatId, name), level_(level)
+    {}
+    ~Manager(){}
+    Manager(const Employee& emp) : Employee(emp), level_(-1) // 转换构造函数
+    {
+        
+    }
+private:
+    int level_;
+};
+
+// 类内的转型运算符
+Employee::operator Manger()
+{
+    return Manager(id, dpatId, name_, -1);
+}
+```
+
+### 多重继承
+
+![image-20210707171939570](StudyCPPWithMeNOTES.assets/image-20210707171939570.png)
+
+**多重继承存在的问题：**容易出现二义性，多个基类中包含同名变量或函数
+
+**解决办法：**采用虚基类来解决
+
+### 虚继承和虚基类：用于钻石继承
+
+![image-20210707172055632](StudyCPPWithMeNOTES.assets/image-20210707172055632.png)
+
+### 虚基类及其派生类构造函数
+
+![image-20210707172702627](StudyCPPWithMeNOTES.assets/image-20210707172702627.png)
+
+### [虚继承对C++对象内存模型造成的影响](https://www.bilibili.com/video/BV127411h7t4?p=33&spm_id_from=pageDriver)
+
+- 遵循结构体的内存对齐原则
+- 类的大小与数据成员有关，与成员函数无关
+- 类的大小与静态数据成员无关
+- 虚继承对类的大小的影响
+- 虚函数对类的大小的影响
+
+![image-20210707200417478](StudyCPPWithMeNOTES.assets/image-20210707200417478.png)
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+class BB
+{
+public:
+    BB(int b) : bb_(b){}
+    
+public:
+    int bb_;
+};
+
+class B1 : virtual public BB
+{
+public:
+    B1(int b1, int b) : b1_(b1), BB(b){}
+    int b1_;
+};
+
+class B2 : virtual public BB
+{
+public:
+    B2(int b2, int b) : b2_(b2), BB(b){}
+    int b2_;
+};
+
+class DD : public B1, public B2
+{
+public:
+    DD(int d, int b1, int b2, int b) : dd_(d), B1(b1, b), B2(b2, b), BB(b)
+    {}
+    int dd_;
+};
+// 钻石继承的方式
+
+int main(void)
+{
+    cout << sizeof(BB) << endl; // 4
+    cout << sizeof(B1) << endl; // 12
+    cout << sizeof(DD) << endl; // 24
+
+    return 0;
+}
+```
+
+![image-20210707204503584](StudyCPPWithMeNOTES.assets/image-20210707204503584.png)
+
+> 通过指针访问虚基类的成员，是间接访问
+
+### 多态
+
+**多态的定义：**调用同名的函数产生不同的行为
+
+**多态的实现：**
+
+- 函数重载
+- 运算符重载
+- 模板
+- 虚函数（动态多态）：通过virtual函数实现
+
+**前面三种都是静态多态，编译期间确定，在编译器就已确定要调用的函数。**
+
+### 静态绑定与动态绑定
+
+**动态绑定的实现：**
+
+> 虚函数的动态绑定是通过虚表来实现的。`包含虚函数的类头4个字节存放指向虚表的指针`
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+class Base
+{
+public:
+    virtual void Func1()
+    {
+        cout << "Base::Func1() ... " << endl;
+    }
+    virtual void Func2()
+    {
+        cout << "Base::Func2() ... " << endl;
+    }
+    int data1_;
+};
+
+class Derived : public Base
+{
+public:
+    virtual void Func2()
+    {
+        cout << "Derived::Func2() ..." << endl;
+    }
+    
+    virtual void Func3()
+    {
+		cout << "Derived::Func3() ..." << endl;
+    }
+    int data2_;
+};
+
+typedef void (*FUNC)(); // 定义一个函数指针，名称为FUNC
+int main(void)
+{
+    Base b;
+    cout << sizeof(Base) << endl;
+    cout << sizeof(Derived) << endl;
+    
+    long** p = (long**)&b; // 指向base的虚表指针所指向的虚表
+    FUNC fun = (FUNC)p[0][0]; // 将p[0][0]强制转换为FUNC
+    fun();
+    fun = (FUNC)p[0][1]; // Func2
+    fun();
+    
+    Derived d;
+    p = (long**)&d;
+    
+    fun = (FUNC)p[0][0]; // Base::Func1
+    fun();
+    fun = (FUNC)p[0][1]; // Derived::Func2
+    fun();
+    fun = (FUNC)p[0][2]; // Derived::Func3
+    fun();
+    
+    return 0;
+}
+```
+
+![image-20210707221350903](StudyCPPWithMeNOTES.assets/image-20210707221350903.png)
+
+### 虚函数
+
+![image-20210707214343742](StudyCPPWithMeNOTES.assets/image-20210707214343742.png)
+
+- **不能将虚函数声明为静态函数或者友元函数，因为他们都没有this指针，无法通过虚表指针进行动态绑定**
+
+- 构造函数不能声明为虚函数
+
+  > 因为，在构造函数没有调用完之前，是没有办法分配内存，无法得到vptr，进而也无法进行动态绑定构造函数的入口地址
+
+- 而析构函数应该声明为虚函数
+
+### 虚析构函数
+
+如果一个类要作为多态基类，那么就应该将其析构函数定义成虚函数。这样才能够在基类指针释放的时候，才能够正确的释放基类指针指向的派生类对象的内存。（调用派生类的内存）
+
+![image-20210707215111781](StudyCPPWithMeNOTES.assets/image-20210707215111781.png)
+
+**纯虚析构函数：**如果base类没有任何成员函数，但是又希望作为基类。那就应该将其析构函数作为`纯虚析构函数`
+
+通常情况下，在基类中纯虚函数不需要实现。**例外是纯虚析构函数要给出实现（空实现）**。
+
+> 为什么：因为派生类对象在释放的时候，无法调用基类的析构函数。
+
+### object slicing与虚函数
+
+**对象切割：派生类向上转型的时候，会发生类型切割**
+
+> 完完全全将派生类对象转为了基类对象，包括虚函数表。会发生一次**拷贝构造**
+
+![image-20210708092251587](StudyCPPWithMeNOTES.assets/image-20210708092251587.png)
+
+### 纯虚函数
+
+**虚函数：**通过将基类指针指向派生类对象，这时候通过基类指针调用的虚函数实际上是调用的派生类对象的相应实现
+
+- 当基类的接口没办法提供具体实现，或者说只需要提供一个接口而不提供默认实现的时候。应该将基类对应的函数声明为纯虚函数
+
+- 拥有纯虚函数的类是一个抽象类，并且抽象类不能够实例化。**但是可以声明抽象类的指针和引用**
+- 派生类中必须实现基类中的纯虚函数，否则仍将它看成一个抽象类
+
+![image-20210708095449679](StudyCPPWithMeNOTES.assets/image-20210708095449679.png)
+
+### [对象的动态创建](https://www.bilibili.com/video/BV127411h7t4?p=36&spm_id_from=pageDriver)
+
+**反射技术：**动态获取类型信息（方法和属性）
+
+**动态创建对象：**
+
+- 动态调用对象的方法
+- 动态调用对象的属性
+- 对原有的类不做任何更改，只需要增加一个宏就能够实现动态创建
+
+> 需要给每个类添加元数据
+
+**能够适配新创建的类，并且避免使用if-else语句。结合配置文件使用**
+
+**组件编程思想：**
+
+### runtime type information（RTTI）：都不如虚函数的虚函数表效率来得高
+
+运行时类型信息，主要通过
+
+- dynamic_cast运算符：基类指针向下转型的时候，是安全的。
+  - 要支持`dynamic_cast`需要编译器支持运行时类型识别。
+  - 要具有多态类型的继承体系（即基类有虚函数）
+- typeid运算符：用于运行时类型识别，返回值类型为type_info
+- type_info
+
+![image-20210708171932589](StudyCPPWithMeNOTES.assets/image-20210708171932589.png)
+
+![image-20210708172016746](StudyCPPWithMeNOTES.assets/image-20210708172016746.png)
+
+> 不能将typeinfo赋值给其他对象，因为它的拷贝构造函数是私有的
+
+## 异常
+
+### C语言错误处理方法
+
+- 返回值（if-else语句判断返回值）：比较繁琐，每次函数调用都要判断
+- 失败时返回-1
+- goto语句：当函数内部发生错误时，跳转到局部的错误处理
+- setjmp/longjmp
+
+<img src="StudyCPPWithMeNOTES.assets/image-20210708211804681.png" alt="image-20210708211804681" style="zoom:50%;" />
+
+  
+
+<img src="StudyCPPWithMeNOTES.assets/image-20210708212902844.png" alt="image-20210708212902844" style="zoom: 50%;" />
+
+> 相比于goto的优势：可以跨函数跳转，适用于错误发生点离调用点远的情形
+
+<img src="StudyCPPWithMeNOTES.assets/image-20210708213054756.png" alt="image-20210708213054756" style="zoom:50%;" />
+
+
+
+![image-20210708213456670](StudyCPPWithMeNOTES.assets/image-20210708213456670.png)
+
+> 如果不对抛出的异常进行处理，那么系统会对该错误进行默认的处理。而C语言中如果没有对某个异常进行捕获处理，那么将被忽略
+
+### 程序错误
+
+![image-20210708213703296](StudyCPPWithMeNOTES.assets/image-20210708213703296.png)
+
+### 异常的语法
+
+```c++
+try
+{
+    // try语句块
+}
+catch (类型1 参数1)
+{
+    // 针对类型1的异常处理
+}
+catch (类型2 参数2)
+{
+    // 针对类型2的异常处理
+}
+...
+```
+
+### **异常抛出：**
+
+```c++
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class MyException
+{
+public:
+    MyException(const char* message) : message_(message)
+    {
+        cout << "MyException..." << endl;
+    }
+    MyException(const MyException& other) : message_(other.message_)
+    {
+        cout << "MyException..." << endl;
+    }
+    ~MyException()
+    {
+        cout << "~MyException" << endl;
+    }
+    string what() const
+    { return message_; }
+private:
+    string message_;
+};
+
+double Divide(double a, double b)
+{
+    if (b == 0.0d)
+    {
+        MyException e("division by zeros");
+        throw e;
+        // 如果是 throw MyException("division by zeros"); 
+        // 那么会减少一次临时对象的构造工作
+        // throw 1; // 不会被catch(double)捕获，不做类型转换
+    }
+}
+
+int main(void)
+{
+    try
+    {
+        cout << Divide(5.0, 0.0d) << endl;
+    }
+    catch(MyException& e)
+    {
+        cout << e.what() << endl;
+    }
+    catch(...) // 捕获任意类型的异常
+    {
+        cout << "catch exception ..." << endl;
+    }
+    return 0;
+}
+```
+
+### **异常的捕获**
+
+- 一个异常处理器一般只能捕捉一种类型的异常
+- 异常处理器的参数类型和抛出异常的类型相同
+- ...表示可以捕获任何异常
+
+### 异常的传播
+
+![image-20210708215516713](StudyCPPWithMeNOTES.assets/image-20210708215516713.png)
+
+### 栈展开
+
+![image-20210708220449706](StudyCPPWithMeNOTES.assets/image-20210708220449706.png)
+
+**如何保证已构造的成员：`当成员是指针的时候`**
+
+### 异常与继承
+
+1. 如果异常类型是一个类，他的基类也是一个异常类型。那么应该将派生类的错误处理放在前面，而基类的错误处理放在后面。MyException被一个类继承
+
+# STL
+
+## 模板
+
+# 小项目
+
+## 面向对象计算器设计【未】
 
 # C++新特性
 
@@ -1306,7 +2252,59 @@ int main(void)
     typedef char T_must_be_complete_type[sizeof(T) == 0 ? -1 : 1]; 
    ```
 
-## 补充阅读
+2. 实现功能的时候，先编写测试代码；见`String`类实现
+
+### 工厂模式
+
+![image-20210708153711004](StudyCPPWithMeNOTES.assets/image-20210708153711004.png)
+
+![image-20210708153759844](StudyCPPWithMeNOTES.assets/image-20210708153759844.png)
+
+## 知识点辨析
+
+### 重载（overload）、重写（重定义overwrite）、覆盖（override）
+
+- 重载发生在同一个作用域
+- 重写发生在基类和派生类之间
+- 覆盖：虚函数之间
+
+![image-20210708093337345](StudyCPPWithMeNOTES.assets/image-20210708093337345.png)
+
+### 组合和继承
+
+- 继承相当于将基类作为一个成员类对象使用
+- 继承是is-a
+- 组合是has-a
+
+![image-20210707155602112](StudyCPPWithMeNOTES.assets/image-20210707155602112.png)
+
+### 只能在构造函数的参数列表初始化的情况
+
+1. **const成员变量**：只能够在初始化列表中初始化。（在构造函数体中就不是初始化了，其实算是赋值）
+
+2. **引用成员**
+
+3. 当**基类没有默认构造函数**的时候，需要在派生类的构造函数初始化列表中调用
+
+   > 派生类的构造函数需要给基类的构造函数传递对应的参数
+
+4. 类成员对象的构造，由该类的构造函数负责。
+
+   - 基类对象有一个**对象成员，并且该对象所属的类没有默认构造函数**。那么该基类应该负责该对象成员的构造和析构工作。
+
+### 构造函数的调用顺序
+
+1. **派生类对象的构造次序**
+   - 基类构造函数
+   - 派生类对象成员的构造函数
+   - 派生类自身的构造函数
+2. **如果基类也有一个对象成员，则该成员的构造函数还要早于基类的构造函数**
+   - 基类成员对象的构造函数
+   - 基类的构造函数
+   - 派生类自身的构造函数
+3. 如果类中有多个对象成员，那么这些对象成员的构造函数按照声明的顺序调用
+
+## 拓展阅读
 
 - [ ] C++primer（正在）
 - [x] Effective C++（可以再看）
