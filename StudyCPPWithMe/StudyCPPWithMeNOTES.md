@@ -1930,6 +1930,22 @@ int main(void)
 
 1. 如果异常类型是一个类，他的基类也是一个异常类型。那么应该将派生类的错误处理放在前面，而基类的错误处理放在后面。MyException被一个类继承
 
+## I/O流类库
+
+- 标准I/O流
+- 文件流
+- 字符串流
+
+![image-20210709095724271](StudyCPPWithMeNOTES.assets/image-20210709095724271.png)
+
+ ![image-20210709095854125](StudyCPPWithMeNOTES.assets/image-20210709095854125.png)
+
+![image-20210709100110595](StudyCPPWithMeNOTES.assets/image-20210709100110595.png)
+
+![image-20210709100210225](StudyCPPWithMeNOTES.assets/image-20210709100210225.png)
+
+
+
 # STL
 
 ## 模板
@@ -1937,6 +1953,10 @@ int main(void)
 # 小项目
 
 ## 面向对象计算器设计【未】
+
+## 面向泛型版的计算器实现
+
+![image-20210709143259814](StudyCPPWithMeNOTES.assets/image-20210709143259814.png)
 
 # C++新特性
 
@@ -1953,6 +1973,103 @@ int main(void)
 ## lambda表达式
 
 # 拓展总结
+
+## boost智能指针
+
+智能指针是利用RAII(Resource Acquisition Is Initial：资源获取即初始化)来管理资源。在构造函数中对资源进行初始化，在析构函数中对资源进行释放
+
+**本质思想：**
+
+> 将堆对象的生存期用栈对象（智能指针）来管理，当new一个堆对象的时候，立刻用智能指针来接管。具体做法是在构造函数进行初始化（用一个指针指向堆对象），在析构函数中调用delete来释放堆对象
+>
+> 而智能指针本身是一个`栈对象`，它的作用域结束的时候，自动调用析构函数。从而调用了delete释放了堆对象
+
+![image-20210709144449729](StudyCPPWithMeNOTES.assets/image-20210709144449729.png)
+
+### scoped_ptr\<T\>
+
+- scoped_ptr管理的对象既不能够拷贝，也不能够转移。（底层实现：拷贝构造函数，operator=是private）
+
+```c++
+#include <boost/scoped_ptr.hpp>
+#include <iostream>
+
+class X
+{
+public:
+    X()
+    {
+        cout << "construct X" << endl;
+    }
+    ~X()
+    {
+        cout << "destruct X" << endl;
+    }
+};
+
+void testScoped_ptr()
+{
+	boost::scoped_ptr<X> p(new X);
+}
+
+int main(void)
+{
+    cout << "entering main" << endl;
+    
+    testScoped_ptr();
+    
+    cout << "exiting main" << endl;
+    
+    return 0;
+}
+```
+
+### shared_ptr<T\>（线程安全的）
+
+**成员函数：**
+
+- `use_count`:原子性操作
+
+- `reset`
+
+- shared_ptr<T\>可以放在vector当中。而auto_ptr不可以。因为在底层实现的时候，shared_ptr的接口和vector的push_back的接口一致，都是const引用传递
+
+- 避免使用匿名的临时的`shared_ptr`对象
+
+  ![image-20210709152932261](StudyCPPWithMeNOTES.assets/image-20210709152932261.png)
+
+![image-20210709150130782](StudyCPPWithMeNOTES.assets/image-20210709150130782.png)
+
+![image-20210709153318675](StudyCPPWithMeNOTES.assets/image-20210709153318675.png)
+
+### 循环引用
+
+![image-20210709153625814](StudyCPPWithMeNOTES.assets/image-20210709153625814.png)
+
+**解决办法：**
+
+- 手动打破循环引用
+
+  ```c++
+  parent->child_.reset();
+  child->parent_.reset();
+  ```
+
+- weak_ptr<T\>打破循环引用
+
+ ![image-20210709154021264](StudyCPPWithMeNOTES.assets/image-20210709154021264.png)
+
+### weak_ptr
+
+![image-20210709154340532](StudyCPPWithMeNOTES.assets/image-20210709154340532.png)
+
+### scoped_array和shared_array
+
+```c++
+boost::scoped_array<X> xx(new X[3]);
+```
+
+
 
 ## 单例模式和auto_ptr
 
@@ -2127,7 +2244,7 @@ class ThreadLocalSingleton : boost::noncopyable // 默认private继承
 
     ~Deleter()
     {
-      pthread_key_delete(pkey_);
+      pthread_key_delete(pkey_); // 析构函数调用的时候，会删除key，并且注册了destructor,那么也会析构与之绑定的newObj，即t_value_;
     }
 
     void set(T* newObj)
@@ -2259,6 +2376,24 @@ int main(void)
 ![image-20210708153711004](StudyCPPWithMeNOTES.assets/image-20210708153711004.png)
 
 ![image-20210708153759844](StudyCPPWithMeNOTES.assets/image-20210708153759844.png)
+
+### 常量是否可以更改？
+
+将变量声明为常量，目的在于告诉使用者，其值不应该被修改。而不是不能够被修改
+
+```c++
+const int n = 100;
+
+int *pn = &n;
+
+*pn = 200;
+```
+
+### 使用PIMPL
+
+![image-20210709155132708](StudyCPPWithMeNOTES.assets/image-20210709155132708.png)
+
+![image-20210709155617248](StudyCPPWithMeNOTES.assets/image-20210709155617248.png)
 
 ## 知识点辨析
 
