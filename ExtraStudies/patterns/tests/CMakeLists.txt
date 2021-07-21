@@ -1,0 +1,2 @@
+add_executable(testFactory testFactory.cc)
+target_link_libraries(testFactory ExtraStudies)

@@ -208,6 +208,19 @@ testRTII/fast:
 .PHONY : testRTII/fast
 
 #=============================================================================
+# Target rules for targets named testSmartPtrs
+
+# Build rule for target.
+testSmartPtrs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSmartPtrs
+.PHONY : testSmartPtrs
+
+# fast build rule for target.
+testSmartPtrs/fast:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
+.PHONY : testSmartPtrs/fast
+
+#=============================================================================
 # Target rules for targets named testVirtualFunc
 
 # Build rule for target.
@@ -250,6 +263,7 @@ help:
 	@echo "... testComplex"
 	@echo "... testMyException"
 	@echo "... testRTII"
+	@echo "... testSmartPtrs"
 	@echo "... testVirtualFunc"
 	@echo "... testVirtualInhe"
 .PHONY : help

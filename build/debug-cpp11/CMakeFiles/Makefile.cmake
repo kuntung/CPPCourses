@@ -58,6 +58,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/DependInfo.cmake"
+  "StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/DependInfo.cmake"
   )

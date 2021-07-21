@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/testSmartPtrs.dir/testSmartPtrs.cc.o -c /home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testSmartPtrs.cc",
+  "file": "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testSmartPtrs.cc"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/tests",
   "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/testVirtualFunc.dir/testVirtualFunc.cpp.o -c /home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testVirtualFunc.cpp",
   "file": "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testVirtualFunc.cpp"
 },
