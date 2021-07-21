@@ -1944,11 +1944,154 @@ int main(void)
 
 ![image-20210709100210225](StudyCPPWithMeNOTES.assets/image-20210709100210225.png)
 
-
-
 # STL
 
 ## 模板
+
+**模板的定义：**
+
+- 模板也是一种静态多态的实现方式。将程序所处理的对象的类型参数化。
+- 采用模板编程，可以为各种逻辑功能相同，而数据类型不同的程序提供一种代码共享的机制
+
+**模板的引入初衷：**
+
+![image-20210716095812618](StudyCPPWithMeNOTES.assets/image-20210716095812618.png)
+
+- 宏替换：不做类型检查
+- 重载：为每个类型提供一个重载版本，程序自己来维护这些重载的版本（可拓展性差）
+
+**模板的特性：**为具有相同代码逻辑的代码提供一个模板，并将类型作为参数传递。从而**实例化出对应数据类型的版本**。不同的版本由编译器来维护。（会做安全的类型检查）
+
+- 函数模板
+- 类模板（muduo的thread local）
+- STL的容器模板
+
+### 函数模板
+
+**函数模板声明形式：**
+
+![image-20210716100328427](StudyCPPWithMeNOTES.assets/image-20210716100328427.png)
+
+**函数模板的使用：**
+
+![image-20210716100534568](StudyCPPWithMeNOTES.assets/image-20210716100534568.png)
+
+![image-20210716100911493](StudyCPPWithMeNOTES.assets/image-20210716100911493.png)
+
+**因此，模板不建议使用分离式编译。而应该将实现也放在`.h`文件中**
+
+#### 函数模板特化
+
+**问题：为什么需要模板特化？**
+
+> 特化的模板，本质上也是模板。只是为了适配特定的数据类型
+>
+> 读完STL源码剖析看是否能找到答案
+
+**特化形式：**
+
+![image-20210716101942192](StudyCPPWithMeNOTES.assets/image-20210716101942192.png)
+
+### 类模板
+
+**类模板：**将类定义中的数据类型参数化
+
+可以用相同的类模板，来组建任意类型的容器组合
+
+#### 类模板定义
+
+类的成员函数就变成了`函数模板`
+
+![image-20210716103306088](StudyCPPWithMeNOTES.assets/image-20210716103306088.png)
+
+#### 类模板的使用
+
+![image-20210716103848088](StudyCPPWithMeNOTES.assets/image-20210716103848088.png)
+
+### 非类型模板参数
+
+> 对于函数模板与类模板，模板参数并不局限于类型。普通值也可以做为模板参数
+
+```c++
+template <typename T, int MAXSIZE>
+class Stack
+{
+public:
+    Stack();
+    ~Stack();
+    
+    void Push(const T& elem);
+    void Pop();
+    T& Top();
+    const T& top() const;
+private:
+    T* elems_;
+    int top_;
+};
+
+template <typename T, int MAXSIZE>
+Stack<T, MAXSIZE>::Stack() : top_(-1)
+{
+    elems_ = new T[MAXSIZE];
+}
+
+template <typename T, int MAXSIZE>
+void Stack<T, MAXSIZE>::Push(const T& elem)
+{
+    if (top_ + 1 >= MAXSIZE)
+        throw out_Of_range("out of range");
+    elems_[++top_] = elem;
+}
+```
+
+### 缺省模板参数
+
+![image-20210716105529815](StudyCPPWithMeNOTES.assets/image-20210716105529815.png)
+
+### 成员模板
+
+![image-20210716110946634](StudyCPPWithMeNOTES.assets/image-20210716110946634.png)
+
+**应用场景：auto_ptr的拷贝构造函数就是一个成员模板**
+
+![image-20210716111809621](StudyCPPWithMeNOTES.assets/image-20210716111809621.png)
+
+### 关键字typename
+
+
+
+### 派生类和模板
+
+### 面向对象与泛型
+
+
+
+### 小结
+
+1. 编译器的函数匹配原则
+   - 全局的非模板函数
+   - 模板函数推导
+     - 默认
+     - 或者显示指定
+
+2. 类模板必须显示实例化为模板类，才可以实例化对象
+   - 模板也可以传递非类型参数`template <typename T, int MAXSIZE>`
+
+## STL的六大组件
+
+### 容器
+
+### 适配器
+
+代码复用的方式，不是通过继承。而是适配。
+
+### 函数对象
+
+### 分配器allocator
+
+### 算法
+
+### 迭代器
 
 # 小项目
 
@@ -1957,6 +2100,8 @@ int main(void)
 ## 面向泛型版的计算器实现
 
 ![image-20210709143259814](StudyCPPWithMeNOTES.assets/image-20210709143259814.png)
+
+## 银行储蓄系统
 
 # C++新特性
 
@@ -1971,6 +2116,26 @@ int main(void)
 ## function/bind（基于对象编程）
 
 ## lambda表达式
+
+# MySQL
+
+《数据库系统概论》
+
+![image-20210718110857912](StudyCPPWithMeNOTES.assets/image-20210718110857912.png)
+
+##  关系数据库
+
+**一个关系对应数据库中的一张表**
+
+> 员工（编号、姓名、年龄、民族、部门）
+
+**主键：**能够唯一标识一条记录，可以有多个属性构成主键
+
+![image-20210718111755519](StudyCPPWithMeNOTES.assets/image-20210718111755519.png)
+
+**冗余存储的改进方式：**`外键存储`（外键必须是另一张表格的主键）
+
+
 
 # 拓展总结
 
