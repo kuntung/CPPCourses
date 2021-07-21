@@ -115,6 +115,7 @@ StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/object
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all
+StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all
 .PHONY : StudyCPPWithMe/testSrc/tests/all
@@ -124,6 +125,7 @@ StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/obje
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/clean
+StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/clean
 .PHONY : StudyCPPWithMe/testSrc/tests/clean
@@ -273,13 +275,48 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir
+
+# All Build rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/depend
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  6
+	@echo "Built target testSmartPtrs"
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
+
+# Include target in all.
+all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
+
+# Convenience name for target.
+testSmartPtrs: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
+.PHONY : testSmartPtrs
+
+# clean rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
+
+# clean rule for target.
+clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir
 
 # All Build rule for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7
 	@echo "Built target testVirtualFunc"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all
 
@@ -314,7 +351,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  8
 	@echo "Built target testVirtualInhe"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all
 

@@ -199,6 +199,20 @@ testRTII/fast:
 .PHONY : testRTII/fast
 
 # Convenience name for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
+
+# Convenience name for target.
+testSmartPtrs: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
+.PHONY : testSmartPtrs
+
+# fast build rule for target.
+testSmartPtrs/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
+.PHONY : testSmartPtrs/fast
+
+# Convenience name for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/rule
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/rule
@@ -322,6 +336,30 @@ testRTII.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/testRTII.cpp.s
 .PHONY : testRTII.cpp.s
 
+testSmartPtrs.o: testSmartPtrs.cc.o
+.PHONY : testSmartPtrs.o
+
+# target to build an object file
+testSmartPtrs.cc.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/testSmartPtrs.cc.o
+.PHONY : testSmartPtrs.cc.o
+
+testSmartPtrs.i: testSmartPtrs.cc.i
+.PHONY : testSmartPtrs.i
+
+# target to preprocess a source file
+testSmartPtrs.cc.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/testSmartPtrs.cc.i
+.PHONY : testSmartPtrs.cc.i
+
+testSmartPtrs.s: testSmartPtrs.cc.s
+.PHONY : testSmartPtrs.s
+
+# target to generate assembly for a file
+testSmartPtrs.cc.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/testSmartPtrs.cc.s
+.PHONY : testSmartPtrs.cc.s
+
 testVirtualFunc.o: testVirtualFunc.cpp.o
 .PHONY : testVirtualFunc.o
 
@@ -386,6 +424,7 @@ help:
 	@echo "... testComplex"
 	@echo "... testMyException"
 	@echo "... testRTII"
+	@echo "... testSmartPtrs"
 	@echo "... testVirtualFunc"
 	@echo "... testVirtualInhe"
 	@echo "... objectSlicing.o"
@@ -400,6 +439,9 @@ help:
 	@echo "... testRTII.o"
 	@echo "... testRTII.i"
 	@echo "... testRTII.s"
+	@echo "... testSmartPtrs.o"
+	@echo "... testSmartPtrs.i"
+	@echo "... testSmartPtrs.s"
 	@echo "... testVirtualFunc.o"
 	@echo "... testVirtualFunc.i"
 	@echo "... testVirtualFunc.s"
