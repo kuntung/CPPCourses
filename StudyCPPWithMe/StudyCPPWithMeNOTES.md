@@ -1930,13 +1930,178 @@ int main(void)
 
 1. 如果异常类型是一个类，他的基类也是一个异常类型。那么应该将派生类的错误处理放在前面，而基类的错误处理放在后面。MyException被一个类继承
 
+## I/O流类库
+
+- 标准I/O流
+- 文件流
+- 字符串流
+
+![image-20210709095724271](StudyCPPWithMeNOTES.assets/image-20210709095724271.png)
+
+ ![image-20210709095854125](StudyCPPWithMeNOTES.assets/image-20210709095854125.png)
+
+![image-20210709100110595](StudyCPPWithMeNOTES.assets/image-20210709100110595.png)
+
+![image-20210709100210225](StudyCPPWithMeNOTES.assets/image-20210709100210225.png)
+
 # STL
 
 ## 模板
 
+**模板的定义：**
+
+- 模板也是一种静态多态的实现方式。将程序所处理的对象的类型参数化。
+- 采用模板编程，可以为各种逻辑功能相同，而数据类型不同的程序提供一种代码共享的机制
+
+**模板的引入初衷：**
+
+![image-20210716095812618](StudyCPPWithMeNOTES.assets/image-20210716095812618.png)
+
+- 宏替换：不做类型检查
+- 重载：为每个类型提供一个重载版本，程序自己来维护这些重载的版本（可拓展性差）
+
+**模板的特性：**为具有相同代码逻辑的代码提供一个模板，并将类型作为参数传递。从而**实例化出对应数据类型的版本**。不同的版本由编译器来维护。（会做安全的类型检查）
+
+- 函数模板
+- 类模板（muduo的thread local）
+- STL的容器模板
+
+### 函数模板
+
+**函数模板声明形式：**
+
+![image-20210716100328427](StudyCPPWithMeNOTES.assets/image-20210716100328427.png)
+
+**函数模板的使用：**
+
+![image-20210716100534568](StudyCPPWithMeNOTES.assets/image-20210716100534568.png)
+
+![image-20210716100911493](StudyCPPWithMeNOTES.assets/image-20210716100911493.png)
+
+**因此，模板不建议使用分离式编译。而应该将实现也放在`.h`文件中**
+
+#### 函数模板特化
+
+**问题：为什么需要模板特化？**
+
+> 特化的模板，本质上也是模板。只是为了适配特定的数据类型
+>
+> 读完STL源码剖析看是否能找到答案
+
+**特化形式：**
+
+![image-20210716101942192](StudyCPPWithMeNOTES.assets/image-20210716101942192.png)
+
+### 类模板
+
+**类模板：**将类定义中的数据类型参数化
+
+可以用相同的类模板，来组建任意类型的容器组合
+
+#### 类模板定义
+
+类的成员函数就变成了`函数模板`
+
+![image-20210716103306088](StudyCPPWithMeNOTES.assets/image-20210716103306088.png)
+
+#### 类模板的使用
+
+![image-20210716103848088](StudyCPPWithMeNOTES.assets/image-20210716103848088.png)
+
+### 非类型模板参数
+
+> 对于函数模板与类模板，模板参数并不局限于类型。普通值也可以做为模板参数
+
+```c++
+template <typename T, int MAXSIZE>
+class Stack
+{
+public:
+    Stack();
+    ~Stack();
+    
+    void Push(const T& elem);
+    void Pop();
+    T& Top();
+    const T& top() const;
+private:
+    T* elems_;
+    int top_;
+};
+
+template <typename T, int MAXSIZE>
+Stack<T, MAXSIZE>::Stack() : top_(-1)
+{
+    elems_ = new T[MAXSIZE];
+}
+
+template <typename T, int MAXSIZE>
+void Stack<T, MAXSIZE>::Push(const T& elem)
+{
+    if (top_ + 1 >= MAXSIZE)
+        throw out_Of_range("out of range");
+    elems_[++top_] = elem;
+}
+```
+
+### 缺省模板参数
+
+![image-20210716105529815](StudyCPPWithMeNOTES.assets/image-20210716105529815.png)
+
+### 成员模板
+
+![image-20210716110946634](StudyCPPWithMeNOTES.assets/image-20210716110946634.png)
+
+**应用场景：auto_ptr的拷贝构造函数就是一个成员模板**
+
+![image-20210716111809621](StudyCPPWithMeNOTES.assets/image-20210716111809621.png)
+
+### 关键字typename
+
+
+
+### 派生类和模板
+
+### 面向对象与泛型
+
+
+
+### 小结
+
+1. 编译器的函数匹配原则
+   - 全局的非模板函数
+   - 模板函数推导
+     - 默认
+     - 或者显示指定
+
+2. 类模板必须显示实例化为模板类，才可以实例化对象
+   - 模板也可以传递非类型参数`template <typename T, int MAXSIZE>`
+
+## STL的六大组件
+
+### 容器
+
+### 适配器
+
+代码复用的方式，不是通过继承。而是适配。
+
+### 函数对象
+
+### 分配器allocator
+
+### 算法
+
+### 迭代器
+
 # 小项目
 
 ## 面向对象计算器设计【未】
+
+## 面向泛型版的计算器实现
+
+![image-20210709143259814](StudyCPPWithMeNOTES.assets/image-20210709143259814.png)
+
+## 银行储蓄系统
 
 # C++新特性
 
@@ -1952,7 +2117,124 @@ int main(void)
 
 ## lambda表达式
 
+# MySQL
+
+《数据库系统概论》
+
+![image-20210718110857912](StudyCPPWithMeNOTES.assets/image-20210718110857912.png)
+
+##  关系数据库
+
+**一个关系对应数据库中的一张表**
+
+> 员工（编号、姓名、年龄、民族、部门）
+
+**主键：**能够唯一标识一条记录，可以有多个属性构成主键
+
+![image-20210718111755519](StudyCPPWithMeNOTES.assets/image-20210718111755519.png)
+
+**冗余存储的改进方式：**`外键存储`（外键必须是另一张表格的主键）
+
+
+
 # 拓展总结
+
+## boost智能指针
+
+智能指针是利用RAII(Resource Acquisition Is Initial：资源获取即初始化)来管理资源。在构造函数中对资源进行初始化，在析构函数中对资源进行释放
+
+**本质思想：**
+
+> 将堆对象的生存期用栈对象（智能指针）来管理，当new一个堆对象的时候，立刻用智能指针来接管。具体做法是在构造函数进行初始化（用一个指针指向堆对象），在析构函数中调用delete来释放堆对象
+>
+> 而智能指针本身是一个`栈对象`，它的作用域结束的时候，自动调用析构函数。从而调用了delete释放了堆对象
+
+![image-20210709144449729](StudyCPPWithMeNOTES.assets/image-20210709144449729.png)
+
+### scoped_ptr\<T\>
+
+- scoped_ptr管理的对象既不能够拷贝，也不能够转移。（底层实现：拷贝构造函数，operator=是private）
+
+```c++
+#include <boost/scoped_ptr.hpp>
+#include <iostream>
+
+class X
+{
+public:
+    X()
+    {
+        cout << "construct X" << endl;
+    }
+    ~X()
+    {
+        cout << "destruct X" << endl;
+    }
+};
+
+void testScoped_ptr()
+{
+	boost::scoped_ptr<X> p(new X);
+}
+
+int main(void)
+{
+    cout << "entering main" << endl;
+    
+    testScoped_ptr();
+    
+    cout << "exiting main" << endl;
+    
+    return 0;
+}
+```
+
+### shared_ptr<T\>（线程安全的）
+
+**成员函数：**
+
+- `use_count`:原子性操作
+
+- `reset`
+
+- shared_ptr<T\>可以放在vector当中。而auto_ptr不可以。因为在底层实现的时候，shared_ptr的接口和vector的push_back的接口一致，都是const引用传递
+
+- 避免使用匿名的临时的`shared_ptr`对象
+
+  ![image-20210709152932261](StudyCPPWithMeNOTES.assets/image-20210709152932261.png)
+
+![image-20210709150130782](StudyCPPWithMeNOTES.assets/image-20210709150130782.png)
+
+![image-20210709153318675](StudyCPPWithMeNOTES.assets/image-20210709153318675.png)
+
+### 循环引用
+
+![image-20210709153625814](StudyCPPWithMeNOTES.assets/image-20210709153625814.png)
+
+**解决办法：**
+
+- 手动打破循环引用
+
+  ```c++
+  parent->child_.reset();
+  child->parent_.reset();
+  ```
+
+- weak_ptr<T\>打破循环引用
+
+ ![image-20210709154021264](StudyCPPWithMeNOTES.assets/image-20210709154021264.png)
+
+### weak_ptr
+
+![image-20210709154340532](StudyCPPWithMeNOTES.assets/image-20210709154340532.png)
+
+### scoped_array和shared_array
+
+```c++
+boost::scoped_array<X> xx(new X[3]);
+```
+
+
 
 ## 单例模式和auto_ptr
 
@@ -2127,7 +2409,7 @@ class ThreadLocalSingleton : boost::noncopyable // 默认private继承
 
     ~Deleter()
     {
-      pthread_key_delete(pkey_);
+      pthread_key_delete(pkey_); // 析构函数调用的时候，会删除key，并且注册了destructor,那么也会析构与之绑定的newObj，即t_value_;
     }
 
     void set(T* newObj)
@@ -2259,6 +2541,24 @@ int main(void)
 ![image-20210708153711004](StudyCPPWithMeNOTES.assets/image-20210708153711004.png)
 
 ![image-20210708153759844](StudyCPPWithMeNOTES.assets/image-20210708153759844.png)
+
+### 常量是否可以更改？
+
+将变量声明为常量，目的在于告诉使用者，其值不应该被修改。而不是不能够被修改
+
+```c++
+const int n = 100;
+
+int *pn = &n;
+
+*pn = 200;
+```
+
+### 使用PIMPL
+
+![image-20210709155132708](StudyCPPWithMeNOTES.assets/image-20210709155132708.png)
+
+![image-20210709155617248](StudyCPPWithMeNOTES.assets/image-20210709155617248.png)
 
 ## 知识点辨析
 
