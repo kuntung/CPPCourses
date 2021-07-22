@@ -246,6 +246,240 @@ testVirtualInhe/fast:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build
 .PHONY : testVirtualInhe/fast
 
+#=============================================================================
+# Target rules for targets named NetworkCoding
+
+# Build rule for target.
+NetworkCoding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NetworkCoding
+.PHONY : NetworkCoding
+
+# fast build rule for target.
+NetworkCoding/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build
+.PHONY : NetworkCoding/fast
+
+#=============================================================================
+# Target rules for targets named SocketAddrTest
+
+# Build rule for target.
+SocketAddrTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SocketAddrTest
+.PHONY : SocketAddrTest
+
+# fast build rule for target.
+SocketAddrTest/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build
+.PHONY : SocketAddrTest/fast
+
+#=============================================================================
+# Target rules for targets named echoClient
+
+# Build rule for target.
+echoClient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoClient
+.PHONY : echoClient
+
+# fast build rule for target.
+echoClient/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build
+.PHONY : echoClient/fast
+
+#=============================================================================
+# Target rules for targets named echoServer
+
+# Build rule for target.
+echoServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoServer
+.PHONY : echoServer
+
+# fast build rule for target.
+echoServer/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build
+.PHONY : echoServer/fast
+
+#=============================================================================
+# Target rules for targets named echoServer2
+
+# Build rule for target.
+echoServer2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoServer2
+.PHONY : echoServer2
+
+# fast build rule for target.
+echoServer2/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build
+.PHONY : echoServer2/fast
+
+#=============================================================================
+# Target rules for targets named p2pClient
+
+# Build rule for target.
+p2pClient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 p2pClient
+.PHONY : p2pClient
+
+# fast build rule for target.
+p2pClient/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build
+.PHONY : p2pClient/fast
+
+#=============================================================================
+# Target rules for targets named p2pServer
+
+# Build rule for target.
+p2pServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 p2pServer
+.PHONY : p2pServer
+
+# fast build rule for target.
+p2pServer/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build
+.PHONY : p2pServer/fast
+
+#=============================================================================
+# Target rules for targets named echocli3_nianbao
+
+# Build rule for target.
+echocli3_nianbao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echocli3_nianbao
+.PHONY : echocli3_nianbao
+
+# fast build rule for target.
+echocli3_nianbao/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build
+.PHONY : echocli3_nianbao/fast
+
+#=============================================================================
+# Target rules for targets named echocli_readline
+
+# Build rule for target.
+echocli_readline: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echocli_readline
+.PHONY : echocli_readline
+
+# fast build rule for target.
+echocli_readline/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build
+.PHONY : echocli_readline/fast
+
+#=============================================================================
+# Target rules for targets named echosrv3_nianbao
+
+# Build rule for target.
+echosrv3_nianbao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echosrv3_nianbao
+.PHONY : echosrv3_nianbao
+
+# fast build rule for target.
+echosrv3_nianbao/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build
+.PHONY : echosrv3_nianbao/fast
+
+#=============================================================================
+# Target rules for targets named echosrv_readline
+
+# Build rule for target.
+echosrv_readline: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echosrv_readline
+.PHONY : echosrv_readline
+
+# fast build rule for target.
+echosrv_readline/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build
+.PHONY : echosrv_readline/fast
+
+#=============================================================================
+# Target rules for targets named gethostname
+
+# Build rule for target.
+gethostname: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gethostname
+.PHONY : gethostname
+
+# fast build rule for target.
+gethostname/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build
+.PHONY : gethostname/fast
+
+#=============================================================================
+# Target rules for targets named testSigpipe
+
+# Build rule for target.
+testSigpipe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSigpipe
+.PHONY : testSigpipe
+
+# fast build rule for target.
+testSigpipe/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build
+.PHONY : testSigpipe/fast
+
+#=============================================================================
+# Target rules for targets named zombieHandleCli
+
+# Build rule for target.
+zombieHandleCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieHandleCli
+.PHONY : zombieHandleCli
+
+# fast build rule for target.
+zombieHandleCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build
+.PHONY : zombieHandleCli/fast
+
+#=============================================================================
+# Target rules for targets named zombieHandleSrv
+
+# Build rule for target.
+zombieHandleSrv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieHandleSrv
+.PHONY : zombieHandleSrv
+
+# fast build rule for target.
+zombieHandleSrv/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build
+.PHONY : zombieHandleSrv/fast
+
+#=============================================================================
+# Target rules for targets named zombieHandler
+
+# Build rule for target.
+zombieHandler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieHandler
+.PHONY : zombieHandler
+
+# fast build rule for target.
+zombieHandler/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build
+.PHONY : zombieHandler/fast
+
+#=============================================================================
+# Target rules for targets named zombieMultiCli
+
+# Build rule for target.
+zombieMultiCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieMultiCli
+.PHONY : zombieMultiCli
+
+# fast build rule for target.
+zombieMultiCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build
+.PHONY : zombieMultiCli/fast
+
+#=============================================================================
+# Target rules for targets named zombieWaitpid
+
+# Build rule for target.
+zombieWaitpid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieWaitpid
+.PHONY : zombieWaitpid
+
+# fast build rule for target.
+zombieWaitpid/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
+.PHONY : zombieWaitpid/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +500,24 @@ help:
 	@echo "... testSmartPtrs"
 	@echo "... testVirtualFunc"
 	@echo "... testVirtualInhe"
+	@echo "... NetworkCoding"
+	@echo "... SocketAddrTest"
+	@echo "... echoClient"
+	@echo "... echoServer"
+	@echo "... echoServer2"
+	@echo "... p2pClient"
+	@echo "... p2pServer"
+	@echo "... echocli3_nianbao"
+	@echo "... echocli_readline"
+	@echo "... echosrv3_nianbao"
+	@echo "... echosrv_readline"
+	@echo "... gethostname"
+	@echo "... testSigpipe"
+	@echo "... zombieHandleCli"
+	@echo "... zombieHandleSrv"
+	@echo "... zombieHandler"
+	@echo "... zombieMultiCli"
+	@echo "... zombieWaitpid"
 .PHONY : help
 
 

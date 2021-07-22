@@ -1,0 +1,6 @@
+add_executable(SocketAddrTest SocketAddr.cc)
+add_executable(echoServer echoServer.cc)
+add_executable(echoClient echoClient.cc)
+add_executable(echoServer2 echoServer2.cc)
+add_executable(p2pServer p2pserv.cc)
+add_executable(p2pClient p2pcli.cc)

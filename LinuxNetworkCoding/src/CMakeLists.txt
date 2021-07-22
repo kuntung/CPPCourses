@@ -1,0 +1,14 @@
+set(SRCS
+temp.cc
+)
+
+add_library(NetworkCoding ${SRCS})
+install(TARGETS NetworkCoding DESTINATION lib)
+
+file(GLOB HEADERS "*.h")
+install(FILES ${HEADERS} DESTINATION include/NetworkCoding/src)
+
+if(CPPCOURSES_BUILD_EXAMPLES)
+    add_subdirectory(tests)
+    add_subdirectory(socket)
+endif()

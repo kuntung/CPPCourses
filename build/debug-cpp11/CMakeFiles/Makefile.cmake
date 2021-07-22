@@ -8,6 +8,9 @@ SET(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../../CMakeLists.txt"
+  "../../LinuxNetworkCoding/src/CMakeLists.txt"
+  "../../LinuxNetworkCoding/src/socket/CMakeLists.txt"
+  "../../LinuxNetworkCoding/src/tests/CMakeLists.txt"
   "../../StudyCPPWithMe/testSrc/CMakeLists.txt"
   "../../StudyCPPWithMe/testSrc/tests/CMakeLists.txt"
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
@@ -49,6 +52,9 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "StudyCPPWithMe/testSrc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LinuxNetworkCoding/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -61,4 +67,22 @@ SET(CMAKE_DEPEND_INFO_FILES
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/DependInfo.cmake"
+  "LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/DependInfo.cmake"
   )
