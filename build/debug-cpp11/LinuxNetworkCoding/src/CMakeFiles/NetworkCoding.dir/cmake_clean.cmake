@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/NetworkCoding.dir/temp.cc.o"
+  "CMakeFiles/NetworkCoding.dir/sysutil.cc.o"
   "../../lib/libNetworkCoding.pdb"
   "../../lib/libNetworkCoding.a"
 )

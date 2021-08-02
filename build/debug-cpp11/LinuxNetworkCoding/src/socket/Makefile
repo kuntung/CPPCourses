@@ -143,6 +143,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
+
+# Convenience name for target.
+connFileLimitTest: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
+.PHONY : connFileLimitTest
+
+# fast build rule for target.
+connFileLimitTest/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
+.PHONY : connFileLimitTest/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule
@@ -213,6 +227,104 @@ gethostname/fast:
 .PHONY : gethostname/fast
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule
+
+# Convenience name for target.
+pollServ: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule
+.PHONY : pollServ
+
+# fast build rule for target.
+pollServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build
+.PHONY : pollServ/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule
+
+# Convenience name for target.
+selectCli: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule
+.PHONY : selectCli
+
+# fast build rule for target.
+selectCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build
+.PHONY : selectCli/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule
+
+# Convenience name for target.
+selectServ: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule
+.PHONY : selectServ
+
+# fast build rule for target.
+selectServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build
+.PHONY : selectServ/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule
+
+# Convenience name for target.
+selectServ2: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule
+.PHONY : selectServ2
+
+# fast build rule for target.
+selectServ2/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build
+.PHONY : selectServ2/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
+
+# Convenience name for target.
+shutdownCli: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
+.PHONY : shutdownCli
+
+# fast build rule for target.
+shutdownCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build
+.PHONY : shutdownCli/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule
+
+# Convenience name for target.
+shutdownCliTest: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule
+.PHONY : shutdownCliTest
+
+# fast build rule for target.
+shutdownCliTest/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build
+.PHONY : shutdownCliTest/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
+
+# Convenience name for target.
+shutdownServ: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
+.PHONY : shutdownServ
+
+# fast build rule for target.
+shutdownServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
+.PHONY : shutdownServ/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule
@@ -225,6 +337,48 @@ testSigpipe: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule
 testSigpipe/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build
 .PHONY : testSigpipe/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule
+
+# Convenience name for target.
+timeoutCli: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule
+.PHONY : timeoutCli
+
+# fast build rule for target.
+timeoutCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build
+.PHONY : timeoutCli/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule
+
+# Convenience name for target.
+timeoutServ: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule
+.PHONY : timeoutServ
+
+# fast build rule for target.
+timeoutServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build
+.PHONY : timeoutServ/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
+
+# Convenience name for target.
+udpServ: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
+.PHONY : udpServ
+
+# fast build rule for target.
+udpServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
+.PHONY : udpServ/fast
 
 # Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/rule:
@@ -283,6 +437,20 @@ zombieMultiCli/fast:
 .PHONY : zombieMultiCli/fast
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule
+
+# Convenience name for target.
+zombieNoHandle: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule
+.PHONY : zombieNoHandle
+
+# fast build rule for target.
+zombieNoHandle/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build
+.PHONY : zombieNoHandle/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule
@@ -295,6 +463,30 @@ zombieWaitpid: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule
 zombieWaitpid/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
 .PHONY : zombieWaitpid/fast
+
+connFileLimitTest.o: connFileLimitTest.cpp.o
+.PHONY : connFileLimitTest.o
+
+# target to build an object file
+connFileLimitTest.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/connFileLimitTest.cpp.o
+.PHONY : connFileLimitTest.cpp.o
+
+connFileLimitTest.i: connFileLimitTest.cpp.i
+.PHONY : connFileLimitTest.i
+
+# target to preprocess a source file
+connFileLimitTest.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/connFileLimitTest.cpp.i
+.PHONY : connFileLimitTest.cpp.i
+
+connFileLimitTest.s: connFileLimitTest.cpp.s
+.PHONY : connFileLimitTest.s
+
+# target to generate assembly for a file
+connFileLimitTest.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/connFileLimitTest.cpp.s
+.PHONY : connFileLimitTest.cpp.s
 
 echocli3.o: echocli3.cpp.o
 .PHONY : echocli3.o
@@ -416,6 +608,174 @@ gethostname.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/gethostname.cpp.s
 .PHONY : gethostname.cpp.s
 
+pollServ.o: pollServ.cpp.o
+.PHONY : pollServ.o
+
+# target to build an object file
+pollServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/pollServ.cpp.o
+.PHONY : pollServ.cpp.o
+
+pollServ.i: pollServ.cpp.i
+.PHONY : pollServ.i
+
+# target to preprocess a source file
+pollServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/pollServ.cpp.i
+.PHONY : pollServ.cpp.i
+
+pollServ.s: pollServ.cpp.s
+.PHONY : pollServ.s
+
+# target to generate assembly for a file
+pollServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/pollServ.cpp.s
+.PHONY : pollServ.cpp.s
+
+selectCli.o: selectCli.cpp.o
+.PHONY : selectCli.o
+
+# target to build an object file
+selectCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/selectCli.cpp.o
+.PHONY : selectCli.cpp.o
+
+selectCli.i: selectCli.cpp.i
+.PHONY : selectCli.i
+
+# target to preprocess a source file
+selectCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/selectCli.cpp.i
+.PHONY : selectCli.cpp.i
+
+selectCli.s: selectCli.cpp.s
+.PHONY : selectCli.s
+
+# target to generate assembly for a file
+selectCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/selectCli.cpp.s
+.PHONY : selectCli.cpp.s
+
+selectServ.o: selectServ.cpp.o
+.PHONY : selectServ.o
+
+# target to build an object file
+selectServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/selectServ.cpp.o
+.PHONY : selectServ.cpp.o
+
+selectServ.i: selectServ.cpp.i
+.PHONY : selectServ.i
+
+# target to preprocess a source file
+selectServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/selectServ.cpp.i
+.PHONY : selectServ.cpp.i
+
+selectServ.s: selectServ.cpp.s
+.PHONY : selectServ.s
+
+# target to generate assembly for a file
+selectServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/selectServ.cpp.s
+.PHONY : selectServ.cpp.s
+
+selectServ2.o: selectServ2.cpp.o
+.PHONY : selectServ2.o
+
+# target to build an object file
+selectServ2.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/selectServ2.cpp.o
+.PHONY : selectServ2.cpp.o
+
+selectServ2.i: selectServ2.cpp.i
+.PHONY : selectServ2.i
+
+# target to preprocess a source file
+selectServ2.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/selectServ2.cpp.i
+.PHONY : selectServ2.cpp.i
+
+selectServ2.s: selectServ2.cpp.s
+.PHONY : selectServ2.s
+
+# target to generate assembly for a file
+selectServ2.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/selectServ2.cpp.s
+.PHONY : selectServ2.cpp.s
+
+shutdownCli.o: shutdownCli.cpp.o
+.PHONY : shutdownCli.o
+
+# target to build an object file
+shutdownCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/shutdownCli.cpp.o
+.PHONY : shutdownCli.cpp.o
+
+shutdownCli.i: shutdownCli.cpp.i
+.PHONY : shutdownCli.i
+
+# target to preprocess a source file
+shutdownCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/shutdownCli.cpp.i
+.PHONY : shutdownCli.cpp.i
+
+shutdownCli.s: shutdownCli.cpp.s
+.PHONY : shutdownCli.s
+
+# target to generate assembly for a file
+shutdownCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/shutdownCli.cpp.s
+.PHONY : shutdownCli.cpp.s
+
+shutdownCliTest.o: shutdownCliTest.cpp.o
+.PHONY : shutdownCliTest.o
+
+# target to build an object file
+shutdownCliTest.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/shutdownCliTest.cpp.o
+.PHONY : shutdownCliTest.cpp.o
+
+shutdownCliTest.i: shutdownCliTest.cpp.i
+.PHONY : shutdownCliTest.i
+
+# target to preprocess a source file
+shutdownCliTest.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/shutdownCliTest.cpp.i
+.PHONY : shutdownCliTest.cpp.i
+
+shutdownCliTest.s: shutdownCliTest.cpp.s
+.PHONY : shutdownCliTest.s
+
+# target to generate assembly for a file
+shutdownCliTest.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/shutdownCliTest.cpp.s
+.PHONY : shutdownCliTest.cpp.s
+
+shutdownServ.o: shutdownServ.cpp.o
+.PHONY : shutdownServ.o
+
+# target to build an object file
+shutdownServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/shutdownServ.cpp.o
+.PHONY : shutdownServ.cpp.o
+
+shutdownServ.i: shutdownServ.cpp.i
+.PHONY : shutdownServ.i
+
+# target to preprocess a source file
+shutdownServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/shutdownServ.cpp.i
+.PHONY : shutdownServ.cpp.i
+
+shutdownServ.s: shutdownServ.cpp.s
+.PHONY : shutdownServ.s
+
+# target to generate assembly for a file
+shutdownServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/shutdownServ.cpp.s
+.PHONY : shutdownServ.cpp.s
+
 testSIGPIPE.o: testSIGPIPE.cpp.o
 .PHONY : testSIGPIPE.o
 
@@ -439,6 +799,78 @@ testSIGPIPE.s: testSIGPIPE.cpp.s
 testSIGPIPE.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/testSIGPIPE.cpp.s
 .PHONY : testSIGPIPE.cpp.s
+
+timeoutCli.o: timeoutCli.cpp.o
+.PHONY : timeoutCli.o
+
+# target to build an object file
+timeoutCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/timeoutCli.cpp.o
+.PHONY : timeoutCli.cpp.o
+
+timeoutCli.i: timeoutCli.cpp.i
+.PHONY : timeoutCli.i
+
+# target to preprocess a source file
+timeoutCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/timeoutCli.cpp.i
+.PHONY : timeoutCli.cpp.i
+
+timeoutCli.s: timeoutCli.cpp.s
+.PHONY : timeoutCli.s
+
+# target to generate assembly for a file
+timeoutCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/timeoutCli.cpp.s
+.PHONY : timeoutCli.cpp.s
+
+timeoutServ.o: timeoutServ.cpp.o
+.PHONY : timeoutServ.o
+
+# target to build an object file
+timeoutServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/timeoutServ.cpp.o
+.PHONY : timeoutServ.cpp.o
+
+timeoutServ.i: timeoutServ.cpp.i
+.PHONY : timeoutServ.i
+
+# target to preprocess a source file
+timeoutServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/timeoutServ.cpp.i
+.PHONY : timeoutServ.cpp.i
+
+timeoutServ.s: timeoutServ.cpp.s
+.PHONY : timeoutServ.s
+
+# target to generate assembly for a file
+timeoutServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/timeoutServ.cpp.s
+.PHONY : timeoutServ.cpp.s
+
+udpServ.o: udpServ.cpp.o
+.PHONY : udpServ.o
+
+# target to build an object file
+udpServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/udpServ.cpp.o
+.PHONY : udpServ.cpp.o
+
+udpServ.i: udpServ.cpp.i
+.PHONY : udpServ.i
+
+# target to preprocess a source file
+udpServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/udpServ.cpp.i
+.PHONY : udpServ.cpp.i
+
+udpServ.s: udpServ.cpp.s
+.PHONY : udpServ.s
+
+# target to generate assembly for a file
+udpServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/udpServ.cpp.s
+.PHONY : udpServ.cpp.s
 
 zombieHandleCli.o: zombieHandleCli.cpp.o
 .PHONY : zombieHandleCli.o
@@ -536,6 +968,30 @@ zombieMultiCli.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/zombieMultiCli.cpp.s
 .PHONY : zombieMultiCli.cpp.s
 
+zombieNoHandle.o: zombieNoHandle.cpp.o
+.PHONY : zombieNoHandle.o
+
+# target to build an object file
+zombieNoHandle.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/zombieNoHandle.cpp.o
+.PHONY : zombieNoHandle.cpp.o
+
+zombieNoHandle.i: zombieNoHandle.cpp.i
+.PHONY : zombieNoHandle.i
+
+# target to preprocess a source file
+zombieNoHandle.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/zombieNoHandle.cpp.i
+.PHONY : zombieNoHandle.cpp.i
+
+zombieNoHandle.s: zombieNoHandle.cpp.s
+.PHONY : zombieNoHandle.s
+
+# target to generate assembly for a file
+zombieNoHandle.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/zombieNoHandle.cpp.s
+.PHONY : zombieNoHandle.cpp.s
+
 zombieWaitpid.o: zombieWaitpid.cpp.o
 .PHONY : zombieWaitpid.o
 
@@ -566,6 +1022,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... connFileLimitTest"
 	@echo "... echocli3_nianbao"
 	@echo "... echocli_readline"
 	@echo "... echosrv3_nianbao"
@@ -576,13 +1033,27 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... pollServ"
 	@echo "... rebuild_cache"
+	@echo "... selectCli"
+	@echo "... selectServ"
+	@echo "... selectServ2"
+	@echo "... shutdownCli"
+	@echo "... shutdownCliTest"
+	@echo "... shutdownServ"
 	@echo "... testSigpipe"
+	@echo "... timeoutCli"
+	@echo "... timeoutServ"
+	@echo "... udpServ"
 	@echo "... zombieHandleCli"
 	@echo "... zombieHandleSrv"
 	@echo "... zombieHandler"
 	@echo "... zombieMultiCli"
+	@echo "... zombieNoHandle"
 	@echo "... zombieWaitpid"
+	@echo "... connFileLimitTest.o"
+	@echo "... connFileLimitTest.i"
+	@echo "... connFileLimitTest.s"
 	@echo "... echocli3.o"
 	@echo "... echocli3.i"
 	@echo "... echocli3.s"
@@ -598,9 +1069,39 @@ help:
 	@echo "... gethostname.o"
 	@echo "... gethostname.i"
 	@echo "... gethostname.s"
+	@echo "... pollServ.o"
+	@echo "... pollServ.i"
+	@echo "... pollServ.s"
+	@echo "... selectCli.o"
+	@echo "... selectCli.i"
+	@echo "... selectCli.s"
+	@echo "... selectServ.o"
+	@echo "... selectServ.i"
+	@echo "... selectServ.s"
+	@echo "... selectServ2.o"
+	@echo "... selectServ2.i"
+	@echo "... selectServ2.s"
+	@echo "... shutdownCli.o"
+	@echo "... shutdownCli.i"
+	@echo "... shutdownCli.s"
+	@echo "... shutdownCliTest.o"
+	@echo "... shutdownCliTest.i"
+	@echo "... shutdownCliTest.s"
+	@echo "... shutdownServ.o"
+	@echo "... shutdownServ.i"
+	@echo "... shutdownServ.s"
 	@echo "... testSIGPIPE.o"
 	@echo "... testSIGPIPE.i"
 	@echo "... testSIGPIPE.s"
+	@echo "... timeoutCli.o"
+	@echo "... timeoutCli.i"
+	@echo "... timeoutCli.s"
+	@echo "... timeoutServ.o"
+	@echo "... timeoutServ.i"
+	@echo "... timeoutServ.s"
+	@echo "... udpServ.o"
+	@echo "... udpServ.i"
+	@echo "... udpServ.s"
 	@echo "... zombieHandleCli.o"
 	@echo "... zombieHandleCli.i"
 	@echo "... zombieHandleCli.s"
@@ -613,6 +1114,9 @@ help:
 	@echo "... zombieMultiCli.o"
 	@echo "... zombieMultiCli.i"
 	@echo "... zombieMultiCli.s"
+	@echo "... zombieNoHandle.o"
+	@echo "... zombieNoHandle.i"
+	@echo "... zombieNoHandle.s"
 	@echo "... zombieWaitpid.o"
 	@echo "... zombieWaitpid.i"
 	@echo "... zombieWaitpid.s"

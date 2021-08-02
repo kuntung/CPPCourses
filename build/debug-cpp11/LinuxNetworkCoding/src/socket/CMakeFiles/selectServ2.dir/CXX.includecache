@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectServ2.cpp
+stdio.h
+-
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+sys/select.h
+-
+

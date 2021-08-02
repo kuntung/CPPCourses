@@ -75,14 +75,39 @@ LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/temp.cc.o.provides: LinuxNet
 
 LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/temp.cc.o.provides.build: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/temp.cc.o
 
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/flags.make
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o: ../../LinuxNetworkCoding/src/sysutil.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NetworkCoding.dir/sysutil.cc.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc
+
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetworkCoding.dir/sysutil.cc.i"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc > CMakeFiles/NetworkCoding.dir/sysutil.cc.i
+
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetworkCoding.dir/sysutil.cc.s"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc -o CMakeFiles/NetworkCoding.dir/sysutil.cc.s
+
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.requires:
+.PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.requires
+
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.provides: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.requires
+	$(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.provides.build
+.PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.provides
+
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.provides.build: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o
+
 # Object files for target NetworkCoding
 NetworkCoding_OBJECTS = \
-"CMakeFiles/NetworkCoding.dir/temp.cc.o"
+"CMakeFiles/NetworkCoding.dir/temp.cc.o" \
+"CMakeFiles/NetworkCoding.dir/sysutil.cc.o"
 
 # External object files for target NetworkCoding
 NetworkCoding_EXTERNAL_OBJECTS =
 
 lib/libNetworkCoding.a: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/temp.cc.o
+lib/libNetworkCoding.a: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o
 lib/libNetworkCoding.a: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make
 lib/libNetworkCoding.a: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../lib/libNetworkCoding.a"
@@ -94,6 +119,7 @@ LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build: lib/libNetworkCoding.
 .PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build
 
 LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/requires: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/temp.cc.o.requires
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/requires: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o.requires
 .PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/requires
 
 LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean:

@@ -45,6 +45,11 @@
   "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/temp.cc"
 },
 {
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/NetworkCoding.dir/sysutil.cc.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc"
+},
+{
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/tests",
   "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/SocketAddrTest.dir/SocketAddr.cc.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/tests/SocketAddr.cc",
   "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/tests/SocketAddr.cc"
@@ -76,6 +81,11 @@
 },
 {
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/connFileLimitTest.dir/connFileLimitTest.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/connFileLimitTest.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/connFileLimitTest.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
   "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/echocli3_nianbao.dir/echocli3.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/echocli3.cpp",
   "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/echocli3.cpp"
 },
@@ -101,8 +111,58 @@
 },
 {
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/pollServ.dir/pollServ.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/pollServ.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/pollServ.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/selectCli.dir/selectCli.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectCli.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectCli.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/selectServ.dir/selectServ.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectServ.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectServ.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/selectServ2.dir/selectServ2.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectServ2.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/selectServ2.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/shutdownCli.dir/shutdownCli.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownCli.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownCli.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/shutdownCliTest.dir/shutdownCliTest.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownCliTest.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownCliTest.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/shutdownServ.dir/shutdownServ.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownServ.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/shutdownServ.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
   "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/testSigpipe.dir/testSIGPIPE.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/testSIGPIPE.cpp",
   "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/testSIGPIPE.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/timeoutCli.dir/timeoutCli.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/timeoutCli.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/timeoutCli.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/timeoutServ.dir/timeoutServ.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/timeoutServ.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/timeoutServ.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/udpServ.dir/udpServ.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/udpServ.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/udpServ.cpp"
 },
 {
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
@@ -123,6 +183,11 @@
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
   "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/zombieMultiCli.dir/zombieMultiCli.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/zombieMultiCli.cpp",
   "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/zombieMultiCli.cpp"
+},
+{
+  "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",
+  "command": "g++    -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -I/home/xiaotang/GitHub/CPPCourses    -o CMakeFiles/zombieNoHandle.dir/zombieNoHandle.cpp.o -c /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/zombieNoHandle.cpp",
+  "file": "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/zombieNoHandle.cpp"
 },
 {
   "directory": "/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket",

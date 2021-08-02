@@ -338,6 +338,19 @@ p2pServer/fast:
 .PHONY : p2pServer/fast
 
 #=============================================================================
+# Target rules for targets named connFileLimitTest
+
+# Build rule for target.
+connFileLimitTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connFileLimitTest
+.PHONY : connFileLimitTest
+
+# fast build rule for target.
+connFileLimitTest/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
+.PHONY : connFileLimitTest/fast
+
+#=============================================================================
 # Target rules for targets named echocli3_nianbao
 
 # Build rule for target.
@@ -403,6 +416,97 @@ gethostname/fast:
 .PHONY : gethostname/fast
 
 #=============================================================================
+# Target rules for targets named pollServ
+
+# Build rule for target.
+pollServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pollServ
+.PHONY : pollServ
+
+# fast build rule for target.
+pollServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build
+.PHONY : pollServ/fast
+
+#=============================================================================
+# Target rules for targets named selectCli
+
+# Build rule for target.
+selectCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 selectCli
+.PHONY : selectCli
+
+# fast build rule for target.
+selectCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build
+.PHONY : selectCli/fast
+
+#=============================================================================
+# Target rules for targets named selectServ
+
+# Build rule for target.
+selectServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 selectServ
+.PHONY : selectServ
+
+# fast build rule for target.
+selectServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build
+.PHONY : selectServ/fast
+
+#=============================================================================
+# Target rules for targets named selectServ2
+
+# Build rule for target.
+selectServ2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 selectServ2
+.PHONY : selectServ2
+
+# fast build rule for target.
+selectServ2/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build
+.PHONY : selectServ2/fast
+
+#=============================================================================
+# Target rules for targets named shutdownCli
+
+# Build rule for target.
+shutdownCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shutdownCli
+.PHONY : shutdownCli
+
+# fast build rule for target.
+shutdownCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build
+.PHONY : shutdownCli/fast
+
+#=============================================================================
+# Target rules for targets named shutdownCliTest
+
+# Build rule for target.
+shutdownCliTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shutdownCliTest
+.PHONY : shutdownCliTest
+
+# fast build rule for target.
+shutdownCliTest/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build
+.PHONY : shutdownCliTest/fast
+
+#=============================================================================
+# Target rules for targets named shutdownServ
+
+# Build rule for target.
+shutdownServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shutdownServ
+.PHONY : shutdownServ
+
+# fast build rule for target.
+shutdownServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
+.PHONY : shutdownServ/fast
+
+#=============================================================================
 # Target rules for targets named testSigpipe
 
 # Build rule for target.
@@ -414,6 +518,45 @@ testSigpipe: cmake_check_build_system
 testSigpipe/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build
 .PHONY : testSigpipe/fast
+
+#=============================================================================
+# Target rules for targets named timeoutCli
+
+# Build rule for target.
+timeoutCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timeoutCli
+.PHONY : timeoutCli
+
+# fast build rule for target.
+timeoutCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build
+.PHONY : timeoutCli/fast
+
+#=============================================================================
+# Target rules for targets named timeoutServ
+
+# Build rule for target.
+timeoutServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timeoutServ
+.PHONY : timeoutServ
+
+# fast build rule for target.
+timeoutServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build
+.PHONY : timeoutServ/fast
+
+#=============================================================================
+# Target rules for targets named udpServ
+
+# Build rule for target.
+udpServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udpServ
+.PHONY : udpServ
+
+# fast build rule for target.
+udpServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
+.PHONY : udpServ/fast
 
 #=============================================================================
 # Target rules for targets named zombieHandleCli
@@ -468,6 +611,19 @@ zombieMultiCli/fast:
 .PHONY : zombieMultiCli/fast
 
 #=============================================================================
+# Target rules for targets named zombieNoHandle
+
+# Build rule for target.
+zombieNoHandle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zombieNoHandle
+.PHONY : zombieNoHandle
+
+# fast build rule for target.
+zombieNoHandle/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build
+.PHONY : zombieNoHandle/fast
+
+#=============================================================================
 # Target rules for targets named zombieWaitpid
 
 # Build rule for target.
@@ -507,16 +663,28 @@ help:
 	@echo "... echoServer2"
 	@echo "... p2pClient"
 	@echo "... p2pServer"
+	@echo "... connFileLimitTest"
 	@echo "... echocli3_nianbao"
 	@echo "... echocli_readline"
 	@echo "... echosrv3_nianbao"
 	@echo "... echosrv_readline"
 	@echo "... gethostname"
+	@echo "... pollServ"
+	@echo "... selectCli"
+	@echo "... selectServ"
+	@echo "... selectServ2"
+	@echo "... shutdownCli"
+	@echo "... shutdownCliTest"
+	@echo "... shutdownServ"
 	@echo "... testSigpipe"
+	@echo "... timeoutCli"
+	@echo "... timeoutServ"
+	@echo "... udpServ"
 	@echo "... zombieHandleCli"
 	@echo "... zombieHandleSrv"
 	@echo "... zombieHandler"
 	@echo "... zombieMultiCli"
+	@echo "... zombieNoHandle"
 	@echo "... zombieWaitpid"
 .PHONY : help
 

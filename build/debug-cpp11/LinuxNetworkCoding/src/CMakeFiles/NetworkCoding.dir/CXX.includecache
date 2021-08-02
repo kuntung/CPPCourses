@@ -6,7 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/temp.cc
-iostream
+../../LinuxNetworkCoding/src/sysutil.h
+unistd.h
 -
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+signal.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+fcntl.h
+-
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.cc
+LinuxNetworkCoding/src/sysutil.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/LinuxNetworkCoding/src/sysutil.h
 

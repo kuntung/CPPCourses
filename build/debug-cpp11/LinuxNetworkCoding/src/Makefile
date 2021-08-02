@@ -156,6 +156,30 @@ NetworkCoding/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build
 .PHONY : NetworkCoding/fast
 
+sysutil.o: sysutil.cc.o
+.PHONY : sysutil.o
+
+# target to build an object file
+sysutil.cc.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.o
+.PHONY : sysutil.cc.o
+
+sysutil.i: sysutil.cc.i
+.PHONY : sysutil.i
+
+# target to preprocess a source file
+sysutil.cc.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.i
+.PHONY : sysutil.cc.i
+
+sysutil.s: sysutil.cc.s
+.PHONY : sysutil.s
+
+# target to generate assembly for a file
+sysutil.cc.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/sysutil.cc.s
+.PHONY : sysutil.cc.s
+
 temp.o: temp.cc.o
 .PHONY : temp.o
 
@@ -193,6 +217,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... sysutil.o"
+	@echo "... sysutil.i"
+	@echo "... sysutil.s"
 	@echo "... temp.o"
 	@echo "... temp.i"
 	@echo "... temp.s"
