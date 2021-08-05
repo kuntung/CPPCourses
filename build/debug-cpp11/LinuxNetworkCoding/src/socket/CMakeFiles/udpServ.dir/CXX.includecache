@@ -7,22 +7,24 @@
 #IncludeRegexTransform: 
 
 /home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/udpServ.cpp
+iostream
+-
 unistd.h
 -
 stdlib.h
 -
-stdio.h
--
-errno.h
--
-sys/socket.h
+error.h
 -
 sys/types.h
 -
-arpa/inet.h
+sys/socket.h
 -
-string.h
+cstring
 -
 netinet/in.h
+-
+sys/socket.h
+-
+arpa/inet.h
 -
 

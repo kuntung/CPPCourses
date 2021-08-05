@@ -37,13 +37,17 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/NetworkCoding/src" TYPE FILE FILES "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/NetworkCoding/src" TYPE FILE FILES
+    "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/sysutil.h"
+    "/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/pub.h"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/tests/cmake_install.cmake")
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket/cmake_install.cmake")
+  INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/IPC/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

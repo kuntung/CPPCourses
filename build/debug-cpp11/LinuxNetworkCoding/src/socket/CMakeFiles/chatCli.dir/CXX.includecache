@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../LinuxNetworkCoding/src/pub.h
+list
+-
+algorithm
+-
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/chatCli.cpp
+vector
+-
+LinuxNetworkCoding/src/pub.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/LinuxNetworkCoding/src/pub.h
+iostream
+-
+unistd.h
+-
+stdlib.h
+-
+error.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+cstring
+-
+netinet/in.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+

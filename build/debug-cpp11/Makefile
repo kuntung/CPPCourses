@@ -338,6 +338,32 @@ p2pServer/fast:
 .PHONY : p2pServer/fast
 
 #=============================================================================
+# Target rules for targets named chatCli
+
+# Build rule for target.
+chatCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chatCli
+.PHONY : chatCli
+
+# fast build rule for target.
+chatCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build
+.PHONY : chatCli/fast
+
+#=============================================================================
+# Target rules for targets named chatServ
+
+# Build rule for target.
+chatServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chatServ
+.PHONY : chatServ
+
+# fast build rule for target.
+chatServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build
+.PHONY : chatServ/fast
+
+#=============================================================================
 # Target rules for targets named connFileLimitTest
 
 # Build rule for target.
@@ -349,6 +375,19 @@ connFileLimitTest: cmake_check_build_system
 connFileLimitTest/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
 .PHONY : connFileLimitTest/fast
+
+#=============================================================================
+# Target rules for targets named connectUdpCli
+
+# Build rule for target.
+connectUdpCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connectUdpCli
+.PHONY : connectUdpCli
+
+# fast build rule for target.
+connectUdpCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build
+.PHONY : connectUdpCli/fast
 
 #=============================================================================
 # Target rules for targets named echocli3_nianbao
@@ -468,6 +507,19 @@ selectServ2/fast:
 .PHONY : selectServ2/fast
 
 #=============================================================================
+# Target rules for targets named send_fd
+
+# Build rule for target.
+send_fd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 send_fd
+.PHONY : send_fd
+
+# fast build rule for target.
+send_fd/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build
+.PHONY : send_fd/fast
+
+#=============================================================================
 # Target rules for targets named shutdownCli
 
 # Build rule for target.
@@ -505,6 +557,19 @@ shutdownServ: cmake_check_build_system
 shutdownServ/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
 .PHONY : shutdownServ/fast
+
+#=============================================================================
+# Target rules for targets named sockpair1
+
+# Build rule for target.
+sockpair1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sockpair1
+.PHONY : sockpair1
+
+# fast build rule for target.
+sockpair1/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build
+.PHONY : sockpair1/fast
 
 #=============================================================================
 # Target rules for targets named testSigpipe
@@ -546,6 +611,32 @@ timeoutServ/fast:
 .PHONY : timeoutServ/fast
 
 #=============================================================================
+# Target rules for targets named truncUdpTest
+
+# Build rule for target.
+truncUdpTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 truncUdpTest
+.PHONY : truncUdpTest
+
+# fast build rule for target.
+truncUdpTest/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build
+.PHONY : truncUdpTest/fast
+
+#=============================================================================
+# Target rules for targets named udpCli
+
+# Build rule for target.
+udpCli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udpCli
+.PHONY : udpCli
+
+# fast build rule for target.
+udpCli/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build
+.PHONY : udpCli/fast
+
+#=============================================================================
 # Target rules for targets named udpServ
 
 # Build rule for target.
@@ -557,6 +648,45 @@ udpServ: cmake_check_build_system
 udpServ/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
 .PHONY : udpServ/fast
+
+#=============================================================================
+# Target rules for targets named udpServCopy
+
+# Build rule for target.
+udpServCopy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udpServCopy
+.PHONY : udpServCopy
+
+# fast build rule for target.
+udpServCopy/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build
+.PHONY : udpServCopy/fast
+
+#=============================================================================
+# Target rules for targets named unixEchoClie
+
+# Build rule for target.
+unixEchoClie: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unixEchoClie
+.PHONY : unixEchoClie
+
+# fast build rule for target.
+unixEchoClie/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build
+.PHONY : unixEchoClie/fast
+
+#=============================================================================
+# Target rules for targets named unixEchoServ
+
+# Build rule for target.
+unixEchoServ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unixEchoServ
+.PHONY : unixEchoServ
+
+# fast build rule for target.
+unixEchoServ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build
+.PHONY : unixEchoServ/fast
 
 #=============================================================================
 # Target rules for targets named zombieHandleCli
@@ -636,6 +766,279 @@ zombieWaitpid/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
 .PHONY : zombieWaitpid/fast
 
+#=============================================================================
+# Target rules for targets named dining
+
+# Build rule for target.
+dining: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dining
+.PHONY : dining
+
+# fast build rule for target.
+dining/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build
+.PHONY : dining/fast
+
+#=============================================================================
+# Target rules for targets named diningDeadLock
+
+# Build rule for target.
+diningDeadLock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diningDeadLock
+.PHONY : diningDeadLock
+
+# fast build rule for target.
+diningDeadLock/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build
+.PHONY : diningDeadLock/fast
+
+#=============================================================================
+# Target rules for targets named echoCliIPC
+
+# Build rule for target.
+echoCliIPC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoCliIPC
+.PHONY : echoCliIPC
+
+# fast build rule for target.
+echoCliIPC/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build
+.PHONY : echoCliIPC/fast
+
+#=============================================================================
+# Target rules for targets named echoServIPC
+
+# Build rule for target.
+echoServIPC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoServIPC
+.PHONY : echoServIPC
+
+# fast build rule for target.
+echoServIPC/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build
+.PHONY : echoServIPC/fast
+
+#=============================================================================
+# Target rules for targets named mmapRead
+
+# Build rule for target.
+mmapRead: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmapRead
+.PHONY : mmapRead
+
+# fast build rule for target.
+mmapRead/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build
+.PHONY : mmapRead/fast
+
+#=============================================================================
+# Target rules for targets named mmapTest
+
+# Build rule for target.
+mmapTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmapTest
+.PHONY : mmapTest
+
+# fast build rule for target.
+mmapTest/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build
+.PHONY : mmapTest/fast
+
+#=============================================================================
+# Target rules for targets named msgChange
+
+# Build rule for target.
+msgChange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgChange
+.PHONY : msgChange
+
+# fast build rule for target.
+msgChange/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build
+.PHONY : msgChange/fast
+
+#=============================================================================
+# Target rules for targets named msgGet
+
+# Build rule for target.
+msgGet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgGet
+.PHONY : msgGet
+
+# fast build rule for target.
+msgGet/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build
+.PHONY : msgGet/fast
+
+#=============================================================================
+# Target rules for targets named msgRecv
+
+# Build rule for target.
+msgRecv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgRecv
+.PHONY : msgRecv
+
+# fast build rule for target.
+msgRecv/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build
+.PHONY : msgRecv/fast
+
+#=============================================================================
+# Target rules for targets named msgRmv
+
+# Build rule for target.
+msgRmv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgRmv
+.PHONY : msgRmv
+
+# fast build rule for target.
+msgRmv/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build
+.PHONY : msgRmv/fast
+
+#=============================================================================
+# Target rules for targets named msgSend
+
+# Build rule for target.
+msgSend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgSend
+.PHONY : msgSend
+
+# fast build rule for target.
+msgSend/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build
+.PHONY : msgSend/fast
+
+#=============================================================================
+# Target rules for targets named msgStat
+
+# Build rule for target.
+msgStat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 msgStat
+.PHONY : msgStat
+
+# fast build rule for target.
+msgStat/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build
+.PHONY : msgStat/fast
+
+#=============================================================================
+# Target rules for targets named semCtl
+
+# Build rule for target.
+semCtl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semCtl
+.PHONY : semCtl
+
+# fast build rule for target.
+semCtl/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build
+.PHONY : semCtl/fast
+
+#=============================================================================
+# Target rules for targets named semOpt
+
+# Build rule for target.
+semOpt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semOpt
+.PHONY : semOpt
+
+# fast build rule for target.
+semOpt/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build
+.PHONY : semOpt/fast
+
+#=============================================================================
+# Target rules for targets named semPrint
+
+# Build rule for target.
+semPrint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semPrint
+.PHONY : semPrint
+
+# fast build rule for target.
+semPrint/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build
+.PHONY : semPrint/fast
+
+#=============================================================================
+# Target rules for targets named semTool
+
+# Build rule for target.
+semTool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semTool
+.PHONY : semTool
+
+# fast build rule for target.
+semTool/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build
+.PHONY : semTool/fast
+
+#=============================================================================
+# Target rules for targets named semWrite
+
+# Build rule for target.
+semWrite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semWrite
+.PHONY : semWrite
+
+# fast build rule for target.
+semWrite/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build
+.PHONY : semWrite/fast
+
+#=============================================================================
+# Target rules for targets named shmRead
+
+# Build rule for target.
+shmRead: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmRead
+.PHONY : shmRead
+
+# fast build rule for target.
+shmRead/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build
+.PHONY : shmRead/fast
+
+#=============================================================================
+# Target rules for targets named shmRemove
+
+# Build rule for target.
+shmRemove: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmRemove
+.PHONY : shmRemove
+
+# fast build rule for target.
+shmRemove/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build
+.PHONY : shmRemove/fast
+
+#=============================================================================
+# Target rules for targets named shmStat
+
+# Build rule for target.
+shmStat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmStat
+.PHONY : shmStat
+
+# fast build rule for target.
+shmStat/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build
+.PHONY : shmStat/fast
+
+#=============================================================================
+# Target rules for targets named shmwrite
+
+# Build rule for target.
+shmwrite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmwrite
+.PHONY : shmwrite
+
+# fast build rule for target.
+shmwrite/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build
+.PHONY : shmwrite/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -663,7 +1066,10 @@ help:
 	@echo "... echoServer2"
 	@echo "... p2pClient"
 	@echo "... p2pServer"
+	@echo "... chatCli"
+	@echo "... chatServ"
 	@echo "... connFileLimitTest"
+	@echo "... connectUdpCli"
 	@echo "... echocli3_nianbao"
 	@echo "... echocli_readline"
 	@echo "... echosrv3_nianbao"
@@ -673,19 +1079,47 @@ help:
 	@echo "... selectCli"
 	@echo "... selectServ"
 	@echo "... selectServ2"
+	@echo "... send_fd"
 	@echo "... shutdownCli"
 	@echo "... shutdownCliTest"
 	@echo "... shutdownServ"
+	@echo "... sockpair1"
 	@echo "... testSigpipe"
 	@echo "... timeoutCli"
 	@echo "... timeoutServ"
+	@echo "... truncUdpTest"
+	@echo "... udpCli"
 	@echo "... udpServ"
+	@echo "... udpServCopy"
+	@echo "... unixEchoClie"
+	@echo "... unixEchoServ"
 	@echo "... zombieHandleCli"
 	@echo "... zombieHandleSrv"
 	@echo "... zombieHandler"
 	@echo "... zombieMultiCli"
 	@echo "... zombieNoHandle"
 	@echo "... zombieWaitpid"
+	@echo "... dining"
+	@echo "... diningDeadLock"
+	@echo "... echoCliIPC"
+	@echo "... echoServIPC"
+	@echo "... mmapRead"
+	@echo "... mmapTest"
+	@echo "... msgChange"
+	@echo "... msgGet"
+	@echo "... msgRecv"
+	@echo "... msgRmv"
+	@echo "... msgSend"
+	@echo "... msgStat"
+	@echo "... semCtl"
+	@echo "... semOpt"
+	@echo "... semPrint"
+	@echo "... semTool"
+	@echo "... semWrite"
+	@echo "... shmRead"
+	@echo "... shmRemove"
+	@echo "... shmStat"
+	@echo "... shmwrite"
 .PHONY : help
 
 

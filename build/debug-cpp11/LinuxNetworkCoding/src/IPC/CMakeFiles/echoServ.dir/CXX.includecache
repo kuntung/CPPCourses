@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/IPC/echoServ.cpp
+unistd.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+

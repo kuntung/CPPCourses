@@ -143,6 +143,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule
+
+# Convenience name for target.
+chatCli: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule
+.PHONY : chatCli
+
+# fast build rule for target.
+chatCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build
+.PHONY : chatCli/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule
+
+# Convenience name for target.
+chatServ: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule
+.PHONY : chatServ
+
+# fast build rule for target.
+chatServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build
+.PHONY : chatServ/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
@@ -155,6 +183,20 @@ connFileLimitTest: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.di
 connFileLimitTest/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
 .PHONY : connFileLimitTest/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule
+
+# Convenience name for target.
+connectUdpCli: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule
+.PHONY : connectUdpCli
+
+# fast build rule for target.
+connectUdpCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build
+.PHONY : connectUdpCli/fast
 
 # Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule:
@@ -283,6 +325,20 @@ selectServ2/fast:
 .PHONY : selectServ2/fast
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule
+
+# Convenience name for target.
+send_fd: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule
+.PHONY : send_fd
+
+# fast build rule for target.
+send_fd/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build
+.PHONY : send_fd/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
@@ -323,6 +379,20 @@ shutdownServ: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
 shutdownServ/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
 .PHONY : shutdownServ/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule
+
+# Convenience name for target.
+sockpair1: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule
+.PHONY : sockpair1
+
+# fast build rule for target.
+sockpair1/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build
+.PHONY : sockpair1/fast
 
 # Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule:
@@ -367,6 +437,34 @@ timeoutServ/fast:
 .PHONY : timeoutServ/fast
 
 # Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule
+
+# Convenience name for target.
+truncUdpTest: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule
+.PHONY : truncUdpTest
+
+# fast build rule for target.
+truncUdpTest/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build
+.PHONY : truncUdpTest/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule
+
+# Convenience name for target.
+udpCli: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule
+.PHONY : udpCli
+
+# fast build rule for target.
+udpCli/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build
+.PHONY : udpCli/fast
+
+# Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
@@ -379,6 +477,48 @@ udpServ: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
 udpServ/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
 .PHONY : udpServ/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule
+
+# Convenience name for target.
+udpServCopy: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule
+.PHONY : udpServCopy
+
+# fast build rule for target.
+udpServCopy/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build
+.PHONY : udpServCopy/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule
+
+# Convenience name for target.
+unixEchoClie: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule
+.PHONY : unixEchoClie
+
+# fast build rule for target.
+unixEchoClie/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build
+.PHONY : unixEchoClie/fast
+
+# Convenience name for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule
+
+# Convenience name for target.
+unixEchoServ: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule
+.PHONY : unixEchoServ
+
+# fast build rule for target.
+unixEchoServ/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build
+.PHONY : unixEchoServ/fast
 
 # Convenience name for target.
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/rule:
@@ -464,6 +604,54 @@ zombieWaitpid/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
 .PHONY : zombieWaitpid/fast
 
+chatCli.o: chatCli.cpp.o
+.PHONY : chatCli.o
+
+# target to build an object file
+chatCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/chatCli.cpp.o
+.PHONY : chatCli.cpp.o
+
+chatCli.i: chatCli.cpp.i
+.PHONY : chatCli.i
+
+# target to preprocess a source file
+chatCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/chatCli.cpp.i
+.PHONY : chatCli.cpp.i
+
+chatCli.s: chatCli.cpp.s
+.PHONY : chatCli.s
+
+# target to generate assembly for a file
+chatCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/chatCli.cpp.s
+.PHONY : chatCli.cpp.s
+
+chatServ.o: chatServ.cpp.o
+.PHONY : chatServ.o
+
+# target to build an object file
+chatServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/chatServ.cpp.o
+.PHONY : chatServ.cpp.o
+
+chatServ.i: chatServ.cpp.i
+.PHONY : chatServ.i
+
+# target to preprocess a source file
+chatServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/chatServ.cpp.i
+.PHONY : chatServ.cpp.i
+
+chatServ.s: chatServ.cpp.s
+.PHONY : chatServ.s
+
+# target to generate assembly for a file
+chatServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/chatServ.cpp.s
+.PHONY : chatServ.cpp.s
+
 connFileLimitTest.o: connFileLimitTest.cpp.o
 .PHONY : connFileLimitTest.o
 
@@ -487,6 +675,30 @@ connFileLimitTest.s: connFileLimitTest.cpp.s
 connFileLimitTest.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/connFileLimitTest.cpp.s
 .PHONY : connFileLimitTest.cpp.s
+
+connectUdpCli.o: connectUdpCli.cpp.o
+.PHONY : connectUdpCli.o
+
+# target to build an object file
+connectUdpCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/connectUdpCli.cpp.o
+.PHONY : connectUdpCli.cpp.o
+
+connectUdpCli.i: connectUdpCli.cpp.i
+.PHONY : connectUdpCli.i
+
+# target to preprocess a source file
+connectUdpCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/connectUdpCli.cpp.i
+.PHONY : connectUdpCli.cpp.i
+
+connectUdpCli.s: connectUdpCli.cpp.s
+.PHONY : connectUdpCli.s
+
+# target to generate assembly for a file
+connectUdpCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/connectUdpCli.cpp.s
+.PHONY : connectUdpCli.cpp.s
 
 echocli3.o: echocli3.cpp.o
 .PHONY : echocli3.o
@@ -704,6 +916,30 @@ selectServ2.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/selectServ2.cpp.s
 .PHONY : selectServ2.cpp.s
 
+send_fd.o: send_fd.cpp.o
+.PHONY : send_fd.o
+
+# target to build an object file
+send_fd.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/send_fd.cpp.o
+.PHONY : send_fd.cpp.o
+
+send_fd.i: send_fd.cpp.i
+.PHONY : send_fd.i
+
+# target to preprocess a source file
+send_fd.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/send_fd.cpp.i
+.PHONY : send_fd.cpp.i
+
+send_fd.s: send_fd.cpp.s
+.PHONY : send_fd.s
+
+# target to generate assembly for a file
+send_fd.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/send_fd.cpp.s
+.PHONY : send_fd.cpp.s
+
 shutdownCli.o: shutdownCli.cpp.o
 .PHONY : shutdownCli.o
 
@@ -775,6 +1011,30 @@ shutdownServ.s: shutdownServ.cpp.s
 shutdownServ.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/shutdownServ.cpp.s
 .PHONY : shutdownServ.cpp.s
+
+sockpair1.o: sockpair1.cpp.o
+.PHONY : sockpair1.o
+
+# target to build an object file
+sockpair1.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/sockpair1.cpp.o
+.PHONY : sockpair1.cpp.o
+
+sockpair1.i: sockpair1.cpp.i
+.PHONY : sockpair1.i
+
+# target to preprocess a source file
+sockpair1.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/sockpair1.cpp.i
+.PHONY : sockpair1.cpp.i
+
+sockpair1.s: sockpair1.cpp.s
+.PHONY : sockpair1.s
+
+# target to generate assembly for a file
+sockpair1.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/sockpair1.cpp.s
+.PHONY : sockpair1.cpp.s
 
 testSIGPIPE.o: testSIGPIPE.cpp.o
 .PHONY : testSIGPIPE.o
@@ -848,6 +1108,54 @@ timeoutServ.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/timeoutServ.cpp.s
 .PHONY : timeoutServ.cpp.s
 
+truncUdpTest.o: truncUdpTest.cpp.o
+.PHONY : truncUdpTest.o
+
+# target to build an object file
+truncUdpTest.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/truncUdpTest.cpp.o
+.PHONY : truncUdpTest.cpp.o
+
+truncUdpTest.i: truncUdpTest.cpp.i
+.PHONY : truncUdpTest.i
+
+# target to preprocess a source file
+truncUdpTest.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/truncUdpTest.cpp.i
+.PHONY : truncUdpTest.cpp.i
+
+truncUdpTest.s: truncUdpTest.cpp.s
+.PHONY : truncUdpTest.s
+
+# target to generate assembly for a file
+truncUdpTest.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/truncUdpTest.cpp.s
+.PHONY : truncUdpTest.cpp.s
+
+udpCli.o: udpCli.cpp.o
+.PHONY : udpCli.o
+
+# target to build an object file
+udpCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/udpCli.cpp.o
+.PHONY : udpCli.cpp.o
+
+udpCli.i: udpCli.cpp.i
+.PHONY : udpCli.i
+
+# target to preprocess a source file
+udpCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/udpCli.cpp.i
+.PHONY : udpCli.cpp.i
+
+udpCli.s: udpCli.cpp.s
+.PHONY : udpCli.s
+
+# target to generate assembly for a file
+udpCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/udpCli.cpp.s
+.PHONY : udpCli.cpp.s
+
 udpServ.o: udpServ.cpp.o
 .PHONY : udpServ.o
 
@@ -871,6 +1179,78 @@ udpServ.s: udpServ.cpp.s
 udpServ.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/udpServ.cpp.s
 .PHONY : udpServ.cpp.s
+
+udpServCopy.o: udpServCopy.cpp.o
+.PHONY : udpServCopy.o
+
+# target to build an object file
+udpServCopy.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/udpServCopy.cpp.o
+.PHONY : udpServCopy.cpp.o
+
+udpServCopy.i: udpServCopy.cpp.i
+.PHONY : udpServCopy.i
+
+# target to preprocess a source file
+udpServCopy.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/udpServCopy.cpp.i
+.PHONY : udpServCopy.cpp.i
+
+udpServCopy.s: udpServCopy.cpp.s
+.PHONY : udpServCopy.s
+
+# target to generate assembly for a file
+udpServCopy.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/udpServCopy.cpp.s
+.PHONY : udpServCopy.cpp.s
+
+unixCli.o: unixCli.cpp.o
+.PHONY : unixCli.o
+
+# target to build an object file
+unixCli.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/unixCli.cpp.o
+.PHONY : unixCli.cpp.o
+
+unixCli.i: unixCli.cpp.i
+.PHONY : unixCli.i
+
+# target to preprocess a source file
+unixCli.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/unixCli.cpp.i
+.PHONY : unixCli.cpp.i
+
+unixCli.s: unixCli.cpp.s
+.PHONY : unixCli.s
+
+# target to generate assembly for a file
+unixCli.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/unixCli.cpp.s
+.PHONY : unixCli.cpp.s
+
+unixServ.o: unixServ.cpp.o
+.PHONY : unixServ.o
+
+# target to build an object file
+unixServ.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/unixServ.cpp.o
+.PHONY : unixServ.cpp.o
+
+unixServ.i: unixServ.cpp.i
+.PHONY : unixServ.i
+
+# target to preprocess a source file
+unixServ.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/unixServ.cpp.i
+.PHONY : unixServ.cpp.i
+
+unixServ.s: unixServ.cpp.s
+.PHONY : unixServ.s
+
+# target to generate assembly for a file
+unixServ.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/unixServ.cpp.s
+.PHONY : unixServ.cpp.s
 
 zombieHandleCli.o: zombieHandleCli.cpp.o
 .PHONY : zombieHandleCli.o
@@ -1022,7 +1402,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... chatCli"
+	@echo "... chatServ"
 	@echo "... connFileLimitTest"
+	@echo "... connectUdpCli"
 	@echo "... echocli3_nianbao"
 	@echo "... echocli_readline"
 	@echo "... echosrv3_nianbao"
@@ -1038,22 +1421,38 @@ help:
 	@echo "... selectCli"
 	@echo "... selectServ"
 	@echo "... selectServ2"
+	@echo "... send_fd"
 	@echo "... shutdownCli"
 	@echo "... shutdownCliTest"
 	@echo "... shutdownServ"
+	@echo "... sockpair1"
 	@echo "... testSigpipe"
 	@echo "... timeoutCli"
 	@echo "... timeoutServ"
+	@echo "... truncUdpTest"
+	@echo "... udpCli"
 	@echo "... udpServ"
+	@echo "... udpServCopy"
+	@echo "... unixEchoClie"
+	@echo "... unixEchoServ"
 	@echo "... zombieHandleCli"
 	@echo "... zombieHandleSrv"
 	@echo "... zombieHandler"
 	@echo "... zombieMultiCli"
 	@echo "... zombieNoHandle"
 	@echo "... zombieWaitpid"
+	@echo "... chatCli.o"
+	@echo "... chatCli.i"
+	@echo "... chatCli.s"
+	@echo "... chatServ.o"
+	@echo "... chatServ.i"
+	@echo "... chatServ.s"
 	@echo "... connFileLimitTest.o"
 	@echo "... connFileLimitTest.i"
 	@echo "... connFileLimitTest.s"
+	@echo "... connectUdpCli.o"
+	@echo "... connectUdpCli.i"
+	@echo "... connectUdpCli.s"
 	@echo "... echocli3.o"
 	@echo "... echocli3.i"
 	@echo "... echocli3.s"
@@ -1081,6 +1480,9 @@ help:
 	@echo "... selectServ2.o"
 	@echo "... selectServ2.i"
 	@echo "... selectServ2.s"
+	@echo "... send_fd.o"
+	@echo "... send_fd.i"
+	@echo "... send_fd.s"
 	@echo "... shutdownCli.o"
 	@echo "... shutdownCli.i"
 	@echo "... shutdownCli.s"
@@ -1090,6 +1492,9 @@ help:
 	@echo "... shutdownServ.o"
 	@echo "... shutdownServ.i"
 	@echo "... shutdownServ.s"
+	@echo "... sockpair1.o"
+	@echo "... sockpair1.i"
+	@echo "... sockpair1.s"
 	@echo "... testSIGPIPE.o"
 	@echo "... testSIGPIPE.i"
 	@echo "... testSIGPIPE.s"
@@ -1099,9 +1504,24 @@ help:
 	@echo "... timeoutServ.o"
 	@echo "... timeoutServ.i"
 	@echo "... timeoutServ.s"
+	@echo "... truncUdpTest.o"
+	@echo "... truncUdpTest.i"
+	@echo "... truncUdpTest.s"
+	@echo "... udpCli.o"
+	@echo "... udpCli.i"
+	@echo "... udpCli.s"
 	@echo "... udpServ.o"
 	@echo "... udpServ.i"
 	@echo "... udpServ.s"
+	@echo "... udpServCopy.o"
+	@echo "... udpServCopy.i"
+	@echo "... udpServCopy.s"
+	@echo "... unixCli.o"
+	@echo "... unixCli.i"
+	@echo "... unixCli.s"
+	@echo "... unixServ.o"
+	@echo "... unixServ.i"
+	@echo "... unixServ.s"
 	@echo "... zombieHandleCli.o"
 	@echo "... zombieHandleCli.i"
 	@echo "... zombieHandleCli.s"

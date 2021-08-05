@@ -1,12 +1,13 @@
+#include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
-#include <stdio.h>
-#include <errno.h>
+#include <error.h>
+#include <sys/types.h>          /* See NOTES */
 #include <sys/socket.h>
-#include <sys/types.h>
-#include <arpa/inet.h>
-#include <string.h>
+#include <cstring>
 #include <netinet/in.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
 
 
 #define ERR_EXIT(m)\
@@ -16,6 +17,10 @@
         exit(EXIT_FAILURE);\
     } while(0)
 
+void test(int sock, struct sockaddr_in* peeraddr, char *recvbuf, int n)
+{
+    sendto(sock, recvbuf, n, 0, (struct sockaddr*)peeraddr, sizeof(peeraddr));
+}
 void echo_srv(int sock)
 {
     char recvbuf[1024] = {0};
@@ -43,21 +48,25 @@ void echo_srv(int sock)
             sendto(sock, recvbuf, n, 0, (struct sockaddr*)&peeraddr, peerlen);
         }
     }
+    close(sock);
 }
 int main(void)
 {
     int sock;
-    if (sock = socket(PF_INET, SOCK_DGRAM, 0) < 0)
+    if ((sock = socket(PF_INET, SOCK_DGRAM, 0)) < 0)
         ERR_EXIT("SOCKET");
 
     struct sockaddr_in servaddr;
     memset(&servaddr, 0, sizeof servaddr);
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(5188);
+    servaddr.sin_port = htons(6666);
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
 
-    if (bind(sock, (struct sockaddr*)&servaddr, sizeof(servaddr)) < 0 )
+    if (bind(sock, (struct sockaddr*)&servaddr, (socklen_t)sizeof(servaddr)) < 0 )
+    {
         ERR_EXIT("BIND");
+    }
+
 
     echo_srv(sock);
 
