@@ -17,11 +17,16 @@ int main(int argc, char *argv[])
     if (argc < 2)
     {
         printf("default threadpool_init...\n");
-        threadpool_init(&pool, 3);
+        threadpool_init(&pool, 3, 2); // 线程数为3，生命周期为2
+    }
+    else if (argc == 2)
+    {
+        printf("threadpool_init： threads = %d, timeout = 2(default)\n", atoi(argv[1]));
+        threadpool_init(&pool, atoi(argv[1]), 2);
     }
     else
     {
-        threadpool_init(&pool, atoi(argv[1]));
+        threadpool_init(&pool, atoi(argv[1]), atoi(argv[2]));
 
     }
 
