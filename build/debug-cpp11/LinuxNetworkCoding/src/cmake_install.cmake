@@ -48,6 +48,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/tests/cmake_install.cmake")
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/socket/cmake_install.cmake")
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/IPC/cmake_install.cmake")
+  INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/POSIXIPC/cmake_install.cmake")
+  INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/pthread/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

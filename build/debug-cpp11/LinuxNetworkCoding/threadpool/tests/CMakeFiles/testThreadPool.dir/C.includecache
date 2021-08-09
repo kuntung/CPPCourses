@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../LinuxNetworkCoding/threadpool/condition.h
+pthread.h
+-
+
+../../LinuxNetworkCoding/threadpool/threadpool.h
+condition.h
+../../LinuxNetworkCoding/threadpool/condition.h
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/tests/testThreadPool.c
+LinuxNetworkCoding/threadpool/threadpool.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/tests/LinuxNetworkCoding/threadpool/threadpool.h
+stdlib.h
+-
+stdio.h
+-
+

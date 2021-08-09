@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/cc  -g    CMakeFiles/testThreadPool.dir/testThreadPool.c.o  -o ../../../bin/testThreadPool -rdynamic ../../../lib/libTHREADPOOL.a -lpthread -lrt 

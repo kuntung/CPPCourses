@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/POSIXIPC/resizePSHM.cpp
+unistd.h
+-
+sys/types.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+stdio.h
+-
+errno.h
+-
+

@@ -1039,6 +1039,331 @@ shmwrite/fast:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build
 .PHONY : shmwrite/fast
 
+#=============================================================================
+# Target rules for targets named createPSHM
+
+# Build rule for target.
+createPSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createPSHM
+.PHONY : createPSHM
+
+# fast build rule for target.
+createPSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build
+.PHONY : createPSHM/fast
+
+#=============================================================================
+# Target rules for targets named getaddrPMQ
+
+# Build rule for target.
+getaddrPMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getaddrPMQ
+.PHONY : getaddrPMQ
+
+# fast build rule for target.
+getaddrPMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build
+.PHONY : getaddrPMQ/fast
+
+#=============================================================================
+# Target rules for targets named notifyPMQ
+
+# Build rule for target.
+notifyPMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 notifyPMQ
+.PHONY : notifyPMQ
+
+# fast build rule for target.
+notifyPMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build
+.PHONY : notifyPMQ/fast
+
+#=============================================================================
+# Target rules for targets named posixMQ
+
+# Build rule for target.
+posixMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 posixMQ
+.PHONY : posixMQ
+
+# fast build rule for target.
+posixMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build
+.PHONY : posixMQ/fast
+
+#=============================================================================
+# Target rules for targets named readPSHM
+
+# Build rule for target.
+readPSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 readPSHM
+.PHONY : readPSHM
+
+# fast build rule for target.
+readPSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build
+.PHONY : readPSHM/fast
+
+#=============================================================================
+# Target rules for targets named recvMSGPMQ
+
+# Build rule for target.
+recvMSGPMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recvMSGPMQ
+.PHONY : recvMSGPMQ
+
+# fast build rule for target.
+recvMSGPMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build
+.PHONY : recvMSGPMQ/fast
+
+#=============================================================================
+# Target rules for targets named resizePSHM
+
+# Build rule for target.
+resizePSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 resizePSHM
+.PHONY : resizePSHM
+
+# fast build rule for target.
+resizePSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build
+.PHONY : resizePSHM/fast
+
+#=============================================================================
+# Target rules for targets named sendMSG2PMQ
+
+# Build rule for target.
+sendMSG2PMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sendMSG2PMQ
+.PHONY : sendMSG2PMQ
+
+# fast build rule for target.
+sendMSG2PMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build
+.PHONY : sendMSG2PMQ/fast
+
+#=============================================================================
+# Target rules for targets named setattrPMQ
+
+# Build rule for target.
+setattrPMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 setattrPMQ
+.PHONY : setattrPMQ
+
+# fast build rule for target.
+setattrPMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build
+.PHONY : setattrPMQ/fast
+
+#=============================================================================
+# Target rules for targets named statPSHM
+
+# Build rule for target.
+statPSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 statPSHM
+.PHONY : statPSHM
+
+# fast build rule for target.
+statPSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build
+.PHONY : statPSHM/fast
+
+#=============================================================================
+# Target rules for targets named unlinkPMQ
+
+# Build rule for target.
+unlinkPMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unlinkPMQ
+.PHONY : unlinkPMQ
+
+# fast build rule for target.
+unlinkPMQ/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build
+.PHONY : unlinkPMQ/fast
+
+#=============================================================================
+# Target rules for targets named unlinkPSHM
+
+# Build rule for target.
+unlinkPSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unlinkPSHM
+.PHONY : unlinkPSHM
+
+# fast build rule for target.
+unlinkPSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build
+.PHONY : unlinkPSHM/fast
+
+#=============================================================================
+# Target rules for targets named writePSHM
+
+# Build rule for target.
+writePSHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 writePSHM
+.PHONY : writePSHM
+
+# fast build rule for target.
+writePSHM/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build
+.PHONY : writePSHM/fast
+
+#=============================================================================
+# Target rules for targets named PCWithCond
+
+# Build rule for target.
+PCWithCond: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PCWithCond
+.PHONY : PCWithCond
+
+# fast build rule for target.
+PCWithCond/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build
+.PHONY : PCWithCond/fast
+
+#=============================================================================
+# Target rules for targets named ProAndCustomer
+
+# Build rule for target.
+ProAndCustomer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ProAndCustomer
+.PHONY : ProAndCustomer
+
+# fast build rule for target.
+ProAndCustomer/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build
+.PHONY : ProAndCustomer/fast
+
+#=============================================================================
+# Target rules for targets named TSD
+
+# Build rule for target.
+TSD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TSD
+.PHONY : TSD
+
+# fast build rule for target.
+TSD/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build
+.PHONY : TSD/fast
+
+#=============================================================================
+# Target rules for targets named createThread
+
+# Build rule for target.
+createThread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createThread
+.PHONY : createThread
+
+# fast build rule for target.
+createThread/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build
+.PHONY : createThread/fast
+
+#=============================================================================
+# Target rules for targets named echoCliThread
+
+# Build rule for target.
+echoCliThread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoCliThread
+.PHONY : echoCliThread
+
+# fast build rule for target.
+echoCliThread/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build
+.PHONY : echoCliThread/fast
+
+#=============================================================================
+# Target rules for targets named echoServThread
+
+# Build rule for target.
+echoServThread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echoServThread
+.PHONY : echoServThread
+
+# fast build rule for target.
+echoServThread/fast:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build
+.PHONY : echoServThread/fast
+
+#=============================================================================
+# Target rules for targets named SHMFIFO
+
+# Build rule for target.
+SHMFIFO: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SHMFIFO
+.PHONY : SHMFIFO
+
+# fast build rule for target.
+SHMFIFO/fast:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build.make LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build
+.PHONY : SHMFIFO/fast
+
+#=============================================================================
+# Target rules for targets named shmfifoDestroy
+
+# Build rule for target.
+shmfifoDestroy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmfifoDestroy
+.PHONY : shmfifoDestroy
+
+# fast build rule for target.
+shmfifoDestroy/fast:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build
+.PHONY : shmfifoDestroy/fast
+
+#=============================================================================
+# Target rules for targets named shmfifoRecv
+
+# Build rule for target.
+shmfifoRecv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmfifoRecv
+.PHONY : shmfifoRecv
+
+# fast build rule for target.
+shmfifoRecv/fast:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build
+.PHONY : shmfifoRecv/fast
+
+#=============================================================================
+# Target rules for targets named shmfifoSend
+
+# Build rule for target.
+shmfifoSend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shmfifoSend
+.PHONY : shmfifoSend
+
+# fast build rule for target.
+shmfifoSend/fast:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build
+.PHONY : shmfifoSend/fast
+
+#=============================================================================
+# Target rules for targets named THREADPOOL
+
+# Build rule for target.
+THREADPOOL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 THREADPOOL
+.PHONY : THREADPOOL
+
+# fast build rule for target.
+THREADPOOL/fast:
+	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build
+.PHONY : THREADPOOL/fast
+
+#=============================================================================
+# Target rules for targets named testThreadPool
+
+# Build rule for target.
+testThreadPool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testThreadPool
+.PHONY : testThreadPool
+
+# fast build rule for target.
+testThreadPool/fast:
+	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build
+.PHONY : testThreadPool/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1120,6 +1445,31 @@ help:
 	@echo "... shmRemove"
 	@echo "... shmStat"
 	@echo "... shmwrite"
+	@echo "... createPSHM"
+	@echo "... getaddrPMQ"
+	@echo "... notifyPMQ"
+	@echo "... posixMQ"
+	@echo "... readPSHM"
+	@echo "... recvMSGPMQ"
+	@echo "... resizePSHM"
+	@echo "... sendMSG2PMQ"
+	@echo "... setattrPMQ"
+	@echo "... statPSHM"
+	@echo "... unlinkPMQ"
+	@echo "... unlinkPSHM"
+	@echo "... writePSHM"
+	@echo "... PCWithCond"
+	@echo "... ProAndCustomer"
+	@echo "... TSD"
+	@echo "... createThread"
+	@echo "... echoCliThread"
+	@echo "... echoServThread"
+	@echo "... SHMFIFO"
+	@echo "... shmfifoDestroy"
+	@echo "... shmfifoRecv"
+	@echo "... shmfifoSend"
+	@echo "... THREADPOOL"
+	@echo "... testThreadPool"
 .PHONY : help
 
 

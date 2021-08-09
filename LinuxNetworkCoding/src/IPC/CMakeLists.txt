@@ -23,3 +23,4 @@ add_executable(semPrint semPrint.cpp)
 # 哲学家就餐问题
 add_executable(dining dining.cpp)
 add_executable(diningDeadLock diningDeadLock.cpp)
+

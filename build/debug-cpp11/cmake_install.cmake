@@ -36,6 +36,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc/cmake_install.cmake")
   INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/src/cmake_install.cmake")
+  INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/shmfifo/cmake_install.cmake")
+  INCLUDE("/home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/LinuxNetworkCoding/threadpool/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
