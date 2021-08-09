@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/IPC/semTool.cpp
+sys/types.h
+-
+sys/ipc.h
+-
+sys/mman.h
+-
+sys/sem.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+

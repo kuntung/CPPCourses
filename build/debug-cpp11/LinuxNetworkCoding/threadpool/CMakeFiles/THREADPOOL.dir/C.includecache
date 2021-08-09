@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/condition.h
+pthread.h
+-
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/threadpool.c
+threadpool.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/threadpool.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+time.h
+-
+pthread.h
+-
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/threadpool.h
+condition.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/threadpool/condition.h
+

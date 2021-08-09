@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/tests/peer2peer.cc
+unistd.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+arpa/inet.h
+-
+cstring
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+netinet/in.h
+-
+

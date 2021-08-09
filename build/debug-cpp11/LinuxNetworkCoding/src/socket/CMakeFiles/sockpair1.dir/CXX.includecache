@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/sockpair1.cpp
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/un.h
+-
+

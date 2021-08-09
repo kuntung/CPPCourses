@@ -55,4 +55,7 @@ string(TOUPPER ${CMAKE_BUILD_TYPE} BUILD_TYPE)
 message(STATUS "CXX_FLAGS = " ${CMAKE_CXX_FLAGS} " " ${CMAKE_CXX_FLAGS_${BUILD_TYPE}})
 
 add_subdirectory(StudyCPPWithMe/testSrc)
-add_subdirectory(ExtraStudies/patterns)
+#add_subdirectory(ExtraStudies/patterns)
+add_subdirectory(LinuxNetworkCoding/src)
+add_subdirectory(LinuxNetworkCoding/shmfifo)
+add_subdirectory(LinuxNetworkCoding/threadpool)

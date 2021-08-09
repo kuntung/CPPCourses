@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../LinuxNetworkCoding/src/sysutil.h
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+signal.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+fcntl.h
+-
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/timeoutCli.cpp
+LinuxNetworkCoding/src/sysutil.h
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/LinuxNetworkCoding/src/sysutil.h
+

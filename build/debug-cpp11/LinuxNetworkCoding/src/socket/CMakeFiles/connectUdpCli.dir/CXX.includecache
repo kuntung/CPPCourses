@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaotang/GitHub/CPPCourses/LinuxNetworkCoding/src/socket/connectUdpCli.cpp
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+arpa/inet.h
+-
+string.h
+-
+netinet/in.h
+-
+

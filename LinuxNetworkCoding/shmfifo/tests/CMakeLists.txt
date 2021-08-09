@@ -1,0 +1,6 @@
+add_executable(shmfifoSend shmfifoSend.cpp)
+target_link_libraries(shmfifoSend SHMFIFO)
+add_executable(shmfifoRecv shmfifoRecv.cpp)
+target_link_libraries(shmfifoRecv SHMFIFO)
+add_executable(shmfifoDestroy shmfifoDestroy.cpp)
+target_link_libraries(shmfifoDestroy SHMFIFO)

@@ -79,7 +79,7 @@ StudyCPPWithMe/testSrc/preinstall: StudyCPPWithMe/testSrc/tests/preinstall
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7
 	@echo "Built target StudyCPPWithMe"
 .PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 
@@ -141,7 +141,7 @@ StudyCPPWithMe/testSrc/tests/preinstall:
 StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  41
 	@echo "Built target objectSlicingTest"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/all
 
@@ -176,7 +176,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  72
 	@echo "Built target testComplex"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 
@@ -211,7 +211,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  73
 	@echo "Built target testMyException"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all
 
@@ -246,7 +246,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  74
 	@echo "Built target testRTII"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all
 
@@ -281,7 +281,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  76
 	@echo "Built target testSmartPtrs"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
 
@@ -316,7 +316,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  78
 	@echo "Built target testVirtualFunc"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all
 
@@ -351,7 +351,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  79
 	@echo "Built target testVirtualInhe"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all
 
@@ -377,6 +377,3336 @@ StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/clean:
 
 # clean rule for target.
 clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/tests/all
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/socket/all
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/IPC/all
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/POSIXIPC/all
+LinuxNetworkCoding/src/all: LinuxNetworkCoding/src/pthread/all
+.PHONY : LinuxNetworkCoding/src/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/tests/clean
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/socket/clean
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/IPC/clean
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/POSIXIPC/clean
+LinuxNetworkCoding/src/clean: LinuxNetworkCoding/src/pthread/clean
+.PHONY : LinuxNetworkCoding/src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/preinstall: LinuxNetworkCoding/src/tests/preinstall
+LinuxNetworkCoding/src/preinstall: LinuxNetworkCoding/src/socket/preinstall
+LinuxNetworkCoding/src/preinstall: LinuxNetworkCoding/src/IPC/preinstall
+LinuxNetworkCoding/src/preinstall: LinuxNetworkCoding/src/POSIXIPC/preinstall
+LinuxNetworkCoding/src/preinstall: LinuxNetworkCoding/src/pthread/preinstall
+.PHONY : LinuxNetworkCoding/src/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  1 2
+	@echo "Built target NetworkCoding"
+.PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/rule
+
+# Convenience name for target.
+NetworkCoding: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/rule
+.PHONY : NetworkCoding
+
+# clean rule for target.
+LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/build.make LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean
+.PHONY : LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src/tests
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/all
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all
+LinuxNetworkCoding/src/tests/all: LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all
+.PHONY : LinuxNetworkCoding/src/tests/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean
+LinuxNetworkCoding/src/tests/clean: LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/tests/preinstall:
+.PHONY : LinuxNetworkCoding/src/tests/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  6
+	@echo "Built target SocketAddrTest"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/rule
+
+# Convenience name for target.
+SocketAddrTest: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/rule
+.PHONY : SocketAddrTest
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  21
+	@echo "Built target echoClient"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/rule
+
+# Convenience name for target.
+echoClient: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/rule
+.PHONY : echoClient
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  24
+	@echo "Built target echoServer"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/rule
+
+# Convenience name for target.
+echoServer: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/rule
+.PHONY : echoServer
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  25
+	@echo "Built target echoServer2"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/rule
+
+# Convenience name for target.
+echoServer2: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/rule
+.PHONY : echoServer2
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  42
+	@echo "Built target p2pClient"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/rule
+
+# Convenience name for target.
+p2pClient: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/rule
+.PHONY : p2pClient
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  43
+	@echo "Built target p2pServer"
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/rule
+
+# Convenience name for target.
+p2pServer: LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/rule
+.PHONY : p2pServer
+
+# clean rule for target.
+LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/clean
+.PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src/socket
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all
+LinuxNetworkCoding/src/socket/all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all
+.PHONY : LinuxNetworkCoding/src/socket/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean
+LinuxNetworkCoding/src/socket/clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/socket/preinstall:
+.PHONY : LinuxNetworkCoding/src/socket/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  11
+	@echo "Built target chatCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule
+
+# Convenience name for target.
+chatCli: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/rule
+.PHONY : chatCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  12
+	@echo "Built target chatServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule
+
+# Convenience name for target.
+chatServ: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/rule
+.PHONY : chatServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  13
+	@echo "Built target connFileLimitTest"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
+
+# Convenience name for target.
+connFileLimitTest: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/rule
+.PHONY : connFileLimitTest
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  14
+	@echo "Built target connectUdpCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule
+
+# Convenience name for target.
+connectUdpCli: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/rule
+.PHONY : connectUdpCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  26
+	@echo "Built target echocli3_nianbao"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule
+
+# Convenience name for target.
+echocli3_nianbao: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/rule
+.PHONY : echocli3_nianbao
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  27
+	@echo "Built target echocli_readline"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/rule
+
+# Convenience name for target.
+echocli_readline: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/rule
+.PHONY : echocli_readline
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  28
+	@echo "Built target echosrv3_nianbao"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/rule
+
+# Convenience name for target.
+echosrv3_nianbao: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/rule
+.PHONY : echosrv3_nianbao
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  29
+	@echo "Built target echosrv_readline"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/rule
+
+# Convenience name for target.
+echosrv_readline: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/rule
+.PHONY : echosrv_readline
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  31
+	@echo "Built target gethostname"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/rule
+
+# Convenience name for target.
+gethostname: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/rule
+.PHONY : gethostname
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  44
+	@echo "Built target pollServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule
+
+# Convenience name for target.
+pollServ: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/rule
+.PHONY : pollServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  49
+	@echo "Built target selectCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule
+
+# Convenience name for target.
+selectCli: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/rule
+.PHONY : selectCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  50
+	@echo "Built target selectServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule
+
+# Convenience name for target.
+selectServ: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/rule
+.PHONY : selectServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  51
+	@echo "Built target selectServ2"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule
+
+# Convenience name for target.
+selectServ2: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/rule
+.PHONY : selectServ2
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  58
+	@echo "Built target send_fd"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule
+
+# Convenience name for target.
+send_fd: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/rule
+.PHONY : send_fd
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  67
+	@echo "Built target shutdownCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
+
+# Convenience name for target.
+shutdownCli: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/rule
+.PHONY : shutdownCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  68
+	@echo "Built target shutdownCliTest"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule
+
+# Convenience name for target.
+shutdownCliTest: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/rule
+.PHONY : shutdownCliTest
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  69
+	@echo "Built target shutdownServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
+
+# Convenience name for target.
+shutdownServ: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/rule
+.PHONY : shutdownServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  70
+	@echo "Built target sockpair1"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule
+
+# Convenience name for target.
+sockpair1: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/rule
+.PHONY : sockpair1
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  75
+	@echo "Built target testSigpipe"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule
+
+# Convenience name for target.
+testSigpipe: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/rule
+.PHONY : testSigpipe
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  80
+	@echo "Built target timeoutCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule
+
+# Convenience name for target.
+timeoutCli: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/rule
+.PHONY : timeoutCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  81
+	@echo "Built target timeoutServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule
+
+# Convenience name for target.
+timeoutServ: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/rule
+.PHONY : timeoutServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  82
+	@echo "Built target truncUdpTest"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule
+
+# Convenience name for target.
+truncUdpTest: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/rule
+.PHONY : truncUdpTest
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  83
+	@echo "Built target udpCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule
+
+# Convenience name for target.
+udpCli: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/rule
+.PHONY : udpCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  84
+	@echo "Built target udpServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
+
+# Convenience name for target.
+udpServ: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/rule
+.PHONY : udpServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  85
+	@echo "Built target udpServCopy"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule
+
+# Convenience name for target.
+udpServCopy: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/rule
+.PHONY : udpServCopy
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  86
+	@echo "Built target unixEchoClie"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule
+
+# Convenience name for target.
+unixEchoClie: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/rule
+.PHONY : unixEchoClie
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  87
+	@echo "Built target unixEchoServ"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule
+
+# Convenience name for target.
+unixEchoServ: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/rule
+.PHONY : unixEchoServ
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  91
+	@echo "Built target zombieHandleCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/rule
+
+# Convenience name for target.
+zombieHandleCli: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/rule
+.PHONY : zombieHandleCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  92
+	@echo "Built target zombieHandleSrv"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/rule
+
+# Convenience name for target.
+zombieHandleSrv: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/rule
+.PHONY : zombieHandleSrv
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  93
+	@echo "Built target zombieHandler"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/rule
+
+# Convenience name for target.
+zombieHandler: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/rule
+.PHONY : zombieHandler
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  94
+	@echo "Built target zombieMultiCli"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/rule
+
+# Convenience name for target.
+zombieMultiCli: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/rule
+.PHONY : zombieMultiCli
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  95
+	@echo "Built target zombieNoHandle"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule
+
+# Convenience name for target.
+zombieNoHandle: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/rule
+.PHONY : zombieNoHandle
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  96
+	@echo "Built target zombieWaitpid"
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule
+
+# Convenience name for target.
+zombieWaitpid: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/rule
+.PHONY : zombieWaitpid
+
+# clean rule for target.
+LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/clean
+.PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src/IPC
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all
+LinuxNetworkCoding/src/IPC/all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all
+.PHONY : LinuxNetworkCoding/src/IPC/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean
+LinuxNetworkCoding/src/IPC/clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/IPC/preinstall:
+.PHONY : LinuxNetworkCoding/src/IPC/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  17
+	@echo "Built target dining"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/rule
+
+# Convenience name for target.
+dining: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/rule
+.PHONY : dining
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  18
+	@echo "Built target diningDeadLock"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/rule
+
+# Convenience name for target.
+diningDeadLock: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/rule
+.PHONY : diningDeadLock
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  19
+	@echo "Built target echoCliIPC"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/rule
+
+# Convenience name for target.
+echoCliIPC: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/rule
+.PHONY : echoCliIPC
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  22
+	@echo "Built target echoServIPC"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/rule
+
+# Convenience name for target.
+echoServIPC: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/rule
+.PHONY : echoServIPC
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  32
+	@echo "Built target mmapRead"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/rule
+
+# Convenience name for target.
+mmapRead: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/rule
+.PHONY : mmapRead
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  33
+	@echo "Built target mmapTest"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/rule
+
+# Convenience name for target.
+mmapTest: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/rule
+.PHONY : mmapTest
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  34
+	@echo "Built target msgChange"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/rule
+
+# Convenience name for target.
+msgChange: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/rule
+.PHONY : msgChange
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  35
+	@echo "Built target msgGet"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/rule
+
+# Convenience name for target.
+msgGet: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/rule
+.PHONY : msgGet
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  36
+	@echo "Built target msgRecv"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/rule
+
+# Convenience name for target.
+msgRecv: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/rule
+.PHONY : msgRecv
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  37
+	@echo "Built target msgRmv"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/rule
+
+# Convenience name for target.
+msgRmv: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/rule
+.PHONY : msgRmv
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  38
+	@echo "Built target msgSend"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/rule
+
+# Convenience name for target.
+msgSend: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/rule
+.PHONY : msgSend
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  39
+	@echo "Built target msgStat"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/rule
+
+# Convenience name for target.
+msgStat: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/rule
+.PHONY : msgStat
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  52
+	@echo "Built target semCtl"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/rule
+
+# Convenience name for target.
+semCtl: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/rule
+.PHONY : semCtl
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  53
+	@echo "Built target semOpt"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/rule
+
+# Convenience name for target.
+semOpt: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/rule
+.PHONY : semOpt
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  54
+	@echo "Built target semPrint"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/rule
+
+# Convenience name for target.
+semPrint: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/rule
+.PHONY : semPrint
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  55
+	@echo "Built target semTool"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/rule
+
+# Convenience name for target.
+semTool: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/rule
+.PHONY : semTool
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  56
+	@echo "Built target semWrite"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/rule
+
+# Convenience name for target.
+semWrite: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/rule
+.PHONY : semWrite
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  60
+	@echo "Built target shmRead"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/rule
+
+# Convenience name for target.
+shmRead: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/rule
+.PHONY : shmRead
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  61
+	@echo "Built target shmRemove"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/rule
+
+# Convenience name for target.
+shmRemove: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/rule
+.PHONY : shmRemove
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  62
+	@echo "Built target shmStat"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/rule
+
+# Convenience name for target.
+shmStat: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/rule
+.PHONY : shmStat
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  66
+	@echo "Built target shmwrite"
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/rule
+
+# Convenience name for target.
+shmwrite: LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/rule
+.PHONY : shmwrite
+
+# clean rule for target.
+LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/clean
+.PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src/POSIXIPC
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all
+LinuxNetworkCoding/src/POSIXIPC/all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean
+LinuxNetworkCoding/src/POSIXIPC/clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/POSIXIPC/preinstall:
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  15
+	@echo "Built target createPSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/rule
+
+# Convenience name for target.
+createPSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/rule
+.PHONY : createPSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  30
+	@echo "Built target getaddrPMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/rule
+
+# Convenience name for target.
+getaddrPMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/rule
+.PHONY : getaddrPMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  40
+	@echo "Built target notifyPMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/rule
+
+# Convenience name for target.
+notifyPMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/rule
+.PHONY : notifyPMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  45
+	@echo "Built target posixMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/rule
+
+# Convenience name for target.
+posixMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/rule
+.PHONY : posixMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  46
+	@echo "Built target readPSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/rule
+
+# Convenience name for target.
+readPSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/rule
+.PHONY : readPSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  47
+	@echo "Built target recvMSGPMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/rule
+
+# Convenience name for target.
+recvMSGPMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/rule
+.PHONY : recvMSGPMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  48
+	@echo "Built target resizePSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/rule
+
+# Convenience name for target.
+resizePSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/rule
+.PHONY : resizePSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  57
+	@echo "Built target sendMSG2PMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/rule
+
+# Convenience name for target.
+sendMSG2PMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/rule
+.PHONY : sendMSG2PMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  59
+	@echo "Built target setattrPMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/rule
+
+# Convenience name for target.
+setattrPMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/rule
+.PHONY : setattrPMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  71
+	@echo "Built target statPSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/rule
+
+# Convenience name for target.
+statPSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/rule
+.PHONY : statPSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  88
+	@echo "Built target unlinkPMQ"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/rule
+
+# Convenience name for target.
+unlinkPMQ: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/rule
+.PHONY : unlinkPMQ
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  89
+	@echo "Built target unlinkPSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/rule
+
+# Convenience name for target.
+unlinkPSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/rule
+.PHONY : unlinkPSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  90
+	@echo "Built target writePSHM"
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/rule
+
+# Convenience name for target.
+writePSHM: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/rule
+.PHONY : writePSHM
+
+# clean rule for target.
+LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/clean
+.PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/src/pthread
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/all
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/all
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all
+LinuxNetworkCoding/src/pthread/all: LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all
+.PHONY : LinuxNetworkCoding/src/pthread/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/clean
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean
+LinuxNetworkCoding/src/pthread/clean: LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/src/pthread/preinstall:
+.PHONY : LinuxNetworkCoding/src/pthread/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  3
+	@echo "Built target PCWithCond"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/rule
+
+# Convenience name for target.
+PCWithCond: LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/rule
+.PHONY : PCWithCond
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/PCWithCond.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  4
+	@echo "Built target ProAndCustomer"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/rule
+
+# Convenience name for target.
+ProAndCustomer: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/rule
+.PHONY : ProAndCustomer
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  10
+	@echo "Built target TSD"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/rule
+
+# Convenience name for target.
+TSD: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/rule
+.PHONY : TSD
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  16
+	@echo "Built target createThread"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/rule
+
+# Convenience name for target.
+createThread: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/rule
+.PHONY : createThread
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  20
+	@echo "Built target echoCliThread"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/rule
+
+# Convenience name for target.
+echoCliThread: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/rule
+.PHONY : echoCliThread
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  23
+	@echo "Built target echoServThread"
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/rule
+
+# Convenience name for target.
+echoServThread: LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/rule
+.PHONY : echoServThread
+
+# clean rule for target.
+LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/clean
+.PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/shmfifo
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/shmfifo/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+LinuxNetworkCoding/shmfifo/all: LinuxNetworkCoding/shmfifo/tests/all
+.PHONY : LinuxNetworkCoding/shmfifo/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/shmfifo/clean: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/clean
+LinuxNetworkCoding/shmfifo/clean: LinuxNetworkCoding/shmfifo/tests/clean
+.PHONY : LinuxNetworkCoding/shmfifo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/shmfifo/preinstall: LinuxNetworkCoding/shmfifo/tests/preinstall
+.PHONY : LinuxNetworkCoding/shmfifo/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build.make LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build.make LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  5
+	@echo "Built target SHMFIFO"
+.PHONY : LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/rule
+
+# Convenience name for target.
+SHMFIFO: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/rule
+.PHONY : SHMFIFO
+
+# clean rule for target.
+LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/build.make LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/clean
+.PHONY : LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/shmfifo/tests
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/shmfifo/tests/all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all
+LinuxNetworkCoding/shmfifo/tests/all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all
+LinuxNetworkCoding/shmfifo/tests/all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all
+.PHONY : LinuxNetworkCoding/shmfifo/tests/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/shmfifo/tests/clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean
+LinuxNetworkCoding/shmfifo/tests/clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean
+LinuxNetworkCoding/shmfifo/tests/clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/clean
+.PHONY : LinuxNetworkCoding/shmfifo/tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/shmfifo/tests/preinstall:
+.PHONY : LinuxNetworkCoding/shmfifo/tests/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  63
+	@echo "Built target shmfifoDestroy"
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/rule
+
+# Convenience name for target.
+shmfifoDestroy: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/rule
+.PHONY : shmfifoDestroy
+
+# clean rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  64
+	@echo "Built target shmfifoRecv"
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/rule
+
+# Convenience name for target.
+shmfifoRecv: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/rule
+.PHONY : shmfifoRecv
+
+# clean rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  65
+	@echo "Built target shmfifoSend"
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/rule
+
+# Convenience name for target.
+shmfifoSend: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/rule
+.PHONY : shmfifoSend
+
+# clean rule for target.
+LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/clean
+.PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/threadpool
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/threadpool/all: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
+LinuxNetworkCoding/threadpool/all: LinuxNetworkCoding/threadpool/tests/all
+.PHONY : LinuxNetworkCoding/threadpool/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/threadpool/clean: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/clean
+LinuxNetworkCoding/threadpool/clean: LinuxNetworkCoding/threadpool/tests/clean
+.PHONY : LinuxNetworkCoding/threadpool/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/threadpool/preinstall: LinuxNetworkCoding/threadpool/tests/preinstall
+.PHONY : LinuxNetworkCoding/threadpool/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all:
+	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  8 9
+	@echo "Built target THREADPOOL"
+.PHONY : LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/rule
+
+# Convenience name for target.
+THREADPOOL: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/rule
+.PHONY : THREADPOOL
+
+# clean rule for target.
+LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/clean
+.PHONY : LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory LinuxNetworkCoding/threadpool/tests
+
+# Convenience name for "all" pass in the directory.
+LinuxNetworkCoding/threadpool/tests/all: LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all
+.PHONY : LinuxNetworkCoding/threadpool/tests/all
+
+# Convenience name for "clean" pass in the directory.
+LinuxNetworkCoding/threadpool/tests/clean: LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/clean
+.PHONY : LinuxNetworkCoding/threadpool/tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+LinuxNetworkCoding/threadpool/tests/preinstall:
+.PHONY : LinuxNetworkCoding/threadpool/tests/preinstall
+
+#=============================================================================
+# Target rules for target LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir
+
+# All Build rule for target.
+LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
+	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/depend
+	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  77
+	@echo "Built target testThreadPool"
+.PHONY : LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all
+
+# Include target in all.
+all: LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/rule
+
+# Convenience name for target.
+testThreadPool: LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/rule
+.PHONY : testThreadPool
+
+# clean rule for target.
+LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/clean:
+	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/clean
+.PHONY : LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/clean
+
+# clean rule for target.
+clean: LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/clean
 .PHONY : clean
 
 #=============================================================================
