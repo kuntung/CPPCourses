@@ -21,10 +21,11 @@ typedef struct threadpool
     int idle; // 线程池中当前正在等待任务的线程数
     int max_threads; // 线程池中最大允许的线程数
     int quit; // 销毁线程池的时候置1
+    int timeout; // 线程生命周期
 } threadpool_t;
 
 // 初始化线程池
-void threadpool_init(threadpool_t *pool, int threads);
+void threadpool_init(threadpool_t *pool, int threads, int dtime);
 // 向线程池中添加任务
 void threadpool_add_task(threadpool_t *pool, void *(*run)(void *arg), void *arg);
 // 销毁线程池

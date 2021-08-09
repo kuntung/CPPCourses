@@ -9,9 +9,8 @@
 // 线程入口函数
 void *thread_routine(void *arg)
 {
-    struct timespec abstime;
     int timeout;
-
+    struct timespec abstime;
     printf("thread 0x%x is starting...\n", (int)pthread_self());
     threadpool_t *pool = (threadpool_t *)arg;
 
@@ -26,7 +25,7 @@ void *thread_routine(void *arg)
             printf("thread 0x%x is waiting...\n", (int)pthread_self());
             // condition_wait(&pool->ready); // 实际上，要求能够动态销毁。因此要使用condition_timedwait
             clock_gettime(CLOCK_REALTIME, &abstime);
-            abstime.tv_sec += 2; // 超时时间为2s
+            abstime.tv_sec += pool->timeout; // 超时时间为2s
             int status = condition_timedwait(&pool->ready, &abstime);
             if (status == ETIMEDOUT) // 等待超时通知
             {
@@ -76,7 +75,7 @@ void *thread_routine(void *arg)
     printf("thread 0x%x is destroying...\n", (int)pthread_self());
 }
 
-void threadpool_init(threadpool_t *pool, int threads)
+void threadpool_init(threadpool_t *pool, int threads, int dtime)
 {
     // 对线程池的各个字段初始化
     condition_init(&pool->ready);
@@ -86,6 +85,7 @@ void threadpool_init(threadpool_t *pool, int threads)
     pool->idle = 0; // 空闲线程数初始化
     pool->max_threads = threads; // 最大线程数
     pool->quit = 0; // 销毁的flag
+    pool->timeout = dtime; // 设置生命周期
 
 } // 线程池初始化
 
