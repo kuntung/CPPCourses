@@ -1946,6 +1946,10 @@ int main(void)
 
 # STL
 
+![image-20210810161744478](StudyCPPWithMeNOTES.assets/image-20210810161744478.png)
+
+![image-20210810161827832](StudyCPPWithMeNOTES.assets/image-20210810161827832.png)
+
 ## 模板
 
 **模板的定义：**
@@ -2048,6 +2052,8 @@ void Stack<T, MAXSIZE>::Push(const T& elem)
 
 ![image-20210716105529815](StudyCPPWithMeNOTES.assets/image-20210716105529815.png)
 
+**将数据结构类型也传递进来**
+
 ### 成员模板
 
 ![image-20210716110946634](StudyCPPWithMeNOTES.assets/image-20210716110946634.png)
@@ -2058,13 +2064,98 @@ void Stack<T, MAXSIZE>::Push(const T& elem)
 
 ### 关键字typename
 
+![image-20210810144736480](StudyCPPWithMeNOTES.assets/image-20210810144736480.png)
 
+> 没有typename就会将subtype解析成：`T的静态数据成员`
+>
+> 有typename则，将subtype解析成一个T的子类型
+
+![image-20210810145115103](StudyCPPWithMeNOTES.assets/image-20210810145115103.png)
 
 ### 派生类和模板
 
+![image-20210810145230051](StudyCPPWithMeNOTES.assets/image-20210810145230051.png)
+
+**模板编程：**将类型当做参数传递，实现适配
+
 ### 面向对象与泛型
 
+**面向对象编程和泛型编程都依赖于多种多态：**
 
+1. 动态多态：函数入口地址在运行的时候才确定，效率不如静态多态高
+   - 忽略基类和派生类之间的类型差异
+   - 只要使用基类指针或引用基类类型对象、派生类类型对象就可以共享相同的代码
+2. 静态多态（泛型编程）：模板实现（在编译器决定模板实例化）
+   - 将编写的类和函数能够多态地用于编译时不相关的类型。
+   - 一个类或一个函数可以用来操纵多种类型的对象
+
+### 模板的应用
+
+#### 用模板实现单例模式
+
+```c++
+#ifndef _STUDYCPP_SINGLETON_H_
+#define _STUDYCPP_SINGLETON_H_
+
+#include <iostream>
+#include <cstdlib>
+
+using std::cout;
+using std::endl;
+
+template <typename T> 
+class Singleton
+{
+public:
+    static T &GetInstance()
+    {
+        Init();
+
+        return *instance_;
+    }
+
+private:
+    
+    static void Init()
+    {
+        if (instance_ == 0)
+        {
+            instance_ = new T;
+            atexit(Destory);
+        }
+
+    }
+
+    static void Destory()
+    {
+        delete instance_;
+    }
+
+    Singleton()
+    {
+        cout << "Singleton()..." << endl;
+    }
+    Singleton(const Singleton & other) = default;
+    Singleton& operator= (const Singleton &other) = default;
+    ~Singleton()
+    {
+        cout << "~Singleton()..." << endl;
+    }
+    
+    static T* instance_; // 智能指针实现对象释放
+};
+
+// 类外初始化
+template <typename T>
+T* Singleton<T>::instance_ = 0;
+#endif // _STUDYCPP_SINGLETON_H_
+```
+
+**存在的问题：**
+
+1. 非线程安全的
+   - 普通锁：double check lock（存在CPU动态指令优化的问题）
+   - linux下，通过`pthread_once`实现
 
 ### 小结
 
@@ -2077,21 +2168,147 @@ void Stack<T, MAXSIZE>::Push(const T& elem)
 2. 类模板必须显示实例化为模板类，才可以实例化对象
    - 模板也可以传递非类型参数`template <typename T, int MAXSIZE>`
 
+## 泛型程序设计（generic programming）
+
+1. 将程序写得尽可能通用
+2. 将**算法从数据结构中抽象出来，称为通用的。**
+3. C++的**模板**为泛型编程设计奠定了关键的基础
+
+![image-20210810161557217](StudyCPPWithMeNOTES.assets/image-20210810161557217.png)
+
+
+
 ## STL的六大组件
 
+![image-20210810162908844](StudyCPPWithMeNOTES.assets/image-20210810162908844.png)
+
 ### 容器
+
+提供各种基本数据结构
+
+![image-20210810163043324](StudyCPPWithMeNOTES.assets/image-20210810163043324.png)
+
+![image-20210810163226384](StudyCPPWithMeNOTES.assets/image-20210810163226384.png)
+
+
 
 ### 适配器
 
 代码复用的方式，不是通过继承。而是适配。
 
+**可以改变容器、迭代器、函数对象接口的一种组件**
+
+![image-20210810164034691](StudyCPPWithMeNOTES.assets/image-20210810164034691.png)
+
 ### 函数对象
+
+**以类模板的形式提供：**使得类使用起来像一个函数（需要重载`operator()`）
 
 ### 分配器allocator
 
+
+
+#### 内存池设计实现
+
+
+
 ### 算法
 
+提供了各种基本的算法
+
+- sort
+- search
+
 ### 迭代器
+
+用于连接`containers`和`algorithms`
+
+![image-20210810163911744](StudyCPPWithMeNOTES.assets/image-20210810163911744.png)
+
+## 源码分析
+
+### vector源码分析
+
+vector内部有三个指针
+
+1. _Myfirst
+2. _Mylast
+3. _Myend
+
+![image-20210810170938575](StudyCPPWithMeNOTES.assets/image-20210810170938575.png)
+
+vector内部能够容纳的元素个数：capacity
+
+vector内部所存放的元素个数：size
+
+```c++
+size_type size() const
+{	// return length of sequence
+    return (_Mylast - _Myfirst);
+}
+
+size_type capacity() const
+{	// return length of sequence
+    return (_Myfirst == 0 ? 0 : _Myend - _Myfirst);
+}
+
+size_type max_size() const
+{
+    
+}
+```
+
+1. 通常情况下，`capacity`大于等于`size`
+
+   > 为的是预留与部分空间来准备给新插入的元素。（避免每次插入都动态扩张）
+   >
+   > 每个vector有个`max_size()`
+
+#### vector的push_back所做的工作
+
+1. 判断`size()是否小于capacity()`
+2. 如果小于等于，就直接`insert(end(), val)`
+3. 否则动态扩容，然后insert
+
+#### 小结
+
+1. vector的动态扩容机制
+
+   ```c++
+   // 在VS2008中实现
+   _Capacity = max_size() - Capacity / 2 < _Capacity ? 0 : _Capacity + _Capacity / 2; // try to grow by 50%
+   
+   // VC6中动态扩容机制：成倍增长
+   size_type _N = size() + (_M < size() ? size() : _M); // 因为当前的size()后面
+   iterator _S = allocator.allocate(_N, (void*)0); // 分配空间
+   ```
+
+   **拷贝移动机制如何实现？**
+
+   ```c
+   
+   ```
+
+   
+
+## 小结
+
+### 容器的对比
+
+1. 序列式容器对比
+
+   - vector在头部与中间插入删除效率较低，在**尾部插入删除效率**很高
+   - vector能以O（1）时间复杂度访问元素
+
+   - list在中间插入和删除效率很高。但是遍历访问某一个元素的效率很低（线性复杂度）
+   - deque容器在**头部和尾部**插入与删除效率较高。常数级别访问，不如vector高
+   - vector在内存上是连续的，而list是不连续的。deque分片连续
+
+2. 序列容器的选择
+
+   - list：当需要频繁的在中间插入删除元素的时候，同时不需要过多的进行长距离跳转的情况
+   - deque：频繁在头尾插入、删除元素
+   - vector：快速访问、不频繁的向中间插入删除元素
 
 # 小项目
 
@@ -2102,6 +2319,10 @@ void Stack<T, MAXSIZE>::Push(const T& elem)
 ![image-20210709143259814](StudyCPPWithMeNOTES.assets/image-20210709143259814.png)
 
 ## 银行储蓄系统
+
+## MFC框架
+
+
 
 # C++新特性
 
@@ -2222,7 +2443,7 @@ int main(void)
 
 - weak_ptr<T\>打破循环引用
 
- ![image-20210709154021264](StudyCPPWithMeNOTES.assets/image-20210709154021264.png)
+![image-20210709154021264](StudyCPPWithMeNOTES.assets/image-20210709154021264.png)
 
 ### weak_ptr
 
@@ -2603,6 +2824,13 @@ int *pn = &n;
    - 基类的构造函数
    - 派生类自身的构造函数
 3. 如果类中有多个对象成员，那么这些对象成员的构造函数按照声明的顺序调用
+
+### 泛型程序设计
+
+1. 模板为泛型程序设计奠定了基础
+2. STL是一套C++标准模板库，体现了泛型程序设计思想。（STL是泛型程序设计思想比较成功的一套产品）
+
+
 
 ## 拓展阅读
 
