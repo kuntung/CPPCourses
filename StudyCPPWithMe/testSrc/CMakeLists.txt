@@ -1,5 +1,6 @@
 set(base_SRCS
 Complex.cpp
+Shape.cpp
 )
 
 add_library(StudyCPPWithMe ${base_SRCS})

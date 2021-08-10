@@ -6,7 +6,7 @@
 
 using namespace std;
 
-typedef void* (*CREATE_FUNC())();
+typedef void* (*CREATE_FUNC)();
 
 class DynObjectFactory
 {
@@ -29,26 +29,43 @@ private:
 };
 
 __attribute ((weak)) map<string, CREATE_FUNC> DynObjectFactory::mapCls_;
-class Register
+
+//class Register
+//{
+//public:
+//	Register(const string& name, CREATE_FUNC func)
+//	{
+//		DynObjectFactory::Register(name, func);
+//	}
+//};
+
+//#define REGISTER_CLASS(class_name) \
+//class class_name##Register {\
+//public: 	\
+//	static void* NewInstance()	\
+//	{	\
+//		return new class_name;	\
+//	}	\
+//private: \
+//	static Register reg_; \
+//};	\
+//
+//Register class_name##Register::reg_(#class_name, class_name##Register::NewInstance)
+
+template <typename T>
+class DelegatingClass
 {
 public:
-	Register(const string& name, CREATE_FUNC func)
-	{
-		DynObjectFactory::Register(name, func);
-	}
+    DelegatingClass(const string& name){
+        DynObjectFactory::Register(name, &(DelegatingClass::NewInstance));        
+    }
+
+    static void *NewInstance()
+    {
+        return new T;
+
+    }
 };
 
-#define REGISTER_CLASS(class_name) \
-class class_name##Register {\
-public: 	\
-	static void* NewInstance()	\
-	{	\
-		return new class_name;	\
-	}	\
-private: \
-	static Register reg_; \
-};	\
-
-Register class_name##Register::reg_(#class_name, class_name##Register::NewInstance)
-
+#define REGISTER_CLASS(class_name) DelegatingClass<class_name> class##class_name(#class_name)// 定义一个模板类
 #endif //  _CPPCOURSE_DYN_BASE_H_

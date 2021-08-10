@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../StudyCPPWithMe/testSrc/Singleton.h
+iostream
+-
+cstdlib
+-
+
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/testSingleton.cpp
+StudyCPPWithMe/testSrc/Singleton.h
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/StudyCPPWithMe/testSrc/Singleton.h
+iostream
+-
+

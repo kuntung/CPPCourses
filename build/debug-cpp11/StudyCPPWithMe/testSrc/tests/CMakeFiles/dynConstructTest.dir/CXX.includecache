@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../StudyCPPWithMe/testSrc/DynBase.h
+map
+-
+string
+-
+
+../../StudyCPPWithMe/testSrc/Shape.h
+
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/dyncConstruct.cpp
+iostream
+-
+vector
+-
+string
+-
+StudyCPPWithMe/testSrc/Shape.h
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/StudyCPPWithMe/testSrc/Shape.h
+StudyCPPWithMe/testSrc/DynBase.h
+/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/tests/StudyCPPWithMe/testSrc/DynBase.h
+

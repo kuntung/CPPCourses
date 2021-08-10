@@ -156,6 +156,19 @@ StudyCPPWithMe/fast:
 .PHONY : StudyCPPWithMe/fast
 
 #=============================================================================
+# Target rules for targets named dynConstructTest
+
+# Build rule for target.
+dynConstructTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynConstructTest
+.PHONY : dynConstructTest
+
+# fast build rule for target.
+dynConstructTest/fast:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build
+.PHONY : dynConstructTest/fast
+
+#=============================================================================
 # Target rules for targets named objectSlicingTest
 
 # Build rule for target.
@@ -208,6 +221,19 @@ testRTII/fast:
 .PHONY : testRTII/fast
 
 #=============================================================================
+# Target rules for targets named testSingleton
+
+# Build rule for target.
+testSingleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSingleton
+.PHONY : testSingleton
+
+# fast build rule for target.
+testSingleton/fast:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build
+.PHONY : testSingleton/fast
+
+#=============================================================================
 # Target rules for targets named testSmartPtrs
 
 # Build rule for target.
@@ -219,6 +245,19 @@ testSmartPtrs: cmake_check_build_system
 testSmartPtrs/fast:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
 .PHONY : testSmartPtrs/fast
+
+#=============================================================================
+# Target rules for targets named testStack
+
+# Build rule for target.
+testStack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testStack
+.PHONY : testStack
+
+# fast build rule for target.
+testStack/fast:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build
+.PHONY : testStack/fast
 
 #=============================================================================
 # Target rules for targets named testVirtualFunc
@@ -1377,11 +1416,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... StudyCPPWithMe"
+	@echo "... dynConstructTest"
 	@echo "... objectSlicingTest"
 	@echo "... testComplex"
 	@echo "... testMyException"
 	@echo "... testRTII"
+	@echo "... testSingleton"
 	@echo "... testSmartPtrs"
+	@echo "... testStack"
 	@echo "... testVirtualFunc"
 	@echo "... testVirtualInhe"
 	@echo "... NetworkCoding"

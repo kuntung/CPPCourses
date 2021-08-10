@@ -75,14 +75,39 @@ StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o.provides: Stu
 
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o.provides.build: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o
 
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/flags.make
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o: ../../StudyCPPWithMe/testSrc/Shape.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o -c /home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Shape.cpp
+
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.i"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Shape.cpp > CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.i
+
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.s"
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/StudyCPPWithMe/testSrc && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Shape.cpp -o CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.s
+
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.requires:
+.PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.requires
+
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.provides: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.requires
+	$(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.provides.build
+.PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.provides
+
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.provides.build: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o
+
 # Object files for target StudyCPPWithMe
 StudyCPPWithMe_OBJECTS = \
-"CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o"
+"CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o" \
+"CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o"
 
 # External object files for target StudyCPPWithMe
 StudyCPPWithMe_EXTERNAL_OBJECTS =
 
 lib/libStudyCPPWithMe.a: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o
+lib/libStudyCPPWithMe.a: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o
 lib/libStudyCPPWithMe.a: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make
 lib/libStudyCPPWithMe.a: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library ../../lib/libStudyCPPWithMe.a"
@@ -94,6 +119,7 @@ StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build: lib/libStudyCPPWithM
 .PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build
 
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/requires: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o.requires
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/requires: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o.requires
 .PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/requires
 
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/clean:

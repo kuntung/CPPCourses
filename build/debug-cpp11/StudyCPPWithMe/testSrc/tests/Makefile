@@ -143,6 +143,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule
+
+# Convenience name for target.
+dynConstructTest: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule
+.PHONY : dynConstructTest
+
+# fast build rule for target.
+dynConstructTest/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build
+.PHONY : dynConstructTest/fast
+
+# Convenience name for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/rule
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/rule
@@ -199,6 +213,20 @@ testRTII/fast:
 .PHONY : testRTII/fast
 
 # Convenience name for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule
+
+# Convenience name for target.
+testSingleton: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule
+.PHONY : testSingleton
+
+# fast build rule for target.
+testSingleton/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build
+.PHONY : testSingleton/fast
+
+# Convenience name for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
@@ -211,6 +239,20 @@ testSmartPtrs: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/rule
 testSmartPtrs/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
 .PHONY : testSmartPtrs/fast
+
+# Convenience name for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule
+
+# Convenience name for target.
+testStack: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule
+.PHONY : testStack
+
+# fast build rule for target.
+testStack/fast:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build
+.PHONY : testStack/fast
 
 # Convenience name for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/rule:
@@ -239,6 +281,30 @@ testVirtualInhe: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/rul
 testVirtualInhe/fast:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build
 .PHONY : testVirtualInhe/fast
+
+dyncConstruct.o: dyncConstruct.cpp.o
+.PHONY : dyncConstruct.o
+
+# target to build an object file
+dyncConstruct.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/dyncConstruct.cpp.o
+.PHONY : dyncConstruct.cpp.o
+
+dyncConstruct.i: dyncConstruct.cpp.i
+.PHONY : dyncConstruct.i
+
+# target to preprocess a source file
+dyncConstruct.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/dyncConstruct.cpp.i
+.PHONY : dyncConstruct.cpp.i
+
+dyncConstruct.s: dyncConstruct.cpp.s
+.PHONY : dyncConstruct.s
+
+# target to generate assembly for a file
+dyncConstruct.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/dyncConstruct.cpp.s
+.PHONY : dyncConstruct.cpp.s
 
 objectSlicing.o: objectSlicing.cpp.o
 .PHONY : objectSlicing.o
@@ -336,6 +402,30 @@ testRTII.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/testRTII.cpp.s
 .PHONY : testRTII.cpp.s
 
+testSingleton.o: testSingleton.cpp.o
+.PHONY : testSingleton.o
+
+# target to build an object file
+testSingleton.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/testSingleton.cpp.o
+.PHONY : testSingleton.cpp.o
+
+testSingleton.i: testSingleton.cpp.i
+.PHONY : testSingleton.i
+
+# target to preprocess a source file
+testSingleton.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/testSingleton.cpp.i
+.PHONY : testSingleton.cpp.i
+
+testSingleton.s: testSingleton.cpp.s
+.PHONY : testSingleton.s
+
+# target to generate assembly for a file
+testSingleton.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/testSingleton.cpp.s
+.PHONY : testSingleton.cpp.s
+
 testSmartPtrs.o: testSmartPtrs.cc.o
 .PHONY : testSmartPtrs.o
 
@@ -359,6 +449,30 @@ testSmartPtrs.s: testSmartPtrs.cc.s
 testSmartPtrs.cc.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/testSmartPtrs.cc.s
 .PHONY : testSmartPtrs.cc.s
+
+testStack.o: testStack.cpp.o
+.PHONY : testStack.o
+
+# target to build an object file
+testStack.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/testStack.cpp.o
+.PHONY : testStack.cpp.o
+
+testStack.i: testStack.cpp.i
+.PHONY : testStack.i
+
+# target to preprocess a source file
+testStack.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/testStack.cpp.i
+.PHONY : testStack.cpp.i
+
+testStack.s: testStack.cpp.s
+.PHONY : testStack.s
+
+# target to generate assembly for a file
+testStack.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/testStack.cpp.s
+.PHONY : testStack.cpp.s
 
 testVirtualFunc.o: testVirtualFunc.cpp.o
 .PHONY : testVirtualFunc.o
@@ -414,6 +528,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... dynConstructTest"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -424,9 +539,14 @@ help:
 	@echo "... testComplex"
 	@echo "... testMyException"
 	@echo "... testRTII"
+	@echo "... testSingleton"
 	@echo "... testSmartPtrs"
+	@echo "... testStack"
 	@echo "... testVirtualFunc"
 	@echo "... testVirtualInhe"
+	@echo "... dyncConstruct.o"
+	@echo "... dyncConstruct.i"
+	@echo "... dyncConstruct.s"
 	@echo "... objectSlicing.o"
 	@echo "... objectSlicing.i"
 	@echo "... objectSlicing.s"
@@ -439,9 +559,15 @@ help:
 	@echo "... testRTII.o"
 	@echo "... testRTII.i"
 	@echo "... testRTII.s"
+	@echo "... testSingleton.o"
+	@echo "... testSingleton.i"
+	@echo "... testSingleton.s"
 	@echo "... testSmartPtrs.o"
 	@echo "... testSmartPtrs.i"
 	@echo "... testSmartPtrs.s"
+	@echo "... testStack.o"
+	@echo "... testStack.i"
+	@echo "... testStack.s"
 	@echo "... testVirtualFunc.o"
 	@echo "... testVirtualFunc.i"
 	@echo "... testVirtualFunc.s"

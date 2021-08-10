@@ -74,11 +74,14 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/DependInfo.cmake"
+  "StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/DependInfo.cmake"
+  "StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/DependInfo.cmake"
+  "StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/DependInfo.cmake"
   "StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/DependInfo.cmake"
   "LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/DependInfo.cmake"

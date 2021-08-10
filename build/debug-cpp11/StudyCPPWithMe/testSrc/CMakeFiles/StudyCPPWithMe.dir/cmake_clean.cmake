@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o"
+  "CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o"
   "../../lib/libStudyCPPWithMe.pdb"
   "../../lib/libStudyCPPWithMe.a"
 )

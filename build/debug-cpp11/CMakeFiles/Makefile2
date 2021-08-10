@@ -79,7 +79,7 @@ StudyCPPWithMe/testSrc/preinstall: StudyCPPWithMe/testSrc/tests/preinstall
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  7 8
 	@echo "Built target StudyCPPWithMe"
 .PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 
@@ -89,7 +89,7 @@ all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 
 # Build rule for subdir invocation for target.
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
 .PHONY : StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/rule
@@ -111,21 +111,27 @@ clean: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/clean
 # Directory level rules for directory StudyCPPWithMe/testSrc/tests
 
 # Convenience name for "all" pass in the directory.
+StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all
+StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
+StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all
 StudyCPPWithMe/testSrc/tests/all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all
 .PHONY : StudyCPPWithMe/testSrc/tests/all
 
 # Convenience name for "clean" pass in the directory.
+StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/clean
+StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
+StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/clean
 StudyCPPWithMe/testSrc/tests/clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/clean
 .PHONY : StudyCPPWithMe/testSrc/tests/clean
@@ -135,13 +141,48 @@ StudyCPPWithMe/testSrc/tests/preinstall:
 .PHONY : StudyCPPWithMe/testSrc/tests/preinstall
 
 #=============================================================================
+# Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir
+
+# All Build rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/depend
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  20
+	@echo "Built target dynConstructTest"
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/all
+
+# Include target in all.
+all: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule
+
+# Convenience name for target.
+dynConstructTest: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/rule
+.PHONY : dynConstructTest
+
+# clean rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/clean:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/clean
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/clean
+
+# clean rule for target.
+clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/dynConstructTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir
 
 # All Build rule for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  41
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  43
 	@echo "Built target objectSlicingTest"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/all
 
@@ -176,7 +217,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/objectSlicingTest.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  72
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  74
 	@echo "Built target testComplex"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 
@@ -186,7 +227,7 @@ all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 
 # Build rule for subdir invocation for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/rule
@@ -211,7 +252,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testComplex.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  73
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  75
 	@echo "Built target testMyException"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/all
 
@@ -246,7 +287,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testMyException.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  74
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  76
 	@echo "Built target testRTII"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/all
 
@@ -275,13 +316,48 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testRTII.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir
+
+# All Build rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/depend
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  78
+	@echo "Built target testSingleton"
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/all
+
+# Include target in all.
+all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule
+
+# Convenience name for target.
+testSingleton: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/rule
+.PHONY : testSingleton
+
+# clean rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/clean:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/clean
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/clean
+
+# clean rule for target.
+clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSingleton.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir
 
 # All Build rule for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  76
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  79
 	@echo "Built target testSmartPtrs"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/all
 
@@ -310,13 +386,48 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testSmartPtrs.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir
+
+# All Build rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/all: StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/all
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/depend
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  80
+	@echo "Built target testStack"
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/all
+
+# Include target in all.
+all: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles 0
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule
+
+# Convenience name for target.
+testStack: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/rule
+.PHONY : testStack
+
+# clean rule for target.
+StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/clean:
+	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/clean
+.PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/clean
+
+# clean rule for target.
+clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testStack.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir
 
 # All Build rule for target.
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  78
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  82
 	@echo "Built target testVirtualFunc"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/all
 
@@ -351,7 +462,7 @@ clean: StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualFunc.dir/clean
 StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all:
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/depend
 	$(MAKE) -f StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build.make StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  79
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  83
 	@echo "Built target testVirtualInhe"
 .PHONY : StudyCPPWithMe/testSrc/tests/CMakeFiles/testVirtualInhe.dir/all
 
@@ -510,7 +621,7 @@ clean: LinuxNetworkCoding/src/tests/CMakeFiles/SocketAddrTest.dir/clean
 LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  21
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  23
 	@echo "Built target echoClient"
 .PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/all
 
@@ -545,7 +656,7 @@ clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoClient.dir/clean
 LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  26
 	@echo "Built target echoServer"
 .PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/all
 
@@ -580,7 +691,7 @@ clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer.dir/clean
 LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  27
 	@echo "Built target echoServer2"
 .PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/all
 
@@ -615,7 +726,7 @@ clean: LinuxNetworkCoding/src/tests/CMakeFiles/echoServer2.dir/clean
 LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  42
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  44
 	@echo "Built target p2pClient"
 .PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/all
 
@@ -650,7 +761,7 @@ clean: LinuxNetworkCoding/src/tests/CMakeFiles/p2pClient.dir/clean
 LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build.make LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  43
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  45
 	@echo "Built target p2pServer"
 .PHONY : LinuxNetworkCoding/src/tests/CMakeFiles/p2pServer.dir/all
 
@@ -764,7 +875,7 @@ LinuxNetworkCoding/src/socket/preinstall:
 LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  12
 	@echo "Built target chatCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/all
 
@@ -799,7 +910,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  13
 	@echo "Built target chatServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/all
 
@@ -834,7 +945,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/chatServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  14
 	@echo "Built target connFileLimitTest"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/all
 
@@ -869,7 +980,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/connFileLimitTest.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  15
 	@echo "Built target connectUdpCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/all
 
@@ -904,7 +1015,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/connectUdpCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  26
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  28
 	@echo "Built target echocli3_nianbao"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/all
 
@@ -939,7 +1050,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli3_nianbao.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  27
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  29
 	@echo "Built target echocli_readline"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/all
 
@@ -974,7 +1085,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/echocli_readline.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  28
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  30
 	@echo "Built target echosrv3_nianbao"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/all
 
@@ -1009,7 +1120,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv3_nianbao.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  29
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  31
 	@echo "Built target echosrv_readline"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/all
 
@@ -1044,7 +1155,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/echosrv_readline.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  31
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  33
 	@echo "Built target gethostname"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/all
 
@@ -1079,7 +1190,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/gethostname.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  44
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  46
 	@echo "Built target pollServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/all
 
@@ -1114,7 +1225,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/pollServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  49
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  51
 	@echo "Built target selectCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/all
 
@@ -1149,7 +1260,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  50
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  52
 	@echo "Built target selectServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/all
 
@@ -1184,7 +1295,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  51
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  53
 	@echo "Built target selectServ2"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/all
 
@@ -1219,7 +1330,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/selectServ2.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  58
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  60
 	@echo "Built target send_fd"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/all
 
@@ -1254,7 +1365,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/send_fd.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  67
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  69
 	@echo "Built target shutdownCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/all
 
@@ -1289,7 +1400,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  68
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  70
 	@echo "Built target shutdownCliTest"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/all
 
@@ -1324,7 +1435,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownCliTest.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  69
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  71
 	@echo "Built target shutdownServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/all
 
@@ -1359,7 +1470,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/shutdownServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  70
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  72
 	@echo "Built target sockpair1"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/all
 
@@ -1394,7 +1505,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/sockpair1.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  75
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  77
 	@echo "Built target testSigpipe"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/all
 
@@ -1429,7 +1540,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/testSigpipe.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all: LinuxNetworkCoding/src/CMakeFiles/NetworkCoding.dir/all
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  80
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  84
 	@echo "Built target timeoutCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/all
 
@@ -1464,7 +1575,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  85
 	@echo "Built target timeoutServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/all
 
@@ -1499,7 +1610,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/timeoutServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  82
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  86
 	@echo "Built target truncUdpTest"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/all
 
@@ -1534,7 +1645,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/truncUdpTest.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  83
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  87
 	@echo "Built target udpCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/all
 
@@ -1569,7 +1680,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  84
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  88
 	@echo "Built target udpServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/all
 
@@ -1604,7 +1715,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  85
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  89
 	@echo "Built target udpServCopy"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/all
 
@@ -1639,7 +1750,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/udpServCopy.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  86
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  90
 	@echo "Built target unixEchoClie"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/all
 
@@ -1674,7 +1785,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoClie.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  87
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  91
 	@echo "Built target unixEchoServ"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/all
 
@@ -1709,7 +1820,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/unixEchoServ.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  91
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  95
 	@echo "Built target zombieHandleCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/all
 
@@ -1744,7 +1855,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  96
 	@echo "Built target zombieHandleSrv"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/all
 
@@ -1779,7 +1890,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandleSrv.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  93
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  97
 	@echo "Built target zombieHandler"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/all
 
@@ -1814,7 +1925,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieHandler.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  94
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  98
 	@echo "Built target zombieMultiCli"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/all
 
@@ -1849,7 +1960,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieMultiCli.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  95
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  99
 	@echo "Built target zombieNoHandle"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/all
 
@@ -1884,7 +1995,7 @@ clean: LinuxNetworkCoding/src/socket/CMakeFiles/zombieNoHandle.dir/clean
 LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build.make LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  96
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  100
 	@echo "Built target zombieWaitpid"
 .PHONY : LinuxNetworkCoding/src/socket/CMakeFiles/zombieWaitpid.dir/all
 
@@ -1974,7 +2085,7 @@ LinuxNetworkCoding/src/IPC/preinstall:
 LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  17
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  18
 	@echo "Built target dining"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/all
 
@@ -2009,7 +2120,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/dining.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  19
 	@echo "Built target diningDeadLock"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/all
 
@@ -2044,7 +2155,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/diningDeadLock.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  19
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  21
 	@echo "Built target echoCliIPC"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/all
 
@@ -2079,7 +2190,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoCliIPC.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  22
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  24
 	@echo "Built target echoServIPC"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/all
 
@@ -2114,7 +2225,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/echoServIPC.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  32
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  34
 	@echo "Built target mmapRead"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/all
 
@@ -2149,7 +2260,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapRead.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  33
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  35
 	@echo "Built target mmapTest"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/all
 
@@ -2184,7 +2295,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/mmapTest.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  34
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  36
 	@echo "Built target msgChange"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/all
 
@@ -2219,7 +2330,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgChange.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  35
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  37
 	@echo "Built target msgGet"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/all
 
@@ -2254,7 +2365,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgGet.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  36
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  38
 	@echo "Built target msgRecv"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/all
 
@@ -2289,7 +2400,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRecv.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  37
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  39
 	@echo "Built target msgRmv"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/all
 
@@ -2324,7 +2435,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgRmv.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  38
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  40
 	@echo "Built target msgSend"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/all
 
@@ -2359,7 +2470,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgSend.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  39
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  41
 	@echo "Built target msgStat"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/all
 
@@ -2394,7 +2505,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/msgStat.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  52
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  54
 	@echo "Built target semCtl"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/all
 
@@ -2429,7 +2540,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semCtl.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  53
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  55
 	@echo "Built target semOpt"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/all
 
@@ -2464,7 +2575,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semOpt.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  54
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  56
 	@echo "Built target semPrint"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/all
 
@@ -2499,7 +2610,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semPrint.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  55
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  57
 	@echo "Built target semTool"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/all
 
@@ -2534,7 +2645,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semTool.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  56
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  58
 	@echo "Built target semWrite"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/all
 
@@ -2569,7 +2680,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/semWrite.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  60
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  62
 	@echo "Built target shmRead"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/all
 
@@ -2604,7 +2715,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRead.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  61
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  63
 	@echo "Built target shmRemove"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/all
 
@@ -2639,7 +2750,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmRemove.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  62
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  64
 	@echo "Built target shmStat"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/all
 
@@ -2674,7 +2785,7 @@ clean: LinuxNetworkCoding/src/IPC/CMakeFiles/shmStat.dir/clean
 LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build.make LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  66
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  68
 	@echo "Built target shmwrite"
 .PHONY : LinuxNetworkCoding/src/IPC/CMakeFiles/shmwrite.dir/all
 
@@ -2748,7 +2859,7 @@ LinuxNetworkCoding/src/POSIXIPC/preinstall:
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  16
 	@echo "Built target createPSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/all
 
@@ -2783,7 +2894,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/createPSHM.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  30
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  32
 	@echo "Built target getaddrPMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/all
 
@@ -2818,7 +2929,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/getaddrPMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  40
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  42
 	@echo "Built target notifyPMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/all
 
@@ -2853,7 +2964,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/notifyPMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  45
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  47
 	@echo "Built target posixMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/all
 
@@ -2888,7 +2999,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/posixMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  46
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  48
 	@echo "Built target readPSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/all
 
@@ -2923,7 +3034,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/readPSHM.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  47
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  49
 	@echo "Built target recvMSGPMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/all
 
@@ -2958,7 +3069,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/recvMSGPMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  48
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  50
 	@echo "Built target resizePSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/all
 
@@ -2993,7 +3104,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/resizePSHM.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  57
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  59
 	@echo "Built target sendMSG2PMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/all
 
@@ -3028,7 +3139,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/sendMSG2PMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  59
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  61
 	@echo "Built target setattrPMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/all
 
@@ -3063,7 +3174,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/setattrPMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  71
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  73
 	@echo "Built target statPSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/all
 
@@ -3098,7 +3209,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/statPSHM.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  88
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  92
 	@echo "Built target unlinkPMQ"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/all
 
@@ -3133,7 +3244,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPMQ.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  89
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  93
 	@echo "Built target unlinkPSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/all
 
@@ -3168,7 +3279,7 @@ clean: LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/unlinkPSHM.dir/clean
 LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build.make LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  90
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  94
 	@echo "Built target writePSHM"
 .PHONY : LinuxNetworkCoding/src/POSIXIPC/CMakeFiles/writePSHM.dir/all
 
@@ -3298,7 +3409,7 @@ clean: LinuxNetworkCoding/src/pthread/CMakeFiles/ProAndCustomer.dir/clean
 LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  11
 	@echo "Built target TSD"
 .PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/all
 
@@ -3333,7 +3444,7 @@ clean: LinuxNetworkCoding/src/pthread/CMakeFiles/TSD.dir/clean
 LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  17
 	@echo "Built target createThread"
 .PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/all
 
@@ -3368,7 +3479,7 @@ clean: LinuxNetworkCoding/src/pthread/CMakeFiles/createThread.dir/clean
 LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  22
 	@echo "Built target echoCliThread"
 .PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/all
 
@@ -3403,7 +3514,7 @@ clean: LinuxNetworkCoding/src/pthread/CMakeFiles/echoCliThread.dir/clean
 LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build.make LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  23
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  25
 	@echo "Built target echoServThread"
 .PHONY : LinuxNetworkCoding/src/pthread/CMakeFiles/echoServThread.dir/all
 
@@ -3509,7 +3620,7 @@ LinuxNetworkCoding/shmfifo/tests/preinstall:
 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  63
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  65
 	@echo "Built target shmfifoDestroy"
 .PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/all
 
@@ -3544,7 +3655,7 @@ clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoDestroy.dir/clean
 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  64
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  66
 	@echo "Built target shmfifoRecv"
 .PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/all
 
@@ -3579,7 +3690,7 @@ clean: LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoRecv.dir/clean
 LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all: LinuxNetworkCoding/shmfifo/CMakeFiles/SHMFIFO.dir/all
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build.make LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  65
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  67
 	@echo "Built target shmfifoSend"
 .PHONY : LinuxNetworkCoding/shmfifo/tests/CMakeFiles/shmfifoSend.dir/all
 
@@ -3631,7 +3742,7 @@ LinuxNetworkCoding/threadpool/preinstall: LinuxNetworkCoding/threadpool/tests/pr
 LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all:
 	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build.make LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  8 9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  9 10
 	@echo "Built target THREADPOOL"
 .PHONY : LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
 
@@ -3681,7 +3792,7 @@ LinuxNetworkCoding/threadpool/tests/preinstall:
 LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all: LinuxNetworkCoding/threadpool/CMakeFiles/THREADPOOL.dir/all
 	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/depend
 	$(MAKE) -f LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build.make LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11/CMakeFiles  81
 	@echo "Built target testThreadPool"
 .PHONY : LinuxNetworkCoding/threadpool/tests/CMakeFiles/testThreadPool.dir/all
 

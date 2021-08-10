@@ -38,7 +38,9 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/StudyCPPWithMe/testSrc" TYPE FILE FILES
+    "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/stack.h"
     "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/DynBase.h"
+    "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Singleton.h"
     "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Complex.h"
     "/home/xiaotang/GitHub/CPPCourses/StudyCPPWithMe/testSrc/Shape.h"
     )

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "cppcourses/StudyCPPWithMe/testSrc/Shape.h"
-#include "cppcourses/StudyCPPWithMe/testSrc/DynBase.h"
+#include "StudyCPPWithMe/testSrc/Shape.h"
+#include "StudyCPPWithMe/testSrc/DynBase.h"
 
 using std::string;
 using std::cout;
@@ -34,8 +34,8 @@ int main(void)
 	ps = static_cast<Shape*>(DynObjectFactory::CreateObject("Rectangle"));
 	v.push_back(ps);
 
-	DrawAllShape(v);
-	DelAllShape(v);
+	DrawAllShapes(v);
+	DelAllShapes(v);
 
 	return 0;
 }

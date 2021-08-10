@@ -4,3 +4,7 @@
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o: ../../StudyCPPWithMe/testSrc/Complex.cpp
 StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.o: ../../StudyCPPWithMe/testSrc/Complex.h
 
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o: ../../StudyCPPWithMe/testSrc/DynBase.h
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o: ../../StudyCPPWithMe/testSrc/Shape.cpp
+StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o: ../../StudyCPPWithMe/testSrc/Shape.h
+

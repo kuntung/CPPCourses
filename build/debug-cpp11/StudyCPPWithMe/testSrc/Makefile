@@ -180,6 +180,30 @@ Complex.cpp.s:
 	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Complex.cpp.s
 .PHONY : Complex.cpp.s
 
+Shape.o: Shape.cpp.o
+.PHONY : Shape.o
+
+# target to build an object file
+Shape.cpp.o:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.o
+.PHONY : Shape.cpp.o
+
+Shape.i: Shape.cpp.i
+.PHONY : Shape.i
+
+# target to preprocess a source file
+Shape.cpp.i:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.i
+.PHONY : Shape.cpp.i
+
+Shape.s: Shape.cpp.s
+.PHONY : Shape.s
+
+# target to generate assembly for a file
+Shape.cpp.s:
+	cd /home/xiaotang/GitHub/CPPCourses/build/debug-cpp11 && $(MAKE) -f StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/build.make StudyCPPWithMe/testSrc/CMakeFiles/StudyCPPWithMe.dir/Shape.cpp.s
+.PHONY : Shape.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,6 +220,9 @@ help:
 	@echo "... Complex.o"
 	@echo "... Complex.i"
 	@echo "... Complex.s"
+	@echo "... Shape.o"
+	@echo "... Shape.i"
+	@echo "... Shape.s"
 .PHONY : help
 
 
