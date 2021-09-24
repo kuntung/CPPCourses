@@ -944,13 +944,13 @@ TCP是一个全双工的管道。
    setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, 5);
    int ret = read(sock, buf, sizeof(buf));
    
-   if (ret == -1 && errno = EWOULDBLOCK)
+   if (ret == -1 && errno == EWOULDBLOCK)
    {
        errno = ETIMEOUT;
    }
    ```
 
-3. **用select实现超时**
+3. **用select实现超时**，其他IO复用呢？
 
 ### 用select实现超时
 
@@ -1209,10 +1209,11 @@ TCP是一个全双工的管道。
    }
    ```
 
-**注意事项：**当select关注可写事件的时候，返回值大于1可能有两种情况
+**注意事项：**当select关注可写事件的时候，**返回值大于1**可能有两种情况
 
 1. 有真实的可写事件发生
-2. 套接字产生错误。此时错误信息不会保存在errno变量中，因此，需要调用getsockopt来获取
+2. **套接字产生错误**。此时**错误信息不会保存在errno变量**中，因此，需要调用**getsockopt**来获取
+3. 见muduo网络库connector
 
 ## poll
 
@@ -2365,8 +2366,6 @@ int shmctl(int shmid, int cmd, struct shmid_ds *buf); // 对共享内存的控�
 ### POSIX的IPC机制
 
 > 注：记录丢失
-
-**SYS**
 
 #### 消息队列
 

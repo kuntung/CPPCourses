@@ -811,6 +811,11 @@ int main(void)
 
 ## 对象的使用
 
+### 对象的两种语义
+
+1. 值语义：可以拷贝的，拷贝之后，与原对象脱离关系
+2. 对象语义：要么是不能拷贝的，要么可以拷贝，拷贝之后与原对象仍然存在一定关系。比如共享底层资源（要实现自己的拷贝构造函数）
+
 ### static成员
 
 **需要某个变量被所有的对象访问，比如统计某种类型对象已创建的数量**
@@ -1952,19 +1957,21 @@ int main(void)
 
 ## 模板
 
+https://blog.csdn.net/lezardfu/article/details/56852043
+
 **模板的定义：**
 
-- 模板也是一种静态多态的实现方式。将程序所处理的对象的类型参数化。
+- 模板也是一种**静态多态**的实现方式。将程序所处理的对象的类型参数化。
 - 采用模板编程，可以为各种逻辑功能相同，而数据类型不同的程序提供一种代码共享的机制
 
 **模板的引入初衷：**
 
 ![image-20210716095812618](StudyCPPWithMeNOTES.assets/image-20210716095812618.png)
 
-- 宏替换：不做类型检查
-- 重载：为每个类型提供一个重载版本，程序自己来维护这些重载的版本（可拓展性差）
+- 宏替换：**不做类型检查**，
+- 重载：为每个类型提供一个重载版本，程序自己来维护这些重载的版本（**可拓展性差**）
 
-**模板的特性：**为具有相同代码逻辑的代码提供一个模板，并将类型作为参数传递。从而**实例化出对应数据类型的版本**。不同的版本由编译器来维护。（会做安全的类型检查）
+**模板的特性：**为具有相同代码逻辑的代码提供一个模板，并将**类型**作为参数传递。从而**实例化出对应数据类型的版本**。不同的版本由编译器来维护。（会做安全的类型检查）
 
 - 函数模板
 - 类模板（muduo的thread local）
@@ -1982,7 +1989,7 @@ int main(void)
 
 ![image-20210716100911493](StudyCPPWithMeNOTES.assets/image-20210716100911493.png)
 
-**因此，模板不建议使用分离式编译。而应该将实现也放在`.h`文件中**
+**因此，`模板不建议使用分离式编译`。而应该将实现也放在`.h`文件中**
 
 #### 函数模板特化
 
@@ -2014,7 +2021,7 @@ int main(void)
 
 ### 非类型模板参数
 
-> 对于函数模板与类模板，模板参数并不局限于类型。普通值也可以做为模板参数
+> 对于函数模板与类模板，**模板参数并不局限于类型。普通值也可以做为模板参数**
 
 ```c++
 template <typename T, int MAXSIZE>
@@ -2161,7 +2168,7 @@ T* Singleton<T>::instance_ = 0;
 
 1. 编译器的函数匹配原则
    - 全局的非模板函数
-   - 模板函数推导
+   - **模板函数推导**：如何进行推导：**根据传入参数类型自动推导模板参数类型。而不需要传递类型**
      - 默认
      - 或者显示指定
 
@@ -2175,8 +2182,6 @@ T* Singleton<T>::instance_ = 0;
 3. C++的**模板**为泛型编程设计奠定了关键的基础
 
 ![image-20210810161557217](StudyCPPWithMeNOTES.assets/image-20210810161557217.png)
-
-
 
 ## STL的六大组件
 
@@ -2270,6 +2275,59 @@ size_type max_size() const
 2. 如果小于等于，就直接`insert(end(), val)`
 3. 否则动态扩容，然后insert
 
+#### vector的capacity和size
+
+1. capacity()：容量，当前向量能够容纳的元素的个数
+2. size()：当前向量实际存储的元素的个数
+3. capacity() >= size()：向量通常缓存了一部门内存空间，用来容纳更多的元素。这样，在下次插入新元素的时候，就不必重新分配内存。提高了插入速度
+
+![image-20210910153603771](StudyCPPWithMeNOTES.assets/image-20210910153603771.png)
+
+#### vector元素的删除erase和remove
+
+```c++
+// 源码示例
+// sequence (1)	
+string& erase (size_t pos = 0, size_t len = npos);
+// character (2)	
+iterator erase (const_iterator p);
+// range (3)	
+iterator erase (const_iterator first, const_iterator last);
+
+// remove的工作
+template <class ForwardIterator, class T>
+ForwardIterator remove (ForwardIterator first, ForwardIterator last, 
+                        const T& val)
+{
+  ForwardIterator result = first;
+  while (first!=last) {
+    if (!(*first == val)) {
+      if (result!=first)
+        *result = move(*first);
+      ++result;
+    }
+    ++first;
+  }
+  return result; // 返回移除后的尾部迭代器。之前的元素都不是val
+}
+// 这时候就可以直接[result, end)删除值为val的所有元素
+```
+
+1. 删除某一个位置的元素
+
+2. 删除某个区间的元素
+
+3. 删除某个值的元素：
+
+   - remove
+   - erase
+
+   ```c++
+   v.erase(remove(v.begin(), v.end(), target), v.end());
+   ```
+
+   
+
 #### 小结
 
 1. vector的动态扩容机制
@@ -2285,11 +2343,348 @@ size_type max_size() const
 
    **拷贝移动机制如何实现？**
 
-   ```c
+2. 如何实现动态连续空间？
+   - 如果原有向量的容量capacity不够使用，那就需要扩容
+     - 尾部插入，在新开辟的内存中，直接在尾部位置插入元素，然后将原向量拷贝
+     - 中间插入，在新开辟的内存位置头部插入元素，然后将原向量拷贝到插入元素后
+
+### 迭代器
+
+![image-20210910155352084](StudyCPPWithMeNOTES.assets/image-20210910155352084.png)
+
+#### 迭代器类型
+
+![image-20210910155514382](StudyCPPWithMeNOTES.assets/image-20210910155514382.png)
+
+![image-20210910155607710](StudyCPPWithMeNOTES.assets/image-20210910155607710.png)
+
+### 算法
+
+![image-20210911164244761](StudyCPPWithMeNOTES.assets/image-20210911164244761.png)
+
+![image-20210911164512668](StudyCPPWithMeNOTES.assets/image-20210911164512668.png)
+
+#### 非变动性算法
+
+![image-20210911164549428](StudyCPPWithMeNOTES.assets/image-20210911164549428.png)
+
+#### 变动性算法
+
+![image-20210911164613787](StudyCPPWithMeNOTES.assets/image-20210911164613787.png)
+
+#### 已序区间算法
+
+![image-20210911164701802](StudyCPPWithMeNOTES.assets/image-20210911164701802.png)
+
+#### 数值算法
+
+![image-20210911164714661](StudyCPPWithMeNOTES.assets/image-20210911164714661.png)
+
+#### 算法尾词
+
+![image-20210911164812869](StudyCPPWithMeNOTES.assets/image-20210911164812869.png)
+
+## 函数对象
+
+### 函数对象
+
+![image-20210913162238568](StudyCPPWithMeNOTES.assets/image-20210913162238568.png)
+
+**函数对象：**一个重载了operator()的类对象。使用起来像一个函数
+
+![image-20210913162333406](StudyCPPWithMeNOTES.assets/image-20210913162333406.png)
+
+### 函数对象与容器
+
+**map容器和函数对象的使用**
+
+```c++
+// 如何定义map的<key, val, pred>
+map<int, string, less<int> > mp1;
+map<int, string, greater<int> > mp2;
+
+// 自定义结构体
+struct MyGreater
+{
+	bool operator()(int left, int right)
+    {
+        return left > right;
+    }
+};
+
+map<int, string, MyGreater> mp3;
+```
+
+### 函数对象与算法
+
+**函数对象通过类或者结构体定义的时候，可以有成员变量**
+
+```c++
+class AddObj
+{
+  AddObj(int number) : number_(number) {}
+    
+	void operator()(int &n)
+    {
+        n += number_;
+    }
+private:
+    number_;
+};
+
+vector<int> vec = {1,2,3,4,5};
+for_each(v.begin(), v.end(), AddObj(3)); // 实现vec每个元素+3
+```
+
+### STL中内置的函数对象
+
+  ![image-20210913172602583](StudyCPPWithMeNOTES.assets/image-20210913172602583.png)
+
+## 适配器
+
+![image-20210913172724562](StudyCPPWithMeNOTES.assets/image-20210913172724562.png)
+
+### 容器适配器
+
+STL中由容器适配器适配而来的容器有：
+
+1. stack
+2. queue
+3. priority_queue
+
+**基本容器：**vector, list, deque, set, multiset,map, multimap
+
+**栈stack的默认实现：**由`deque`适配而来。借用deque的接口，来封装实现
+
+- top
+- push
+- pop
+- empty
+
+ **优先队列：`priority_queue`实现**
+
+1. 需要实现的接口
+
+   - empty
+   - size
+   - top
+   - push
+   - popo
+   - emplace
+
+2. 声明使用：
+
+   ```c++
+   priority_queue<int> pq; // 默认大根堆less<int>
+   priority_queue<int, vector<int>, greater<int> > pq2; // 小根堆
+   ```
+
+3. 构造函数类型
+
+   - 默认构造函数
+   - 拷贝构造
+
+4. 对一个数组进行堆化：`make_heap`实现一个最大堆（二叉堆）
+
+5. 堆排序的使用
+
+```c++
+void testQP()
+{
+    int a[] = {5, 1, 2, 4, 3};
+    make_heap(a, a + 5, less<int>()); // make_heap是一个大跟堆
+    cout << "after make_heap" << endl;
+    copy(a, a+5, ostream_iterator<int>(cout, " "));
+    cout << endl;
+
+    cout << "after sort_heap" << endl;
+    sort_heap(a, a+5, less<int>()); // 对于大根堆，只能实现从小到大递增排序
+    copy(a, a+5, ostream_iterator<int>(cout, " ")); 
+    cout << endl;
+}
+```
+
+**要点**：排序时的谓词要和`make_heap`的谓词相匹配
+
+### 函数适配器：用于将函数适配成函数对象，用于algorithm
+
+函数适配器：能够将仿函数和另一个仿函数（或某个值、某个一般函数）结合起来
+
+![image-20210915161254848](StudyCPPWithMeNOTES.assets/image-20210915161254848.png)
+
+**函数适配器bind2nd的底层实现：**
+
+- 一个模板类，然后将传入的第二个参数赋值给second_argument
+- 进而返回一个构造的binder2nd对象。
+  - 在binder2nd类模板中，构造函数进行初始化
+  - 并且重载了operator()，使得函数调用发生二元函数的调用。但是第二个函数参数默认
+
+**函数适配器bind1st的底层实现：**可以绑定一个二元函数对象，绑定的是第一个参数
+
+```c++
+vector<int> vec = {1, 2, 3, 4, 5};
+
+cout << count_if(vec.begin(), vec.end(), bind2nd(modulus<int>(), 2)) << endl;
+cout << count_if(vec.begin(), vec.endo(), 
+                 bind1st(less<int>(), 4)) << endl; // 找到vec中大于4的元素个数
+
+// 因为less是一个二元谓词，绑定第一个参数表明，return 4 < 传入的参数
+```
+
+### 针对成员函数的适配器`mem_fun`
+
+1. mem_fun_ref（适用于成员函数）：一元函数适配器，**实现将一个不带参数的成员函数，适配成一元函数对象**
+
+2. mem_fun（适用于成员函数指针）
+
+   ```c++
+   template<class _Result,
+   		class _Ty> inline
+      const_mem_fun_ref_t<_Result, _Ty>
+               mem_fun_ref(_Result(_Ty::*_Pm)() const) // 接受一个类成员函数，不带参数
+      {
+      		return (std::const_mem_fuc_ref_t<_Result, _Ty>(_Pm));    
+            
+      }
+
+![image-20210915170822324](StudyCPPWithMeNOTES.assets/image-20210915170822324.png)
+
+**也可以将一元成员函数转换成二元函数对象。**
+
+### 针对一般函数的函数适配器`ptr_fun`
+
+```c++
+int main(void)
+{
+    char* a[] = {"", "BBB", "CCC"};
+    vector<char*> v(a, a+2);
+    vector<char*>::iterator it;
+    
+    it = find_if(v.begin(), v.end(), bind2nd(ptr_fun(strcmp), ""));
+    // 查找第一个空字符串
+    if (it != v.end())
+        cout << *it << endl;
    
+    return 0; 
+}
+```
+
+### not1
+
+![image-20210915205420490](StudyCPPWithMeNOTES.assets/image-20210915205420490.png)
+
+### 反向迭代器适配器rbegin, rend
+
+### 插入迭代器
+
+1. back_inserter_iterator实现：重载运算符`*, = `
+
+   - operator=的操作是：push_back
+
+   ```c++
+   template <class Container>
+     class back_insert_iterator :
+       public iterator<output_iterator_tag,void,void,void,void>
+   {
+   protected:
+     Container* container;
+   
+   public:
+     typedef Container container_type;
+     explicit back_insert_iterator (Container& x) : container(&x) {}
+     back_insert_iterator<Container>& operator= (const typename Container::value_type& value)
+       { container->push_back(value); return *this; }
+     back_insert_iterator<Container>& operator= (typename Container::value_type&& value)
+       { container->push_back(std::move(value)); return *this; }
+     back_insert_iterator<Container>& operator* ()
+       { return *this; }
+     back_insert_iterator<Container>& operator++ ()
+       { return *this; }
+     back_insert_iterator<Container> operator++ (int)
+       { return *this; }
+   };
+   
+   // 快速获取back_inserter
+   template <class Container>
+     back_insert_iterator<Container> back_inserter (Container& x);
+   // 函数模板，可以根据传入参数类型自动推导模板参数类型。而不需要传递类型
+   ```
+
+2. inserter
+
+3. front_inserter：要求容器的迭代器是双向迭代器，才能发生适配
+
+### IO流迭代器
+
+1. 输出流迭代器：ostream_iterator
+
+   ```c++
+   // CLASS TEMPLATE ostream_iterator
+   template <class _Ty, class _Elem = char, class _Traits = char_traits<_Elem>>
+   class ostream_iterator { // wrap _Ty inserts to output stream as output iterator
+   public:
+       using iterator_category = output_iterator_tag;
+       using value_type        = void;
+       using difference_type   = void;
+       using pointer           = void;
+       using reference         = void;
+   
+       using char_type    = _Elem;
+       using traits_type  = _Traits;
+       using ostream_type = basic_ostream<_Elem, _Traits>;
+   
+       ostream_iterator(ostream_type& _Ostr, const _Elem* const _Delim = nullptr)
+           : _Mydelim(_Delim), _Myostr(_STD addressof(_Ostr)) {}
+   
+       ostream_iterator& operator=(const _Ty& _Val) { // insert value into output stream, followed by delimiter
+           *_Myostr << _Val;
+           if (_Mydelim) {
+               *_Myostr << _Mydelim;
+           }
+   
+           return *this;
+       }
+   
+       _NODISCARD ostream_iterator& operator*() { // pretend to return designated value
+           return *this;
+       }
+   
+       ostream_iterator& operator++() { // pretend to preincrement
+           return *this;
+       }
+   
+       ostream_iterator& operator++(int) { // pretend to postincrement
+           return *this;
+       }
+   
+   protected:
+       const _Elem* _Mydelim; // pointer to delimiter string (NB: not freed)
+       ostream_type* _Myostr; // pointer to output stream
+   };
    ```
 
    
+
+2. 输入流迭代器：istream_iterator
+
+   > 重载的运算符operator
+   >
+   > - =
+   > - *
+   > - ->
+   > - ++
+   > - ==
+   > - !=
+
+**使用：**
+
+```c++
+```
+
+## STL中适配器的实现
+
+1. 适配的过程中，重载原有容器、迭代器、函数的函数运算符
+2. 容器适配器的实现：借用标准容器的功能，内部含有一个标准容器对象。进而，在封装适配的容器中，调用相关的容器对象接口。
 
 ## 小结
 
@@ -2309,6 +2704,345 @@ size_type max_size() const
    - list：当需要频繁的在中间插入删除元素的时候，同时不需要过多的进行长距离跳转的情况
    - deque：频繁在头尾插入、删除元素
    - vector：快速访问、不频繁的向中间插入删除元素
+
+![image-20210911164028620](StudyCPPWithMeNOTES.assets/image-20210911164028620.png)
+
+![image-20210911164047589](StudyCPPWithMeNOTES.assets/image-20210911164047589.png)
+
+![image-20210911164106901](StudyCPPWithMeNOTES.assets/image-20210911164106901.png)
+
+![image-20210911164122602](StudyCPPWithMeNOTES.assets/image-20210911164122602.png)
+
+### 迭代器
+
+**反向迭代器实现：**
+
+1. **迭代器适配**：`std::reverse_iterator<iterator>`
+
+2. 反向迭代器的基类拥有一个正向迭代器成员。
+
+   ```c++
+   reverse_iterator rbegin()
+   {
+       return (reverse_iterator(end()));
+   }
+   
+   const_reverse_iterator rbegin() const
+   {
+       return (const_reverse_iterator(end()));
+   }
+   
+   _NODISCARD _CONSTEXPR17 reference operator*() const {
+       _BidIt _Tmp = current;
+       return *--_Tmp;
+   }
+   ```
+
+3. 关键在于`*，++`运算符重载
+
+   ```c++
+   reference __CLR_OR_THIS_CALL operator*() const
+   {
+       _RanIt _Tmp = current;
+       return (*--_Tmp);
+   }
+   ```
+
+### 算法示例
+
+1. 非变动性算法
+
+   - [x] for_each
+
+     ![image-20210911165537282](StudyCPPWithMeNOTES.assets/image-20210911165537282.png)
+
+   - [x] min_element
+
+   - [x] max_element
+
+   - [x] find
+
+   - [x] find_if
+
+     ```c++
+     // 一元谓词：pred，输入参数类型为value_type
+     template<class InputIterator, class UnaryPredicate>
+       InputIterator find_if (InputIterator first, InputIterator last, UnaryPredicate pred)
+     {
+       while (first!=last) {
+         if (pred(*first)) return first;
+         ++first;
+       }
+       return last;
+     }
+     ```
+
+   - [x] search：查找第一次出现的位置
+
+     ```c++
+     // version1: equality (1)	
+     template <class ForwardIterator1, class ForwardIterator2>
+     ForwardIterator1 search (ForwardIterator1 first1, ForwardIterator1 last1, ForwardIterator2 first2, ForwardIterator2 last2);
+     // version2：自定义比较规则，predicate (2)	
+     template <class ForwardIterator1, class ForwardIterator2, 
+     			class BinaryPredicate> 
+     ForwardIterator1 search (ForwardIterator1 first1, ForwardIterator1 last1, 
+                              ForwardIterator2 first2, ForwardIterator2 last2, 
+                              BinaryPredicate pred);
+     // 具体的逻辑
+     template<class ForwardIterator1, class ForwardIterator2>
+     ForwardIterator1 search ( ForwardIterator1 first1, 
+                              ForwardIterator1 last1, 
+                              ForwardIterator2 first2, 
+                              ForwardIterator2 last2)
+     {
+         if (first2==last2) return first1;  // specified in C++11
+     
+         while (first1!=last1)
+         {
+             ForwardIterator1 it1 = first1;
+             ForwardIterator2 it2 = first2;
+             while (*it1==*it2) {    
+                 // or: while (pred(*it1,*it2)) for version 2
+                 ++it1; ++it2;
+                 if (it2==last2) return first1;
+                 if (it1==last1) return last1;
+                 // 
+             }
+             ++first1;
+         }
+         return last1;
+     }
+     ```
+
+   - [x] copy
+
+     ```c++
+     template<class InputIterator, class OutputIterator>
+       OutputIterator copy (InputIterator first, InputIterator last, OutputIterator result)
+     {
+       while (first!=last) {
+         *result = *first;
+         ++result; ++first;
+       }
+       return result;
+     }
+   
+   - [x] copy_backward
+   
+     ```c++
+     template<class BidirectionalIterator1, class BidirectionalIterator2>
+     BidirectionalIterator2 copy_backward ( BidirectionalIterator1 first,
+                                              BidirectionalIterator1 last,
+                                              BidirectionalIterator2 result )
+     {
+       while (last!=first) *(--result) = *(--last);
+       return result;
+     }
+     
+     // 代码示例：
+     copy_backward(v1.begin(), v1.end(), v2.end());
+     ```
+   
+   - [x] transform
+   
+     ```c++
+     // unary operation(1)	
+     template <class InputIterator, class OutputIterator, class UnaryOperation>
+     OutputIterator transform (InputIterator first1, InputIterator last1,
+                                 OutputIterator result, UnaryOperation op);
+     // binary operation(2)	
+     template <class InputIterator1, class InputIterator2,
+               class OutputIterator, class BinaryOperation>
+     OutputIterator transform (InputIterator1 first1, InputIterator1 last1,
+                            InputIterator2 first2, OutputIterator result,
+                            BinaryOperation binary_op);
+     ```
+   
+   - [x] remove：所做的操作，有一个`remove_copy`的操作。**并不会直接删除元素，而是移到v.begin() + k，v.end()区间**
+   
+     - 首先查找给定值第一个位置，然后遍历后面的元素。将非移除元素拷贝到前面。覆盖前面的元素（最后k个元素为k个remove的值）
+   
+     ```c++
+     template <class ForwardIterator, class T>
+     ForwardIterator remove (ForwardIterator first, ForwardIterator last, const T& val)
+     {
+       ForwardIterator result = first;
+       while (first!=last) {
+         if (!(*first == val)) {
+           if (result!=first)
+             *result = move(*first);
+           ++result;
+         }
+         ++first;
+       }
+       return result;
+     }
+     ```
+   
+   - [x] rotate使用
+   
+     ![image-20210912164750451](StudyCPPWithMeNOTES.assets/image-20210912164750451.png)
+   
+   - [x] lower_bound和upper_bound
+   
+     ![image-20210912165101366](StudyCPPWithMeNOTES.assets/image-20210912165101366.png)
+   
+   - [x] 数值算法：accumulate
+   
+     ```c++
+     // sum (1)	
+     template <class InputIterator, class T>
+     T accumulate (InputIterator first, InputIterator last, T init);
+     // custom (2)	
+     template <class InputIterator, class T, class BinaryOperation>
+     T accumulate (InputIterator first, InputIterator last, T init,
+                      BinaryOperation binary_op);
+     
+     template <class InputIterator, class T>
+     T accumulate (InputIterator first, InputIterator last, T init)
+     {
+       while (first!=last) {
+         init = init + *first;  
+           // or: init=binary_op(init,*first) for the binary_op version
+         ++first;
+       }
+       return init;
+     }
+     
+     // 第二个版本的作用：可以实现累乘，累除。需要提供函数对象
+     int multi(int a, int b)
+     {
+         return a*b;
+     }
+     
+     accumulate(v.begin(), v.end(), val, multi);
+
+#### 用STL算法解决八皇后问题
+
+![image-20210912165906320](StudyCPPWithMeNOTES.assets/image-20210912165906320.png)
+
+![image-20210912170100552](StudyCPPWithMeNOTES.assets/image-20210912170100552.png)
+
+1. **用stl的算法：`next_permutation`得到下一个排列**
+
+2. 对于生成的每一个排列，用`(y, x)`来记录坐标。其中`y为行号,x为列号`
+   - 对于[0, 1, 2, 3, 4, 7, 6, 5]，坐标表示为
+   - [[0,0],[1,1],[2,2],[3,3],[4,4],[5,7],[6,6],[7,5]]
+   - 这个坐标已经保证了N个皇后不在同一行或者同一列。
+   - 当$|y_1 - y_2| = |x_1 - x_2|$，表明他们在同一条斜线上。**斜率为1。**
+
+### inserter、back_inserter和front_inserter
+
+1. front_inserter
+
+   > A *[front-insert interator](http://www.cplusplus.com/front_insert_iterator)* is a special type of *[output iterator](http://www.cplusplus.com/OutputIterator)* designed to allow [algorithms](http://www.cplusplus.com/algorithm) that usually overwrite elements (such as [copy](http://www.cplusplus.com/copy)) to instead insert new elements automatically at the beginning of the container.
+
+2. back_inserter
+
+   > A *[back-insert iterator](http://www.cplusplus.com/back_insert_iterator)* is a special type of *[output iterator](http://www.cplusplus.com/OutputIterator)* designed to allow [algorithms](http://www.cplusplus.com/algorithm) that usually overwrite elements (such as [copy](http://www.cplusplus.com/copy)) to instead insert new elements automatically at the end of the container.
+
+3. inserter
+
+   > Constructs an *[insert iterator](http://www.cplusplus.com/insert_iterator)* that inserts new elements into x in successive locations starting at the position pointed by it.
+
+   ```c++
+   template <class Container>
+     insert_iterator<Container> inserter (Container& x, typename Container::iterator it); 
+   ```
+
+### 函数适配器分类
+
+**STL中可被适配的函数必须是`unary_function`或者`binary_function`**
+
+```c++
+template <class _Arg, class _Result>
+struct unary_function { // base class for unary functions
+    using argument_type = _Arg;
+    using result_type   = _Result;
+};
+
+// binary_function
+template <class _Arg1, class _Arg2, class _Result>
+struct binary_function { // base class for binary functions
+    using first_argument_type  = _Arg1;
+    using second_argument_type = _Arg2;
+    using result_type          = _Result;
+};
+```
+
+1. bind2nd：绑定二元函数对象的第二个参数
+
+   ```c++
+   // FUNCTION TEMPLATE bind2nd
+   template <class _Fn, class _Ty>
+   _NODISCARD binder2nd<_Fn> bind2nd(const _Fn& _Func, const _Ty& _Right) {
+       typename _Fn::second_argument_type _Val(_Right); 
+       // 在这里相当于检查是否是一个binary_function
+       return binder2nd<_Fn>(_Func, _Val);
+       // 调用binder2nd模板，生成一个一元函数对象
+   }
+   
+   template <class _Fn> // 继承自unary_function，表明这也是一个unary_function对象
+   class binder2nd : public unary_function<typename _Fn::first_argument_type,
+                         typename _Fn::result_type> { // functor adapter _Func(left, stored)
+   public:
+       using _Base         = unary_function<typename _Fn::first_argument_type, typename _Fn::result_type>;
+       using argument_type = typename _Base::argument_type;
+       using result_type   = typename _Base::result_type;
+   
+       binder2nd(const _Fn& _Func, const typename _Fn::second_argument_type& _Right) : op(_Func), value(_Right) {} // 构造函数
+   
+       result_type operator()(const argument_type& _Left) const {
+           return op(_Left, value); // 重载operator()，使得是一元函数调用行为
+       }
+   
+       result_type operator()(argument_type& _Left) const {
+           return op(_Left, value);
+       }
+   
+   protected:
+       _Fn op;
+       typename _Fn::second_argument_type value; // the right operand
+   };
+   ```
+
+2. bind1st：绑定二元函数的第一个参数
+
+   > 要求被绑定的函数对象有`second_argument_type`
+
+**对于一元函数`unary_function`的适配行为有哪些？**
+
+1. not1：对原本的谓词调用逻辑取反
+
+   ```c++
+   template <class _Fn>
+   class _CXX17_DEPRECATE_NEGATORS unary_negate {
+   public:
+       using argument_type = typename _Fn::argument_type;
+       using result_type   = bool;
+   
+       constexpr explicit unary_negate(const _Fn& _Func) : _Functor(_Func) {}
+   
+       constexpr bool operator()(const argument_type& _Left) const {
+           return !_Functor(_Left);
+       }
+   
+   private:
+       _Fn _Functor;
+   };
+
+**当要适配的函数，是普通函数或者成员函数的时候。应该先将他们提升为`unary_function`或者`binary_function`**
+
+- 对于函数参数为0或1个的成员函数或者普通函数，会进行函数模板自动推导（如何实现?)
+
+- 对于普通函数：使用ptr_fun
+
+- 对于成员函数使用
+
+  - mem_fun_ref（适用于成员函数）：一元函数适配器，**实现将一个不带参数的成员函数，适配成一元函数对象**
+  - mem_fun（适用于成员函数指针）：也就是适配后的函数对象传入的参数是对象指针。
+- 底层会调用`const_mem_fun1_t`类模板生成相应的对象。并且`重载operator()`
 
 # 小项目
 
@@ -2335,6 +3069,134 @@ size_type max_size() const
 ## 右值引用？
 
 ## function/bind（基于对象编程）
+
+[函数指针和函数类型](https://www.jianshu.com/p/6ecfd541ec04)
+
+![image-20210915215728388](StudyCPPWithMeNOTES.assets/image-20210915215728388.png)
+
+1. 将一个函数指针作为一个值使用时，该函数自动转换成一个指针。
+
+```c++
+typedef bool Func(const string &, const string &) // Func是函数类型；
+typedef bool (*FuncP)(const string &, const string &) // FuncP是函数指针类型；
+    
+typedef decltype(length_compare) Func2  // Func2是函数类型；
+typedef decltype(length_compare) *Func2P // Func2是函数指针类型；
+```
+
+### 作用：解决的问题
+
+C++中**可调用对象**的虽然都有一个比较统一的操作形式，但是定义方法五花八门，这样就导致使用统一的方式`保存可调用对象或者传递可调用对象时，会十分繁琐`。C++11中提供了std::function和std::bind`统一了可调用对象的各种操作`。
+
+**可调用对象：**个人理解就是函数对象、普通函数、成员函数指针
+
+- 是一个函数指针，参考 [C++ 函数指针和函数类型](https://www.jianshu.com/p/6ecfd541ec04)；
+- 是一个具有operator()成员函数的类的对象；（**仿函数**）
+- 可被转换成函数指针的类对象；
+- 一个类成员函数指针；
+
+不同类型可能具有相同的调用形式；
+
+```c++
+// 普通函数
+int add(int a, int b){return a+b;} 
+
+// lambda表达式
+auto mod = [](int a, int b){ return a % b;}
+
+// 函数对象类
+struct divide{
+    int operator()(int denominator, int divisor){
+        return denominator/divisor;
+    }
+};
+
+// 上述三种可调用对象虽然类型不同，但是共享了一种调用形式
+int(int ,int)
+```
+
+**通过`std::function`将他们保存起来**
+
+```c++
+std::function<int(int ,int)>  a = add; 
+std::function<int(int ,int)>  b = mod ; 
+std::function<int(int ,int)>  c = divide(); 
+```
+
+### std::function
+
+![image-20210915220833818](StudyCPPWithMeNOTES.assets/image-20210915220833818.png)
+
+### std::bind
+
+![image-20210915220933463](StudyCPPWithMeNOTES.assets/image-20210915220933463.png)
+
+**std::bind**可以绑定的对象类型
+
+1. 普通函数
+
+   ```c++
+   double my_divide (double x, double y) {return x/y;}
+   auto fn_half = std::bind (my_divide,_1,2);  
+   std::cout << fn_half(10) << '\n';                        // 5
+   ```
+
+   > bind的第一个参数是函数名，普通函数做实参时，会隐式转换成函数指针。因此std::bind (my_divide,\_1,2)等价于std::bind (&my_divide,\_1,2)；
+   >
+   > \_1表示占位符，位于\<functional>中，std::placeholders::\_1；
+
+2. 成员函数
+
+   ```c++
+   struct Foo {
+       void print_sum(int n1, int n2)
+       {
+           std::cout << n1+n2 << '\n';
+       }
+       int data = 10;
+   };
+   int main() 
+   {
+       Foo foo;
+       auto f = std::bind(&Foo::print_sum, &foo, 95, std::placeholders::_1);
+       // 适配成了一个通用的std::function，只接受一个传入参数
+       f(5); // 100
+   }
+   ```
+
+   - bind绑定类成员函数时，**第一个参数表示对象的成员函数的指针**，第二个参数表示**对象的地址**。
+   - 必须显示的指定&Foo::print_sum，因为编译器不会将对象的成员函数隐式转换成函数指针，所以必须在Foo::print_sum前**添加&**；
+   - 使用对象成员函数的指针时，必须要知道该指针属于哪个对象，因此第二个参数为对象的地址 &foo；
+
+3. 指向成员函数的指针:void (Foo::*fun)()
+
+**指向成员函数的指针的定义方法：**
+
+```c++
+#include <iostream>
+struct Foo {
+    int value;
+    void f() { std::cout << "f(" << this->value << ")\n"; }
+    void g() { std::cout << "g(" << this->value << ")\n"; }
+};
+void apply(Foo* foo1, Foo* foo2, void (Foo::*fun)()) {
+    (foo1->*fun)();  // call fun on the object foo1
+    (foo2->*fun)();  // call fun on the object foo2
+}
+int main() {
+    Foo foo1{1};
+    Foo foo2{2};
+    apply(&foo1, &foo2, &Foo::f);
+    apply(&foo1, &foo2, &Foo::g);
+}
+
+// 成员函数指针的定义：void (Foo::*fun)()，调用是传递的实参: &Foo::f；
+// fun为类成员函数指针，所以调用是要通过解引用的方式获取成员函数*fun,即(foo1->*fun)();
+```
+
+4. 绑定一个引用参数
+
+   > 默认情况下，bind的那些不是占位符的参数被拷贝到bind返回的可调用对象中。但是，与lambda类似，有时对有些绑定的参数希望以引用的方式传递，或是要绑定参数的类型无法拷贝。
 
 ## lambda表达式
 
